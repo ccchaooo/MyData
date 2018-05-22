@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en-us">
+<head>
+  <title>Configure Listener Addresses</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="topic-id" content="n8ahelpConfigure_Listener_Addresses">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>Configuring Listener Addresses</h1>
+
+  <p>The listener must be configured with one or more <a href="n8ahelpprotocol_address.htm">protocol addresses</a>. The listener receives connection requests from clients configured with the same addresses.</p>
+
+  <p>To configure a protocol address for the listener:</p>
+
+  <ol>
+    <li>
+      <p>In the navigator pane, expand <span class="gui-object">Oracle Net Configuration &gt; Local &gt; Listeners.</span></p>
+    </li>
+
+    <li>
+      <p>Select a listener.</p>
+    </li>
+
+    <li>
+      <p>From the list in the right pane, select <a href="n8ahelpListening_Locations.htm">Listening Locations</a> .</p>
+    </li>
+
+    <li>
+      <p>Choose <span class="gui-object">Add Address.</span> A new <span class="gui-object">Address</span> tab appears.</p>
+    </li>
+
+    <li>
+      <p>Select a protocol, and then enter the appropriate <a href="n8ahelpprotocol_parameters.htm">protocol parameter</a> information for the selected protocol.</p>
+
+      <p>When configuring the listener to listen on TCP/IP for Oracle Net clients, you should choose the default port or 1521. If you do not, you must configure the <span class="Code">LOCAL_LISTENER</span> parameter in the <a href="n8ahelpinitialization_parameter_file.htm">initialization parameter file</a> and resolve the listener name through a <a href="n8ahelpnaming_method.htm">naming method</a>.</p>
+    </li>
+
+    <li style="list-style: none">
+      <p>If the computer has more than one IP address and you want the listener to listen on all available IP addresses, configure TCP/IP or TCP/IP with SSL and enter the host name of the computer in the <span class="gui-object">Host</span> field.</p>
+    </li>
+
+    <li>
+      <p>Optionally, click <span class="gui-object">Show Advanced</span> to specify settings for specifying the I/O buffer space of send and receive operations of session.</p>
+    </li>
+
+    <li>Choose <span class="gui-object">File &gt; Save Network Configuration.</span></li>
+  </ol>
+
+  <p>For more information about configuring a nondefault port, see Chapter 10, Configuring and Administering the Listener, in the <em>Oracle10i Net Administrator's Guide</em>.</p>
+
+  <p>For more information about configuring I/O buffer space, see Chapter 14, Optimizing Performance, in the <em>Oracle10i Net Administrator's Guide</em>.</p>
+
+  <h2>Related Topics</h2>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services Overview</a></p>
+ <P CLASS="zz-legal-notice">Copyright &copy; 1996, 2009, Oracle and/or its affiliates. All rights reserved.<BR> Oracle is a registered trademark of Oracle Corporation and/or its affiliates. <BR>Other names may be trademarks of their respective owners.</p>
+</body>
+</html>

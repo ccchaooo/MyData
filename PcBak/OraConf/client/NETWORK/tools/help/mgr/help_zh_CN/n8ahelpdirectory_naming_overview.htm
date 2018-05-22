@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="zh_CN">
+<head>
+  <title>目录命名概览</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="topic-id" content="n8ahelpDirectory_Naming_Overview">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>目录命名概览</h1>
+
+  <p><a href="n8ahelpdirectory_naming.htm">目录命名</a>是主要的<a href="n8ahelpnaming_method.htm">命名方法</a>之一，用来将<a href="n8ahelpconnect_identifier.htm">连接标识符</a>解析为客户机用来连接到数据库的<a href="n8ahelpconnect_descriptor.htm">连接描述符</a>。目录命名将连接标识符及其连接描述符存储在符合 LDAP 的<a href="n8ahelpdirectory_server.htm">目录服务器</a>中。连接标识符存储在包含用于 Oracle 软件的条目的 <a href="n8ahelpOracle_Context.htm">Oracle Context</a> 子树下。</p>
+
+  <p>最终用户按下列格式输入包括连接标识符的连接字符串：</p>
+
+  <p><span class="Code">CONNECT <em>username/password@connect_identifier</em></span></p>
+
+  <p>在下例中，sales 是在目录中进行查找的连接标识符：</p>
+
+  <p><span class="Code">CONNECT <em>s</em>cott/tiger@sales</span></p>
+
+  <p>返回到客户机的连接描述符包括：</p>
+
+  <ul>
+    <li>
+      <p>监听程序协议地址的位置</p>
+    </li>
+
+    <li>
+      <p>数据库的<a href="n8ahelpservice_name.htm">服务名</a></p>
+    </li>
+  </ul>
+
+  <p>客户机使用协议地址信息来连接到监听程序。用同一个地址信息配置的监听程序接收此请求。如果监听程序正在监听对同一数据库服务的请求 (该数据库服务在连接描述符中指定)，将授予一个连接。</p>
+
+  <p>对于要进行的目录命名，请配置 Oracle Net Services 功能的目录服务器，并配置访问此目录的客户机。</p>
+
+  <p>有关详细信息，请参阅 <em>Oracle10i Net Administrator's Guide</em> 中的第 3 章&ldquo;Configuration Management Concepts&rdquo;。</p>
+
+  <h2>相关主题</h2>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services 概览</a></p>
+
+  <p><a href="n8ahelpDirectory_Naming_Requirements_fo.htm">Oracle Net Manager 的目录命名要求</a></p>
+ <p class="zz-legal-notice">版权所有 &copy; 1996，2009，Oracle 和/或其子公司。保留所有权利。<br>Oracle 是 Oracle Corporation 和/或其子公司的注册商标。<br>其他名称可能是其各自所有者的商标。</p>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en-us">
+<head>
+  <title>General: Routing</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="topic-id" content="profile_routing">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>General: Routing</h1>
+
+  <p>The <span class="gui-object">Routing</span> tab enables you to direct connection requests from this computer to a specific process at all times.</p>
+
+  <p><span class="gui-object">Always Use Dedicated Server</span></p>
+
+  <p>Choose to force the listener to spawn a <a href="n8ahelpdedicated_server.htm">dedicated server</a> for all network sessions from this client. It does this by adding <span class="Code">(SERVER=dedicated)</span> to the <span class="Code">CONNECT_DATA</span> portion of connect descriptors. Connections from this client use dedicated servers, even if <a href="n8ahelpshared_server.htm">shared server</a> is configured.</p>
+
+  <p>Using this option makes connections faster, but makes the server slower. Oracle Corporation recommends using this option if you are making massive database transactions with very little idle time.</p>
+
+  <p><strong>Note:</strong> This option, if enabled, overrides the <span class="gui-object">Connect Type</span> option in the <a href="n8ahelpService_Identification.htm">Service Identification</a> property sheet.</p>
+
+  <p><span class="gui-object">Prefer Connection Manager Routing</span></p>
+
+  <p>Choose to send the client to an <a href="n8ahelpOracle_Connection_Manager.htm">Oracle Connection Manager</a> whenever possible. If no Oracle Connection Manager addresses are available, then connections are routed through any available listener address.</p>
+
+  <h2>Related Topics</h2>
+
+  <p><a href="n8ahelpRoute_Connection_Requests.htm">Route Connection Requests</a></p>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services Overview</a> &#160;</p>
+ <P CLASS="zz-legal-notice">Copyright &copy; 1996, 2009, Oracle and/or its affiliates. All rights reserved.<BR> Oracle is a registered trademark of Oracle Corporation and/or its affiliates. <BR>Other names may be trademarks of their respective owners.</p>
+</body>
+</html>

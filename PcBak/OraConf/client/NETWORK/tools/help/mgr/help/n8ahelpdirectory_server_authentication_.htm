@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en-us">
+<head>
+  <title>Directory Server Authentication dialog box</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="topic-id" content="dir_authenticat">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>Directory Server Authentication dialog box</h1>
+
+  <p>The Directory Server Authentication dialog box enables you to set authentication credentials for the selected <a href="n8ahelpOracle_Context.htm">Oracle Context</a> in the <a href="n8ahelpdirectory_server.htm">directory server</a>.</p>
+
+  <p>Oracle Net Manager must be authenticated with the directory server to perform any directory server operations, such as viewing, adding, or modifying Oracle Net entries in the directory.</p>
+
+  <p><span class="gui-object">User</span></p>
+
+  <p>Enter an authorized user that has access to the directory.</p>
+
+  <p>If you want to add or modify entries, then enter a directory administrator user that has been given add and modify privileges in the form of a <a href="n8ahelpDistinguished_Name_DN.htm">distinguished name (DN)</a>. <span class="Code">c=US,o=EXAMPLE,ou=admin,cn=scott,</span> for example, is the DN for an administrator named Scott.</p>
+
+  <p><span class="gui-object">Password</span></p>
+
+  <p>Enter the password for the user.</p>
+
+  <p><strong>Note:</strong> If you want to simply view objects and the directory has been set up with "anonymous" privileges, then leave the User and Password fields blank.</p>
+
+  <p>By default, Oracle Net Manager tries to authenticate with the directory using one of the following methods:</p>
+
+  <ul>
+    <li>
+      <p>Native Authentication: A Windows NT operating system user name and password is used.</p>
+    </li>
+
+    <li>
+      <p>Strong Authentication: A Secure Sockets Layer (SSL) certificate is used.</p>
+    </li>
+  </ul>
+
+  <h2>Related Topics</h2>
+
+  <p><a href="n8ahelpSet_Authentication_Credentials.htm">Set Authentication Credentials</a></p>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services Overview</a></p>
+ <P CLASS="zz-legal-notice">Copyright &copy; 1996, 2009, Oracle and/or its affiliates. All rights reserved.<BR> Oracle is a registered trademark of Oracle Corporation and/or its affiliates. <BR>Other names may be trademarks of their respective owners.</p>
+</body>
+</html>

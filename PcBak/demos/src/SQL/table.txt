@@ -1,0 +1,6 @@
+添加字段
+alter table T_JSXM_BDXX_INFO add (C_XMDLYZDW  varchar2(2000)  );
+添加字段注释：
+comment on column t1.id is 'id';
+添加表注释：
+COMMENT ON table t1 IS '个人信息';

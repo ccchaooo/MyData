@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="zh_CN">
+<head>
+  <title>RADIUS</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="topic-id" content="n8ahelpRADIUS">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+</head>
+
+<body>
+
+  <h1>RADIUS</h1>
+
+  <p>RADIUS (远程验证拨入用户服务) 是一种广为人知的客户机/服务器安全协议，它能实现远程验证和访问。只需安装和配置 RADIUS 方法，您的网络就可以使用任何支持 RADIUS 标准 (包括令牌卡和智能卡) 的验证方法。RADIUS 验证方法要求您设置以下参数：</p>
+
+  <table width="100%" border="1" cellpadding="2" cellspacing="2" summary="此表列出具有链接的字段以及当您单击这些链接时将显示的页">
+    <tr>
+      <td width="15%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>元素</b></p>
+      </td>
+
+      <td width="85%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>说明</b></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">主机名</td>
+
+      <td valign="top">
+        <p>主 RADIUS 服务器的主机名<br>默认值 = localhost</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="15%" valign="top" scope="row">
+        <p style="text-align : left;" align="left">端口号</p>
+      </td>
+
+      <td width="85%" valign="top">主 RADIUS 服务器的监听端口号<br>默认值 = 1645</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">超时(秒)</td>
+
+      <td width="85%" valign="top">
+        <p>Oracle 服务器等待主 RADIUS 服务器响应的时间 (秒)<br>默认值 = 15 秒</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">重试次数</td>
+
+      <td valign="top">
+        <p>Oracle 数据库服务器应向主 RADIUS 服务器发送消息的次数</p>
+
+        <p>缺省值为 3 次</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">机密文件</td>
+
+      <td valign="top">Oracle 服务器上的密钥文件位置。出于安全考虑，Oracle 建议您将此文件更改为仅限 root 用户访问。</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">发送帐户</td>
+
+      <td valign="top">RADIUS 帐户记录 Oracle 数据库服务器访问信息并将此信息存储在 RADIUS 帐户服务器上的文件中。只有当两个 RADIUS 验证服务器都支持此功能时才可以使用。<br>值 = on 或 off</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">质询响应</td>
+
+      <td valign="top">当需要给用户提供&ldquo;质询响应&rdquo;GUI 时，此域的值为&ldquo;ON&rdquo;。</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">默认关键字</td>
+
+      <td valign="top">通过质询/响应机制验证用户身份的关键字<br>默认值 = challenge</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">接口类名称</td>
+
+      <td valign="top">处理 Oracle 客户机和 RADIUS 服务器之间的质询/响应会话的类名。默认值 = DefaultRadiusInterface</td>
+    </tr>
+  </table>
+
+  <p>有关详细信息，请参阅 <em>Oracle Advanced Security Administrator's Guide</em> 中的附录 C：&ldquo;Integrating Authentication Devices Using RADIUS&rdquo;。</p>
+
+  <h2>相关主题</h2>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services 概览</a></p>
+
+  <p><a href="n8ahelpOracle_Advanced_Security_Other_P.htm">Oracle Advanced Security：其他参数</a></p>
+
+  <p class="zz-legal-notice">版权所有 &copy; 1996，2009，Oracle。保留所有权利。</p>
+</body>
+</html>

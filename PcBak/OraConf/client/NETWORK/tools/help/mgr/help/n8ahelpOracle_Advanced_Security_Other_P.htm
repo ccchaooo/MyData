@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en-us">
+<head>
+  <title>Oracle Advanced Security: Other Params</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="topic-id" content="profile_otherparams">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>Oracle Advanced Security: Other Params</h1>
+
+  <p>The <span class="gui-object">Other Params</span> tab enables you to configure additional authentication services parameters.</p>
+
+  <p>From the <span class="gui-object">Authentication Service</span> list, select the authentication method. Depending on the authentication method chosen, enter information in the fields as appropriate.</p>
+
+  <p><span class="gui-object">KERBEROS(V5)</span></p>
+
+  <table width="100%" border="1" cellpadding="2" cellspacing="2" summary="This table lists fields with links and the pages that appear when you click the links">
+    <tr>
+      <td width="15%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>Element</b></p>
+      </td>
+
+      <td width="85%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>Description</b></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Service</td>
+
+      <td valign="top">
+        <p>Enter any string to specify the Kerberos service name.</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="15%" valign="top" scope="row">
+        <p style="text-align : left;" align="left">Credential Cache File</p>
+      </td>
+
+      <td width="85%" valign="top">Enter any valid path name to specify the Kerberos credential cache path name.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Configuration File</td>
+
+      <td width="85%" valign="top">
+        <p>Enter any valid path name to specify the Kerberos configuration file.</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Realm Translation File</td>
+
+      <td valign="top">Enter any valid path name to specify the Kerberos host name to realm translation file.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Key Table</td>
+
+      <td valign="top">Enter any valid path name to specify the Kerberos secret key file.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Clock Skew</td>
+
+      <td valign="top">Enter any positive integer to specify the acceptable difference in the number of seconds between when a credential is sent and received.</td>
+    </tr>
+  </table>
+
+  <p><span class="gui-object">CYBERSAFE</span></p>
+
+  <p><span class="gui-object">GSSAPI Service:</span> Specify a CYBERSAFE service principal. Enter any correctly formatted service principal string.</p>
+
+  <p><span class="gui-object">NTS</span></p>
+
+  <p>No additional parameters are required.</p>
+
+  <p><span class="gui-object">RADIUS</span></p>
+
+  <table width="100%" border="1" cellpadding="2" cellspacing="2" summary="This table lists fields with links and the pages that appear when you click the links">
+    <tr>
+      <td width="25%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>Element</b></p>
+      </td>
+
+      <td width="75%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>Description</b></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Host Name</td>
+
+      <td valign="top">
+        <p>Enter the name of the primary RADIUS server.</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="25%" valign="top" scope="row">
+        <p style="text-align : left;" align="left">Port Number</p>
+      </td>
+
+      <td width="75%" valign="top">Enter the port number of the primary RADIUS server.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Timeout (seconds)</td>
+
+      <td width="75%" valign="top">
+        <p>Enter the number of seconds the Oracle database server should wait for response from the primary RADIUS server.</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Number of Retries</td>
+
+      <td valign="top">Enter the number of times the Oracle database server should resend messages to the primary RADIUS server.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Secret File</td>
+
+      <td valign="top">Enter the path name of the secret key file.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Send Accounting</td>
+
+      <td valign="top">Enter on to enable accounting or to disable it.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Challenge Response</td>
+
+      <td valign="top">Enter on to enable challenge-response or off to disable it.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Default Keyword</td>
+
+      <td valign="top">Enter the keyword for requesting a challenge from the RADIUS server.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Interface Class Name</td>
+
+      <td valign="top">Enter the name of the class you have created to handle the challenge-response conversation between the Oracle client and the RADIUS server.</td>
+    </tr>
+  </table>
+
+  <p>For more information, see <em>Oracle Advanced Security Administrator's Guide.</em></p>
+
+  <h2>Related Topics</h2>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services Overview</a></p>
+ <P CLASS="zz-legal-notice">Copyright &copy; 1996, 2009, Oracle and/or its affiliates. All rights reserved.<BR> Oracle is a registered trademark of Oracle Corporation and/or its affiliates. <BR>Other names may be trademarks of their respective owners.</p>
+</body>
+</html>

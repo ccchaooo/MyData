@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="zh_CN">
+<head>
+  <title>监听位置</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="topic-id" content="listener_loc">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>监听位置</h1>
+
+  <p>配置监听程序以在特定的网络<a href="n8ahelpprotocol_address.htm">协议地址</a>上监听某个数据库的传入连接请求。<span class="gui-object">监听位置</span>选项卡使您能够配置一个或多个监听位置地址，监听程序将在这些地址上等待客户机的连接。</p>
+
+  <p><span class="gui-object">协议</span></p>
+
+  <p>从列表中,选择地址协议。根据所选协议的不同，在域中输入相应的<a href="n8ahelpprotocol_parameters.htm">协议参数</a>信息。</p>
+
+  <p><span class="gui-object">&ldquo;显示高级/隐藏高级&rdquo;按钮</span></p>
+
+  <p>&ldquo;显示高级/隐藏高级&rdquo;按钮可进行切换，以显示或隐藏为监听程序指定的 I/O 缓冲区空间限制的值。</p>
+
+  <p>TCP/IP、启用 SSL 的 TCP/IP 以及 SDP 协议都支持这些设置。</p>
+
+  <ul>
+    <li><span class="gui-object">发送缓冲区大小总计</span></li>
+  </ul>
+
+  
+    <p>以字节为单位，指定会话的发送操作的缓冲区空间。</p>
+
+    <p>因为数据库服务器向客户机写入数据，所以一般在服务器端进行设置比较合适。如果数据库服务器要接收大量请求，则还要设置<span class="gui-object">接收缓冲区大小总计</span>的值。</p>
+
+
+  <ul>
+    <li><span class="gui-object">接收缓冲区大小总计</span></li>
+  </ul>
+
+
+    <p>以字节为单位，指定会话的接收操作的缓冲区空间。</p>
+ 
+
+  <p><span class="gui-object">使该地址专用于 JServer 连接</span></p>
+
+  <p>选择使用用于 Oracle JServer 发行版 8.1 连接的通用 ORB 间协议 (GIOP) 端点来配置 <a href="n8ahelpprotocol_parameters.htm">listener.ora</a> 文件。</p>
+
+  <p><span class="gui-object">添加地址</span></p>
+
+  <p>选择此选项以创建新的<a href="n8ahelplistenerora_file.htm">协议地址</a>。将显示一个新的<span class="gui-object">地址</span>选项卡，在选项卡中可以选择协议，并在域中输入协议信息。</p>
+
+  <p><span class="gui-object">删除地址</span></p>
+
+  <p>选择此选项以删除所选的<span class="gui-object">地址</span>选项卡及其地址信息。</p>
+
+  <p>有关配置 I/O 缓冲区空间的详细信息，请参阅 <em>Oracle10i Net Administrator's Guide</em> 中的第 14 章&ldquo;Optimizing Performance&rdquo;。</p>
+
+  <h2>相关主题</h2>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services 概览</a></p>
+
+  <p><a href="n8ahelpservice_registration.htm">服务注册</a></p>
+
+  <p><a href="n8ahelpConfigure_Listener_Addresses.htm">配置监听程序地址</a>&nbsp;</p>
+ <p class="zz-legal-notice">版权所有 &copy; 1996，2009，Oracle 和/或其子公司。保留所有权利。<br>Oracle 是 Oracle Corporation 和/或其子公司的注册商标。<br>其他名称可能是其各自所有者的商标。</p>
+</body>
+</html>

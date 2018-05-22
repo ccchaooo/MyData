@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en-us">
+<head>
+  <title>Configure Default Domains for Clients</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="topic-id" content="n8ahelpConfigure_Default_Domains_for_Cl">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1 class="gui-object">Configuring Default Domains for Clients</h1>
+
+  <p>In environments where the client often requests names from a specific <a href="n8ahelpdomain.htm">domain</a>, it is appropriate to set a default domain. When a default domain is set in the profile, it is automatically appended to any unqualified net service name or service name. For example, if the default domain is set to <span class="Code">us.example.com</span>, sales in the following connect string gets searched as <span class="Code">sales.us.example.com:</span></p>
+
+  <p><span class="Code">CONNECT scott/tiger@sales</span></p>
+
+  <p>To specify a default domain:</p>
+
+  <ol>
+    <li>
+      <p>In the navigator pane, expand <span class="gui-object">Oracle Net Configuration &gt; Local &gt; Profile.</span></p>
+    </li>
+
+    <li>
+      <p>From the list in the right pane, select <span class="gui-object">Naming.</span></p>
+    </li>
+
+    <li>
+      <p>Select the <a href="n8ahelpNaming_Methods.htm">Methods</a> tab.</p>
+    </li>
+
+    <li>
+      <p>Enter the domain in the <span class="gui-object">Default Domain</span> field.</p>
+    </li>
+
+    <li>
+      <p>Choose <span class="gui-object">File &gt; Save Network Configuration.</span></p>
+    </li>
+  </ol>
+
+  <h2>Related Topics</h2>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services Overview</a></p>
+ <P CLASS="zz-legal-notice">Copyright &copy; 1996, 2009, Oracle and/or its affiliates. All rights reserved.<BR> Oracle is a registered trademark of Oracle Corporation and/or its affiliates. <BR>Other names may be trademarks of their respective owners.</p>
+</body>
+</html>

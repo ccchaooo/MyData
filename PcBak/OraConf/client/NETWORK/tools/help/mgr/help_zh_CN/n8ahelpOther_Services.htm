@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="zh_CN">
+<head>
+  <title>其他服务</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="topic-id" content="listener_oservices">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>其他服务</h1>
+
+  <p><span class="gui-object">其他服务</span>选项卡可用于指定监听程序将为其接收连接请求的非数据库服务。非数据库服务可以是<a href="n8ahelpexternal_procedures.htm">外部过程</a>或<a href="n8ahelpHeterogeneous_Services.htm">异构服务</a>。</p>
+
+  <p><span class="gui-object">全局服务名称</span></p>
+
+  <p>输入此服务的服务名和域名。</p>
+
+  <p><span class="gui-object">程序名</span></p>
+
+  <p>输入可执行程序名。例如<span class="Code"> extproc.exe</span>。</p>
+
+  <p><span class="gui-object">程序参数零</span></p>
+
+  <p>输入内部第一个参数，它常作为代用程序名。例如：<span class="Code">argv0</span></p>
+
+  <p><span class="gui-object">程序参数</span></p>
+
+  <p>输入应在启动服务时传送的命令行参数，例如，<span class="Code">-mode=5</span>。</p>
+
+  <p><span class="gui-object">环境</span></p>
+
+  <p>输入启动服务之前必须设置的任何环境变量。环境变量以下列格式指定：</p>
+
+  <p><span class="Code"><em>environment_variable=values</em></span></p>
+
+  <p>例如：<span class="Code">user=scott, start=immediate</span>。</p>
+
+  <p>请注意，变量以逗号分隔。</p>
+
+  <p><span class="gui-object">SID</span></p>
+
+  <p>输入服务的程序名或 <a href="n8ahelpOracle_System_Identifier_SID.htm">Oracle 系统标识符 (SID)</a>。</p>
+
+  <p><span class="gui-object">Oracle 主目录</span></p>
+
+  <p>输入可执行程序的位置。</p>
+
+  <p><span class="gui-object">&ldquo;添加服务&rdquo;按钮</span></p>
+
+  <p>选择此按钮以配置非数据库服务信息。显示一个新的<span class="gui-object">服务</span>选项卡，可以在该选项卡中输入另一个服务的信息。</p>
+
+  <p><span class="gui-object">&ldquo;删除服务&rdquo;按钮</span></p>
+
+  <p>选择此按钮以删除选定的<span class="gui-object">服务</span>选项卡及其服务信息。</p>
+
+  <h2>相关主题</h2>
+
+  <p><a href="n8ahelpConfigure_External_Procedures_fo.htm">为监听程序配置外部过程</a></p>
+
+  <p><a href="n8ahelpConfigure_Heterogeneous_Services.htm">为监听程序配置异构服务</a></p>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services 概览</a></p>
+ <p class="zz-legal-notice">版权所有 &copy; 1996，2009，Oracle 和/或其子公司。保留所有权利。<br>Oracle 是 Oracle Corporation 和/或其子公司的注册商标。<br>其他名称可能是其各自所有者的商标。</p>
+</body>
+</html>

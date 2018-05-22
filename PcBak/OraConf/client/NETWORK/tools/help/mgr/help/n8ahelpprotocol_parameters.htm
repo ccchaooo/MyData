@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en-us">
+<head>
+  <title>protocol parameters</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="topic-id" content="n8ahelpprotocol_parameters">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>protocol parameters</h1>
+
+  <p>The <a href="n8ahelplistener.htm">listener</a> , Oracle Names server, and <a href="n8ahelpOracle_Connection_Manager.htm">Oracle Connection Manager</a> are identified by a <a href="n8ahelpprotocol_address.htm">protocol address</a>. Clients that want to use these services must also be configured with the same address. The following table describes the parameters used by the supported Oracle protocols:</p>
+
+  <table width="100%" border="1" cellpadding="2" cellspacing="2" summary="This table lists fields with links and the pages that appear when you click the links">
+    <tr>
+      <td width="25%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><strong>Protocol</strong></p>
+      </td>
+
+      <td width="29%" valign="bottom" scope="col"><span class="style1">Parameter</span></td>
+
+      <td width="46%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>Description</b></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">IPC</td>
+
+      <td valign="top" class="&lt;span"><span class="Code">PROTOCOL</span></td>
+
+      <td valign="top">
+        <p>Specify <span class="Code">ipc</span> as the value.</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="25%" valign="top" scope="row">
+        <p style="text-align : left;" align="left">&#160;</p>
+      </td>
+
+      <td valign="top" class="&lt;span"><span class="Code">KEY</span></td>
+
+      <td width="46%" valign="top">Specify unique name for the service. Oracle Corporation recommends using the service name or the <a href="n8ahelpOracle_System_Identifier_SID.htm">Oracle System Identifier (SID)</a> of the service.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Named Pipes</td>
+
+      <td valign="top" class="&lt;span"><span class="Code">PROTOCOL</span></td>
+
+      <td width="46%" valign="top">
+        <p>Specify <span class="Code">nmp</span> as the value.</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">&#160;</td>
+
+      <td valign="top" class="&lt;span"><span class="Code">SERVER</span></td>
+
+      <td valign="top">Specify the name of the Oracle server computer.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">&#160;</td>
+
+      <td valign="top" class="&lt;span"><span class="Code">PIPE</span></td>
+
+      <td valign="top">Specify the pipe name to connect to the database server. This name can be any arbitrary name.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">TCP/IP and TCP/IP with SSL</td>
+
+      <td valign="top" class="&lt;span"><span class="Code">PROTOCOL</span></td>
+
+      <td valign="top">Specify <span class="Code">tcp</span> as the value for TCP/IP, or specify <span class="Code">tcps</span> as the value for TCP/IP with SSL.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">&#160;</td>
+
+      <td valign="top" class="&lt;span"><span class="Code">HOST</span></td>
+
+      <td valign="top">Specify the host name or IP address of the computer.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">&#160;</td>
+
+      <td valign="top" class="&lt;span"><span class="Code">PORT</span></td>
+
+      <td valign="top">Specify the listening port number.</td>
+    </tr>
+  </table>
+
+  <h2>Related Topics</h2>
+
+  <p><a href="n8ahelpRecommended_Port_Numbers.htm">Recommended Port Numbers</a></p>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services Overview</a></p>
+
+  <p class="style2">Copyright © 1996, 2009, Oracle. All rights reserved.</p>
+</body>
+</html>

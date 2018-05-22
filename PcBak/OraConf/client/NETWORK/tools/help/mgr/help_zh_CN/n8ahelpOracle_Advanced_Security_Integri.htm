@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="zh_CN">
+<head>
+  <title>Oracle Advanced Security：完整性</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="topic-id" content="profile_integrity">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>Oracle Advanced Security：完整性</h1>
+
+  <p><span class="gui-object">完整性</span>选项卡使您能够配置验证方法的数据<a href="n8ahelpintegrity.htm">完整性</a>。数据完整性是对通过连接发送的客户机和服务器所看到的数据的比较。</p>
+
+  <p><strong>注：</strong>使用 <a href="n8ahelpOracle_Advanced_Security_SSL.htm">SSL</a> 选项卡可以配置安全套接字层 (SSL) 的密码套件。</p>
+
+  <p><span class="gui-object">完整性</span></p>
+
+  <p>选择&ldquo;服务器&rdquo;或&ldquo;客户机&rdquo;复选框以指出当前正在配置的计算机是&ldquo;客户机&rdquo;还是&ldquo;服务器&rdquo;。&ldquo;服务器&rdquo;选项不适用于此计算机连接的服务器。</p>
+
+  <p><span class="gui-object">校验和级别</span></p>
+
+  <p>选择校验和级别。四个可能的校验和级别是：</p>
+
+  <table width="100%" border="1" cellpadding="2" cellspacing="2" summary="此表列出具有链接的字段以及当您单击这些链接时将显示的页">
+    <tr>
+      <td width="15%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>元素</b></p>
+      </td>
+
+      <td width="85%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>说明</b></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row"><a href="n8ahelpAccepted.htm">被接受</a></td>
+
+      <td valign="top">
+        <p>如果连接的对方指定了&ldquo;必需的&rdquo;或&ldquo;请求的&rdquo;，并且对方存在可用的一致算法，则服务将是活动的；否则服务将是不活动的。</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="15%" valign="top" scope="row">
+        <p style="text-align : left;" align="left"><a href="n8ahelpRejected.htm">被拒绝</a></p>
+      </td>
+
+      <td width="85%" valign="top">服务必须不是活动的，如果另一方指定&ldquo;必需的&rdquo;，则连接将会失败。</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row"><a href="n8ahelpRequested.htm">请求的</a></td>
+
+      <td width="85%" valign="top">
+        <p>如果连接的对方指定了&ldquo;被接受&rdquo;、&ldquo;必需的&rdquo;或&ldquo;请求的&rdquo;，并且对方存在可用的一致算法，则服务将是活动的；否则服务将是不活动的。</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row"><a href="n8ahelpRequired.htm">必需的</a></td>
+
+      <td valign="top">服务必须是活动的，如果另一方指定&ldquo;拒绝&rdquo;或没有一致的算法，则连接将会失败。</td>
+    </tr>
+  </table>
+
+  <p><span class="gui-object">&ldquo;可用方法&rdquo;列表</span></p>
+
+  <p>显示完整性算法，用于创建校验和。有两种这样的方法：</p>
+
+  <table width="100%" border="1" cellpadding="2" cellspacing="2" summary="此表列出具有链接的字段以及当您单击这些链接时将显示的页">
+    <tr>
+      <td width="46%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>算法名</b></p>
+      </td>
+
+      <td width="54%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>有效值</b></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">安全散列算法 (SHA-1)</td>
+
+      <td valign="top">
+        <p>SHA1</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="46%" valign="top" scope="row">
+        <p style="text-align : left;" align="left">消息摘要 5 (MD5)</p>
+      </td>
+
+      <td width="54%" valign="top">MD5</td>
+    </tr>
+  </table>
+
+  <p><span class="gui-object">&ldquo;所选方法&rdquo;列表</span></p>
+
+  <p>显示选定的算法。此列表中算法的次序决定了它们的使用次序。</p>
+
+  <h2>相关主题</h2>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services 概览</a></p>
+ <p class="zz-legal-notice">版权所有 &copy; 1996，2009，Oracle 和/或其子公司。保留所有权利。<br>Oracle 是 Oracle Corporation 和/或其子公司的注册商标。<br>其他名称可能是其各自所有者的商标。</p>
+</body>
+</html>
