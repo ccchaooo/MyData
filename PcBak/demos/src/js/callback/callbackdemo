@@ -1,0 +1,8 @@
+    //页面加载顺序: 查询基础代码 -- 加载基础代码 -- 加载招标信息 --查询子项目 -- 初始化grid
+    queryBaseCode(function(){
+        loadBaseCode(function(){
+            loadzbInfo(function(){
+                queryZxm(initzxmgrid)
+            })
+        })
+    });
