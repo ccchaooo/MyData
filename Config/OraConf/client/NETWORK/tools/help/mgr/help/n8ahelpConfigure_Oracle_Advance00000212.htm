@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en-us">
+<head>
+  <title>Configure Oracle Advanced Security Authentication Methods</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="topic-id" content="n8ahelpConfigure_Oracle_Advance00000212">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>Configuring Oracle Advanced Security Authentication Methods</h1>
+
+  <p>Centralized, secure authentication methods allow you to have high confidence in the identity of users, clients, and servers in distributed environments. Network authentication methods can also provide the benefit of single sign-on for users.</p>
+
+  <p>Use the Oracle Net Manager to configure the following authentication adapters:</p>
+
+  <ul>
+    <li>
+      <p><a href="n8ahelpKERBEROSv5.htm">Kerberos</a></p>
+    </li>
+
+    <li>
+      <p><a href="n8ahelpCyberSafe.htm">CyberSafe</a></p>
+    </li>
+
+    <li>
+      <p><a href="n8ahelpRADIUS.htm">RADIUS</a></p>
+    </li>
+
+    <li>
+      <p><a href="n8ahelpSSL_authentication_method.htm">SSL</a></p>
+    </li>
+
+    <li>
+      <p><a href="n8ahelpWindows_NT_native_authentication.htm">Windows NT native authentication</a></p>
+    </li>
+  </ul>
+
+  <p><strong>Note:</strong> If you have configured the TCP/IP with SSL protocol, then Secure Sockets Layer (SSL) will be configured by default. Any authentication method you choose in this tab will override authentication features of SSL. See the <a href="n8ahelpOracle_Advanced_Security_SSL.htm">SSL tab</a> to configure additional SSL options. If you are using the TCP/IP with SSL protocol, do not use any of the other authentication methods.</p>
+
+  <p>To configure the authentication methods:</p>
+
+  <ol>
+    <li>
+      <p>In the navigator pane, expand <span class="gui-object">Oracle Net Configuration &gt; Local &gt; Profile.</span></p>
+    </li>
+
+    <li>
+      <p>From the list in the right pane, select <span class="gui-object">Oracle Advanced Security.</span></p>
+    </li>
+
+    <li>
+      <p>Select the <a href="n8ahelpOracle_Advanced_Security_Authent.htm">Authentication</a> tab.</p>
+    </li>
+
+    <li>
+      <p>From the <span class="gui-object">Available Methods</span> list, select which authentication method you want to use, and then choose the right-arrow button (&gt;).</p>
+    </li>
+
+    <li>
+      <p>Order the authentication methods according to which method you want used. Select the authentication method in the <span class="gui-object">Selected Methods</span> list, and use the <span class="gui-object">Promote</span> or <span class="gui-object">Demote</span> button to move the selection up or down in the list.</p>
+    </li>
+
+    <li>
+      <p>Choose the <a href="n8ahelpOracle_Advanced_Security_Other_P.htm">Other Params</a> tab to configure additional parameters for the following authentication methods:</p>
+    </li>
+
+    <li style="list-style: none">
+      <ul>
+        <li>
+          <p><a href="n8ahelpKERBEROSv5.htm">Kerberos</a></p>
+        </li>
+
+        <li>
+          <p><a href="n8ahelpCyberSafe.htm">CyberSAFE</a></p>
+        </li>
+
+        <li>
+          <p><a href="n8ahelpRADIUS.htm">RADIUS</a></p>
+        </li>
+      </ul>
+    </li>
+
+    <li>Choose <span class="gui-object">File &gt; Save Network Configuration.</span></li>
+  </ol>
+
+  <h2>Related Topics</h2>
+
+  <p><a href="n8ahelpOracle_Advanced_Security_Authent.htm">Oracle Advanced Security: Authentication.</a></p>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services Overview</a></p> <P CLASS="zz-legal-notice">Copyright &copy; 1996, 2009, Oracle and/or its affiliates. All rights reserved.<BR> Oracle is a registered trademark of Oracle Corporation and/or its affiliates. <BR>Other names may be trademarks of their respective owners.</p>
+</body>
+</html>

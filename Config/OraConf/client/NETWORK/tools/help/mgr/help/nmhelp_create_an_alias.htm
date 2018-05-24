@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en-us">
+<head>
+  <title>Create a Net Service Alias</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="topic-id" content="nmhelp_create_an_alias">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>Creating a Net Service Alias</h1>
+
+  <p><strong>Notes:</strong></p>
+
+  <ul>
+    <li>
+      <p>Only users that are members of either the OracleNetAdmins or the OracleContextAdmins group can create <a href="nmhelp_net_service_alias.htm">net service alias</a> entries in a <a href="n8ahelpdirectory_server.htm">directory</a>.</p>
+    </li>
+
+    <li>
+      <p>Net service aliases are not supported using Microsoft Active Directory.</p>
+    </li>
+
+    <li>You can export existing alias objects from an Oracle Names server. See Chapter 10, "Exporting Naming Data to a Directory Server," of the <em>Oracle10i Net Services Administrator's Guide</em> for further information.</li>
+  </ul>
+
+  <p>You can create net service aliases for directory naming objects-- <a href="n8ahelpnet_service_name.htm">net service names</a> or database services--in a directory server. A net service alias stores the name of the object it is referencing.</p>
+
+  <p>When a client requests a directory lookup of a net service alias, the directory determines that the entry is a net service alias and completes the lookup as if it is the referenced entry. For example, a net service alias of <span class="Code">salesalias</span> can be created for a net service name of <span class="Code">sales</span>. When <span class="Code">salesalias</span> is used to connect to a database service, as in <span class="Code">CONNECT scott/tiger@salesalias</span>, it will actually resolve to and use the connect descriptor information for <span class="Code">sales</span>.</p>
+
+  <p>There are two main uses for net service name aliases:</p>
+
+  <ul>
+    <li>
+      <p>Use a net service name alias as a way for clients to refer to a database service or net service name by another name.</p>
+    </li>
+
+    <li>
+      <p>Use a net service name alias in one <a href="n8ahelpOracle_Context.htm">Oracle Context</a> for a database service or net service name in a different Oracle Context. This enables that database service or net service name to be defined once in the directory server, but used out of other Oracle Contexts.</p>
+    </li>
+  </ul>
+
+  <p>To create a net service name alias:</p>
+
+  <ol>
+    <li>
+      <p>In the navigator pane, expand <span class="gui-object">Oracle Net Configuration &gt; Directory &gt; Service Naming &gt; Aliases.</span></p>
+    </li>
+
+    <li>
+      <p>Choose plus (+) from the toolbar, or choose <span class="gui-object">Edit &gt; Create</span> from the menu bar. The <a href="nmhelp_create_net_service_alias.htm">Create Net Service Alias</a> dialog box appears.</p>
+    </li>
+
+    <li>
+      <p>In the <span class="gui-object">Net Service Alias</span> field, enter a name for the net service alias.</p>
+    </li>
+
+    <li>In the Net Service or Database Service box, enter the following information about the net service name or database service:
+
+      <ul>
+        <li><span class="gui-object">Oracle Context:</span> Specify the Oracle Context of the database service or net service name by selecting one from the list or entering one in the field.</li>
+
+        <li><span class="gui-object">Name:</span> Specify the <a href="n8ahelpDistinguished_Name_DN.htm">distinguished name (DN)</a> of the database service or net service name by selecting one from the list or entering one in the field.</li>
+      </ul>
+    </li>
+
+    <li>Choose <span class="gui-object">Create.</span></li>
+  </ol>
+
+  <h2>Related Topics</h2>
+
+  <p><a href="n8ahelpDatabase_Identification_by_Servi.htm">Database Identification by Service Name</a></p>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services Overview</a></p>
+ <P CLASS="zz-legal-notice">Copyright &copy; 1996, 2009, Oracle and/or its affiliates. All rights reserved.<BR> Oracle is a registered trademark of Oracle Corporation and/or its affiliates. <BR>Other names may be trademarks of their respective owners.</p>
+</body>
+</html>

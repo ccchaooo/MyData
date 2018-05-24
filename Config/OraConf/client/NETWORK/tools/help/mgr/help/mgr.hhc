@@ -1,0 +1,785 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="toc">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800002">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Using Oracle Net Manager">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Oracle Net Manager Overview">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Welcome to Oracle Net Manager">
+        <param name="Local" value="n8ahelpwelcome_to_the_net8_assistant.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Oracle Net Services Overview">
+        <param name="Local" value="n8ahelpnet8_overview.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Oracle Net Connectivity Overview">
+        <param name="Local" value="n8ahelpnet8_connectivity_overview.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Database Identification by Service Name">
+        <param name="Local" value="n8ahelpdatabase_identification_by_servi.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Oracle Net Services Configuration Overview">
+        <param name="Local" value="n8ahelpnet8_configuration_overview.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Oracle Net Manager Key Features">
+        <param name="Local" value="n8ahelpnet8_assistant_key_features.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Oracle Net Manager Environment">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Overview of Oracle Net Manager Environment">
+        <param name="Local" value="n8ahelpoverview_of_the_net8_assistant_e.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tree Structure and Hierarchical Folders">
+        <param name="Local" value="n8ahelpTree_Structure_and_Hierarchical_.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Toolbar">
+        <param name="Local" value="n8ahelpToolbar.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Menus">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="File menu">
+          <param name="Local" value="n8ahelpfile_menu.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Edit menu">
+          <param name="Local" value="n8ahelpedit_menu.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Command menu">
+          <param name="Local" value="n8ahelpcommand_menu.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Help menu">
+          <param name="Local" value="n8ahelphelp_menu.htm">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Directory">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Service Naming">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Introduction">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Directory Naming Overview">
+            <param name="Local" value="n8ahelpdirectory_naming_overview.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Oracle Net Entries in a Directory">
+            <param name="Local" value="n8ahelpnet8_entries_in_a_directory.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Directory Naming Configuration Overview">
+            <param name="Local" value="n8ahelpdirectory_naming_configuration_o.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Directory Naming Requirements for Oracle Net Manager">
+            <param name="Local" value="n8ahelpDirectory_Naming_Requirements_fo.htm">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="How To...">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Change the Oracle Context">
+            <param name="Local" value="n8ahelpchange_the_oracle_context.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set Authentication Credentials">
+            <param name="Local" value="n8ahelpSet_Authentication_Credentials.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Configuring Net Service Names and Database Services">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a Net Service Name">
+              <param name="Local" value="n8ahelpCreate_a_Net_Service_Name.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify Network Route Information for a Database Service">
+              <param name="Local" value="n8ahelpcreate_network_route_information.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create Additional Protocol Addresses">
+              <param name="Local" value="n8ahelpcreate_additional_protocol_addre.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configure Multiple Address Options">
+              <param name="Local" value="n8ahelpConfigure_Multiple_Address_Optio.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configure Advanced Connect Data Options">
+              <param name="Local" value="n8ahelpConfigure_Advanced_Connect_Data_.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Test Connectivity">
+              <param name="Local" value="n8ahelptest_connectivity.htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Configuring Net Service Aliases">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a Net Service Alias">
+              <param name="Local" value="nmhelp_create_an_alias.htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Configuring Advanced Connect Descriptors">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configure a Connect Descriptor for an Oracle Rdb Database">
+              <param name="Local" value="n8ahelpConfigure_a_Connect_Descrdb.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configure a Connect Descriptor for Connections to Oracle Connection Manager">
+              <param name="Local" value="n8ahelpConfigure_a_Connect_Desc00000028.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configure a Connect Descriptor for External Procedures">
+              <param name="Local" value="n8ahelpconfigure_a_connect_desc00000029.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configure a Connect Descriptor for Heterogeneous Services">
+              <param name="Local" value="n8ahelpConfigure_a_Connect_Descheterog.htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Export/Migrate to Directory Naming">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Export Oracle Names Entries to Directory Server">
+              <param name="Local" value="n8ahelpexport_oracle_names_entries_to_d.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Export tnsnames.ora File Entries to Directory Server">
+              <param name="Local" value="n8ahelpexport_tnsnamesora_file_entries_.htm">
+            </object>
+            </ul>
+          </ul>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Local">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Profile">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Introduction">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Profile Overview">
+            <param name="Local" value="n8ahelpProfile_Overview.htm">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="How To...">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Prioritize Naming Methods">
+            <param name="Local" value="n8ahelpPrioritize_Naming_Methods.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Configure Default Domains for Clients">
+            <param name="Local" value="n8ahelpconfigure_default_domains_for_cl.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Configure Profile Logging and Tracing">
+            <param name="Local" value="n8ahelpconfigure_profile_logging_and_tr.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Route Connection Requests">
+            <param name="Local" value="n8ahelpRoute_Connection_Requests.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Configure Advanced Profile Information">
+            <param name="Local" value="n8ahelpconfigure_advanced_profile_infor.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Configure External Naming Methods">
+            <param name="Local" value="n8ahelpconfigure_external_naming_method.htm">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Service Naming">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Introduction">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Local Naming Overview">
+            <param name="Local" value="n8ahelplocal_naming00000018.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Local Naming Configuration Overview">
+            <param name="Local" value="n8ahelplocal_naming_configuration_overv.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="How To...">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configuring Net Service Names">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Create a Net Service Name">
+                <param name="Local" value="n8ahelpCreate_a_Net_Service_Name.htm">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Create Additional Protocol Addresses">
+                <param name="Local" value="n8ahelpcreate_additional_protocol_addre.htm">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Test Connectivity">
+                <param name="Local" value="n8ahelptest_connectivity.htm">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configuring Advanced Connect Descriptors">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Configure a Connect Descriptor for an Oracle Rdb Database">
+                <param name="Local" value="n8ahelpConfigure_a_Connect_Descrdb.htm">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Configure a Connect Descriptor for Connections to Oracle Connection Manager">
+                <param name="Local" value="n8ahelpConfigure_a_Connect_Desc00000028.htm">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Configure a Connect Descriptor for External Procedures">
+                <param name="Local" value="n8ahelpconfigure_a_connect_desc00000029.htm">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Configure a Connect Descriptor for Heterogeneous Services">
+                <param name="Local" value="n8ahelpConfigure_a_Connect_Descheterog.htm">
+              </object>
+              </ul>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Listeners">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Introduction">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Local Naming Overview">
+              <param name="Local" value="n8ahelplocal_naming00000018.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Local Naming Configuration Overview">
+              <param name="Local" value="n8ahelplocal_naming_configuration_overv.htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="How To...">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a Listener">
+              <param name="Local" value="n8ahelpcreate_a_listener.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configure Listener Addresses">
+              <param name="Local" value="n8ahelpconfigure_listener_addresses.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Choose Listener Name dialog box">
+              <param name="Local" value="n8ahelpchoose_listener_name_dialog_box.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Statically Configure Database Service Information">
+              <param name="Local" value="n8ahelpstatically_configure_database_se.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configure External Procedures for the Listener">
+              <param name="Local" value="n8ahelpConfigure_External_Procedures_fo.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configure Heterogeneous Services for the Listener">
+              <param name="Local" value="n8ahelpConfigure_Heterogeneous_Services.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configure Password Authentication for the Listener">
+              <param name="Local" value="n8ahelpconfigure_password_authe00000051.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configure Listener Logging and Tracing">
+              <param name="Local" value="n8ahelpconfigure_listener_logging_and_t.htm">
+            </object>
+            </ul>
+          </ul>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Oracle Advanced Security">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Introduction">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="About Oracle Advanced Security">
+          <param name="Local" value="n8ahelpabout_oracle_advanced_security.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Task Overview">
+          <param name="Local" value="n8ahelpTask_Overview.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="How To...">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Configure Oracle Advanced Security">
+          <param name="Local" value="n8ahelpConfigure_Oracle_Advance00000211.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Configure Oracle Advanced Security Authentication Methods">
+          <param name="Local" value="n8ahelpConfigure_Oracle_Advance00000212.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Configure Data Integrity">
+          <param name="Local" value="n8ahelpconfigure_integrity.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Configure Encryption">
+          <param name="Local" value="n8ahelpconfigure_encryption.htm">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Glossary">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="A">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="ADDRESS">
+          <param name="Local" value="n8ahelpaddress.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="ADDRESS_LIST">
+          <param name="Local" value="n8ahelpaddresslist.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="authentication method">
+          <param name="Local" value="n8ahelpauthentication_method.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="C">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="client load balancing">
+          <param name="Local" value="n8ahelpclient_load_balancing.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="cman.ora file">
+          <param name="Local" value="n8ahelpcmanora_file.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="connect data">
+          <param name="Local" value="n8ahelpconnect_data.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="CONNECT_DATA">
+          <param name="Local" value="n8ahelpCONNECTDATA.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="connect descriptor">
+          <param name="Local" value="n8ahelpconnect_descriptor.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="connect-time failover">
+          <param name="Local" value="n8ahelpconnecttime_failover.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="connect identifier">
+          <param name="Local" value="n8ahelpconnect_identifier.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="connection load balancing">
+          <param name="Local" value="n8ahelpconnection_load_balancing.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="connect string">
+          <param name="Local" value="n8ahelpconnect_string.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="D">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="database link">
+          <param name="Local" value="n8ahelpdatabase_link.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="dedicated server">
+          <param name="Local" value="n8ahelpdedicated_server.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="directory information tree (DIT)">
+          <param name="Local" value="n8ahelpDirectory_Information_Tree_DIT.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="directory naming">
+          <param name="Local" value="n8ahelpdirectory_naming.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="directory server">
+          <param name="Local" value="n8ahelpdirectory_server.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="discovery">
+          <param name="Local" value="n8ahelpdiscovery.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="distinguished name (DN)">
+          <param name="Local" value="n8ahelpDistinguished_Name_DN.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="domain">
+          <param name="Local" value="n8ahelpdomain.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Domain Name System (DNS)">
+          <param name="Local" value="n8ahelpDomain_Name_System_DNS.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="E">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="encryption">
+          <param name="Local" value="n8ahelpencryption.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="external naming">
+          <param name="Local" value="n8ahelpexternal_naming.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="external procedures">
+          <param name="Local" value="n8ahelpexternal_procedures.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="G">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="global database name">
+          <param name="Local" value="n8ahelpglobal_database_name.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="H">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Heterogeneous Services">
+          <param name="Local" value="n8ahelpHeterogeneous_Services.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="host naming">
+          <param name="Local" value="n8ahelphost_naming.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="I">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="initialization parameter file">
+          <param name="Local" value="n8ahelpinitialization_parameter_file.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="instance name">
+          <param name="Local" value="n8ahelpinstance_name.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="integrity">
+          <param name="Local" value="n8ahelpintegrity.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="IP address">
+          <param name="Local" value="n8ahelpIP_address.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="L">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="ldap.ora file">
+          <param name="Local" value="n8ahelpldapora_file.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Lightweight Directory Access Protocol (LDAP)">
+          <param name="Local" value="n8ahelpLightweight_Directory_Access_Pro.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="link qualifier">
+          <param name="Local" value="n8ahelplink_qualifier.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="listener">
+          <param name="Local" value="n8ahelplistener.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="listener.ora file">
+          <param name="Local" value="n8ahelplistenerora_file.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Listener Control utility">
+          <param name="Local" value="n8ahelpLSNRCTL_utility.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="local naming">
+          <param name="Local" value="n8ahelplocal_naming00000153.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="logging">
+          <param name="Local" value="n8ahelplogging.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="M">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Microsoft Active Directory">
+          <param name="Local" value="n8ahelpMicrosoft_Active_Directory.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="N">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="naming context">
+          <param name="Local" value="n8ahelpdirectory_naming_context.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="naming method">
+          <param name="Local" value="n8ahelpnaming_method.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="net service alias">
+          <param name="Local" value="nmhelp_net_service_alias.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="net service name">
+          <param name="Local" value="n8ahelpnet_service_name.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Network Information Service (NIS)">
+          <param name="Local" value="n8ahelpNetwork_Information_Service_NIS.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="O">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Naming: External">
+          <param name="Local" value="n8ahelpNaming_External.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Oracle Advanced Security: Authentication">
+          <param name="Local" value="n8ahelpOracle_Advanced_Security_Authent.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Oracle Connection Manager">
+          <param name="Local" value="n8ahelpOracle_Connection_Manager.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Oracle Context">
+          <param name="Local" value="n8ahelpOracle_Context.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Oracle Internet Directory">
+          <param name="Local" value="n8ahelpOracle_Internet_Directory.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Oracle Net Configuration Assistant">
+          <param name="Local" value="n8ahelpNet8_Configuration_Assistant.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Oracle RDB database">
+          <param name="Local" value="n8ahelpOracle_Rdb_database.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Oracle System Identifier (SID)">
+          <param name="Local" value="n8ahelpOracle_System_Identifier_SID.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="P">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Oracle Net Entries in a Directory">
+          <param name="Local" value="n8ahelpnet8_entries_in_a_directory.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="profile">
+          <param name="Local" value="n8ahelpprofile.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="protocol">
+          <param name="Local" value="n8ahelpprotocol.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="protocol address">
+          <param name="Local" value="n8ahelpprotocol_address.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="protocol parameters">
+          <param name="Local" value="n8ahelpprotocol_parameters.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="R">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="record type">
+          <param name="Local" value="n8ahelprecord_type.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="region database">
+          <param name="Local" value="n8ahelpregion_database.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="relative distinguished name (RDN)">
+          <param name="Local" value="n8ahelprelative_distinguished_name_rdn.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="S">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="schema">
+          <param name="Local" value="n8ahelpschema.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="service handler">
+          <param name="Local" value="n8ahelpservice_handler.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="service name">
+          <param name="Local" value="n8ahelpservice_name.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="service registration">
+          <param name="Local" value="n8ahelpservice_registration.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="session data unit (SDU)">
+          <param name="Local" value="n8ahelpsession_data_unit_SDU.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="shared server">
+          <param name="Local" value="n8ahelpshared_server.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="single sign-on">
+          <param name="Local" value="n8ahelpsingle_signon.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="source routing">
+          <param name="Local" value="n8ahelpsource_routing.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="sqlnet.ora file">
+          <param name="Local" value="n8ahelpsqlnetora_file.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SSL">
+          <param name="Local" value="n8ahelpSSL_authentication_method.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="T">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="time-to-live (TTL)">
+          <param name="Local" value="n8ahelptimetolive_ttl.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="tnsnames.ora file">
+          <param name="Local" value="n8ahelptnsnamesora_file.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="tracing">
+          <param name="Local" value="n8ahelptracing.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="W">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Windows NT native authentication">
+          <param name="Local" value="n8ahelpWindows_NT_native_authentication.htm">
+        </object>
+        </ul>
+      </ul>
+    </ul>
+</ul>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="zh_CN">
+<head>
+  <title>Oracle Net Services 配置概览</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="topic-id" content="n8ahelpNet8_Configuration_Overview">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>Oracle Net Services 配置概览</h1>
+
+  <p>Oracle Net Manager 让您可以配置网络的多个元素，包括命名方法、客户机和服务器概要文件以及监听程序。</p>
+
+  <h2>命名方法</h2>
+
+  <p>定义简称来标识服务的位置，如数据库。这些称作<a href="n8ahelpconnect_identifier.htm">连接标识符</a>的简称映射到<a href="n8ahelpconnect_descriptor.htm">连接描述符</a> (它包含服务的网络位置和标识)。</p>
+
+  <p>通过 Oracle Net Manager，可以配置不同的方式以通过<a href="n8ahelpnaming_method.htm">命名方法</a>将连接标识符解析为连接描述符。</p>
+
+  <h2>客户机和服务器概要文件</h2>
+
+  <p>通过<a href="n8ahelpprofile.htm">概要文件</a>配置首选项，该首选项用于在客户机和服务器上启用和配置 Oracle Net 功能。通过配置文件可以设置首选项，从而可以区分命名方法，启用 <a href="n8ahelpOracle_Advanced_Security.htm">Oracle Advanced Security</a> 功能，启用事件记录和跟踪或路由连接。</p>
+
+  <h2>服务器上的监听程序配置</h2>
+
+  <p>配置接收客户机连接的<a href="n8ahelplistener.htm">监听程序</a>。监听程序应配置有：</p>
+
+  <ul>
+    <li>
+      <p>一个或多个监听<a href="n8ahelpprotocol_address.htm">协议地址</a></p>
+    </li>
+
+    <li>
+      <p>有关目的服务的服务信息</p>
+    </li>
+  </ul>
+
+  <p>协议地址在监听程序配置文件 <a href="n8ahelplistenerora_file.htm">listener.ora</a> 中配置。服务信息可能在 <span class="Code">listener.ora</span> 文件中配置：</p>
+
+  <ul>
+    <li>
+      <p>Oracle8i 或更高版本的数据库将特定信息自动注册到监听程序，如服务名、实例名、服务处理程序和加载信息。这种称为<a href="n8ahelpservice_registration.htm">服务注册</a>的功能不需要在 <span class="Code">listener.ora</span> 文件中配置。</p>
+    </li>
+
+    <li>其他服务 (包括 Oracle7 或 Oracle8 数据库) 需要在 <span class="Code">listener.ora</span> 文件中配置服务。</li>
+  </ul>
+
+  <p>有关 Oracle Names 的信息，请参阅&ldquo;Oracle Names 概览&rdquo;。</p>
+
+  <p>有关详细信息，请参阅 Oracle10i Net Administrator's Guide 中的第 8 章&ldquo;Configuring Naming Methods&rdquo;。</p>
+
+  <h2>相关主题</h2>
+
+  <p><a href="n8ahelpDirectory_Naming_Overview.htm">目录命名配置概览</a>，以获取有关目录命名概览</p>
+
+  <p><a href="n8ahelpLocal_Naming_Configuration_Overv.htm">本地命名配置概览</a>，以获取有关本地命名概览</p>
+
+  <p><a href="n8ahelpPrioritize_Naming_Methods.htm">区分优先次序的命名方法</a>，来配置并选择命名方法。</p>
+
+  <p><a href="n8ahelpProfile_Overview.htm">概要文件概览</a>，以获取有关概要文件的概览</p>
+
+  <p><a href="n8ahelpListener_Overview.htm">监听程序概览</a>，以获取有关监听程序的概览</p>
+ <p class="zz-legal-notice">版权所有 &copy; 1996，2009，Oracle 和/或其子公司。保留所有权利。<br>Oracle 是 Oracle Corporation 和/或其子公司的注册商标。<br>其他名称可能是其各自所有者的商标。</p>
+</body>
+</html>

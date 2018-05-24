@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="zh_CN">
+<head>
+  <title>创建网络服务名</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="topic-id" content="n8ahelpCreate_a_Net_Service_Name">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>创建网络服务名</h1>
+
+  <p><strong>注：</strong>只有 OracleNetAdmins 或 OracleContextAdmins 组的成员用户可以在<a href="n8ahelpdirectory_server.htm">目录</a>中创建<a href="n8ahelpnet_service_name.htm">网络服务名</a>条目。</p>
+
+  <p>要向 <a href="n8ahelptnsnamesora_file.htm">tnsnames.ora 文件</a>或目录服务器添加网络服务名，请执行以下操作：</p>
+
+  <ol>
+    <li>
+      <p>在导航器窗格中，展开 <span class="gui-object">Oracle 网络配置 &gt; 目录/本地 &gt; 服务命名</span>。</p>
+    </li>
+
+    <li>
+      <p>从工具栏中选择加号 (+)，或从菜单栏中选择<span class="gui-object">编辑 &gt; 创建</span>。将显示&ldquo;网络服务名向导&rdquo;的&ldquo;欢迎使用&rdquo;页。</p>
+    </li>
+
+    <li>
+      <p>在<span class="gui-object">网络服务名</span>字段中输入任意名称。网络服务名可使用客户机的域进行限定。如果指定了客户机域，网络服务名将自动限定域。</p>
+    </li>
+
+    <li>
+      <p>选择<span class="gui-object">下一步</span>。此时将显示&ldquo;协议&rdquo;页。</p>
+    </li>
+
+    <li>
+      <p>选择配置的监听程序进行监听的协议。请注意，此协议也必须安装在客户机上。</p>
+    </li>
+
+    <li>
+      <p>选择<span class="gui-object">下一步</span>。此时将显示&ldquo;协议设置&rdquo;页。</p>
+    </li>
+
+    <li>
+      <p>在提供的字段中为所选协议输入相应的<a href="n8ahelpprotocol_parameters.htm">协议参数</a>。</p>
+    </li>
+
+    <li>
+      <p>选择<span class="gui-object">下一步</span>。此时将显示&ldquo;服务&rdquo;页。</p>
+    </li>
+
+    <li>
+      <p>选择一种发行版，输入目标服务，并且作为一种选择，可从 Oracle8i 或更高版本的&ldquo;连接类型&rdquo;列表中选择一种数据库连接类型。</p>
+
+      <p>如果目标服务是 Oracle8<em>i</em> 或更高版本的服务，请选择 <span class="gui-object">Oracle8i 或更高版本</span>，并在<span class="gui-object">服务名</span>字段中输入<a href="n8ahelpprotocol_parameters.htm">服务名</a>，然后选择<span class="gui-object">下一步</span>。如果目标服务是 Oracle8 或 Oracle7，请选择 <span class="gui-object">Oracle8 或更低版本</span>，在<span class="gui-object">数据库 SID</span> 字段中输入 <a href="n8ahelpOracle_System_Identifier_SID.htm">Oracle 系统标识符</a>，然后选择<span class="gui-object">下一步</span>。</p>
+
+      <p>Oracle Corporation 建议对连接类型使用&ldquo;数据库默认设置&rdquo;。如果在<a href="n8ahelpinitialization_parameter_file.htm">初始化参数文件</a>中配置了<a href="n8ahelpshared_server.htm">共享服务器</a>，就可以选择<span class="gui-object">专用服务器</span>迫使监听程序绕过共享服务器配置来衍生一个专用服务器。如果在服务器上启用了&ldquo;数据库驻留连接共享&rdquo;，您可以选择<strong>池中服务器</strong>，从池中获取连接。如果在初始化参数文件中配置了共享服务器，并且希望确保此连接始终使用共享服务器，请选择<span class="gui-object">共享服务器</span>。</p>
+    </li>
+
+    <li>选择下一步。此时将显示&ldquo;测试&rdquo;页。</li>
+
+    <li>选择<span class="gui-object">测试</span>以验证网络服务名是否可用，或单击&ldquo;完成&rdquo;保存配置并关闭&ldquo;网络服务名向导&rdquo;。
+
+      <p>如果选择测试，Oracle Net 将通过使用您配置的连接描述符信息连接到数据库服务器。因此，要使测试成功，数据库和监听程序必须都在运行。如果没有运行，请参阅 <em>Oracle10i Net Administrator's Guide</em> 中的第 15 章&ldquo;Establishing a Connection and Testing the Network&rdquo;来启动这些组件。一个成功的测试将产生以下消息：</p>
+
+      <p><span class="Code">连接测试成功。</span></p>
+
+      <p>如果测试成功，请选择<span class="gui-object">关闭</span>以关闭&ldquo;连接测试&rdquo;对话框，然后继续步骤 12。</p>
+
+      <p>如果测试不成功：</p>
+
+      <p>a. 确保数据库和监听程序都在运行，然后选择<span class="gui-object">测试</span>。</p>
+
+      <p>b. 选择&ldquo;更改登录&rdquo;以更改连接的用户名和口令，然后选择<span class="gui-object">测试</span>。</p>
+    </li>
+
+    <li>
+      <p>选择<span class="gui-object">完成</span>保存配置并关闭&ldquo;网络服务名向导&rdquo;。</p>
+    </li>
+
+    <li>
+      <p>请确保<a href="n8ahelpprofile.htm">概要文件</a>反映本地 (LOCAL) 或目录命名 (LDAP) 方法。</p>
+    </li>
+  </ol>
+
+  <h2>相关主题</h2>
+
+  <p><a href="n8ahelpConfigure_Default_Domains_for_Cl.htm">为客户机配置默认域</a></p>
+
+  <p><a href="n8ahelpPrioritize_Naming_Methods.htm">区分命名方法的优先次序</a></p>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services 概览</a></p> <p class="zz-legal-notice">版权所有 &copy; 1996，2009，Oracle 和/或其子公司。保留所有权利。<br>Oracle 是 Oracle Corporation 和/或其子公司的注册商标。<br>其他名称可能是其各自所有者的商标。</p>
+</body>
+</html>

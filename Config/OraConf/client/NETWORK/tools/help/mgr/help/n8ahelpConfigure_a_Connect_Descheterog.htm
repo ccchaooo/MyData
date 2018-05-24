@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en-us">
+<head>
+  <title>Configure a Connect Descriptor for Heterogeneous Services</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="topic-id" content="n8ahelpConfigure_a_Connect_Descheterog">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1 class="gui-object">Configuring a Connect Descriptor for Heterogeneous Services</h1>
+
+  <p>Heterogeneous Services enable you to access a non-Oracle systems from the Oracle server. To initiate a connection to a non-Oracle system, the Oracle server starts an agent process through the listener on the gateway. In order for the Oracle database to connect to a non-Oracle system, configure the server with a <a href="n8ahelpnet_service_name.htm">net service name</a>.</p>
+
+  <p>To configure the server for Heterogeneous Services:</p>
+
+  <ol>
+    <li>
+      <p>Ensure the listener is configured for Heterogeneous Services, as described in <a href="n8ahelpConfigure_Heterogeneous_Services.htm">Configure Heterogeneous Services for the Listener</a>.</p>
+    </li>
+
+    <li>
+      <p>Create a net service name in the <a href="n8ahelptnsnamesora_file.htm">tnsnames.ora file</a> that can be used for connections from the Oracle database server to a non-Oracle system. Ensure the connect descriptor information matches the information configured for the listener.</p>
+    </li>
+
+    <li>
+      <p>Select the net service name in the <span class="gui-object">Local &gt; Service Naming</span> folder.</p>
+    </li>
+
+    <li>
+      <p>In the right pane's <span class="gui-object">Service Identification</span> box, choose <span class="gui-object">Advanced.</span> The <a href="n8ahelpAdvanced_Service_Options_dialog_.htm">Advanced Service Options dialog box</a> appears.</p>
+    </li>
+
+    <li>
+      <p>Choose <span class="gui-object">Use for Heterogeneous Services,</span> and then choose <span class="gui-object">OK</span>.</p>
+    </li>
+
+    <li>
+      <p>In the right pane, choose <span class="gui-object">Apply.</span></p>
+    </li>
+
+    <li>Choose <span class="gui-object">File &gt; Save Network Configuration.</span></li>
+  </ol>
+
+  <h2>Related Topics</h2>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services Overview</a></p>
+ <P CLASS="zz-legal-notice">Copyright &copy; 1996, 2009, Oracle and/or its affiliates. All rights reserved.<BR> Oracle is a registered trademark of Oracle Corporation and/or its affiliates. <BR>Other names may be trademarks of their respective owners.</p>
+</body>
+</html>

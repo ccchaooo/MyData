@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en-us">
+<head>
+  <title>Oracle Advanced Security: Integrity</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="topic-id" content="profile_integrity">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>Oracle Advanced Security: Integrity</h1>
+
+  <p>The <span class="gui-object">Integrity</span> tab enables you to configure data <a href="n8ahelpintegrity.htm">integrity</a> for the authentication methods. Data integrity is the comparison of data sent over the connection as seen by both client and server.</p>
+
+  <p><strong>Note:</strong> Use the <a href="n8ahelpOracle_Advanced_Security_SSL.htm">SSL</a> tab to configure Cipher Suites for the Secure Sockets Layer (SSL).</p>
+
+  <p><span class="gui-object">Integrity</span></p>
+
+  <p>Select either the Server or Client check box to indicate whether the computer you are currently configuring is a Client or a Server. The Server option does not apply to the servers to which this computer connects.</p>
+
+  <p><span class="gui-object">Checksum Level</span></p>
+
+  <p>Select a checksum level. The four possible checksum levels are:</p>
+
+  <table width="100%" border="1" cellpadding="2" cellspacing="2" summary="This table lists fields with links and the pages that appear when you click the links">
+    <tr>
+      <td width="15%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>Element</b></p>
+      </td>
+
+      <td width="85%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>Description</b></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row"><a href="n8ahelpAccepted.htm">accepted</a></td>
+
+      <td valign="top">
+        <p>Service will be active if the other side of the connection specifies either "required" or "requested", and there is a compatible algorithm available on the other side; it will otherwise be inactive.</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="15%" valign="top" scope="row">
+        <p style="text-align : left;" align="left"><a href="n8ahelpRejected.htm">rejected</a></p>
+      </td>
+
+      <td width="85%" valign="top">Service must not be active, and the connection will fail if the other side specifies "required".</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row"><a href="n8ahelpRequested.htm">requested</a></td>
+
+      <td width="85%" valign="top">
+        <p>Service will be active if the other side of the connection specifies either "accepted", "required", or "requested", and there is a compatible algorithm available on the other side; it will otherwise be inactive. &#160;</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row"><a href="n8ahelpRequired.htm">required</a></td>
+
+      <td valign="top">Service must be active, and the connection will fail if the other side specifies "rejected", or if there is no compatible algorithm on the other side.</td>
+    </tr>
+  </table>
+
+  <p><span class="gui-object">Available Methods list</span></p>
+
+  <p>Displays the integrity algorithms, used to create checksums. There are two such methods:</p>
+
+  <table width="100%" border="1" cellpadding="2" cellspacing="2" summary="This table lists fields with links and the pages that appear when you click the links">
+    <tr>
+      <td width="46%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>Algorithm Name</b></p>
+      </td>
+
+      <td width="54%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>Legal Values</b></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Secure Hash Algorithm (SHA-1)</td>
+
+      <td valign="top">
+        <p>SHA1</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="46%" valign="top" scope="row">
+        <p style="text-align : left;" align="left">Message Digest 5 (MD5)</p>
+      </td>
+
+      <td width="54%" valign="top">MD5</td>
+    </tr>
+  </table>
+
+  <p><span class="gui-object">Selected Methods list</span></p>
+
+  <p>Displays the algorithms selected. The order of the algorithms in the list determines the order in which they are used.</p>
+
+  <h2>Related Topics</h2>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services Overview</a></p>
+ <P CLASS="zz-legal-notice">Copyright &copy; 1996, 2009, Oracle and/or its affiliates. All rights reserved.<BR> Oracle is a registered trademark of Oracle Corporation and/or its affiliates. <BR>Other names may be trademarks of their respective owners.</p>
+</body>
+</html>

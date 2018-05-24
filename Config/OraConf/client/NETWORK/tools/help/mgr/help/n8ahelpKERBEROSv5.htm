@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en-us">
+<head>
+  <title>KERBEROS(v5)</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="topic-id" content="n8ahelpintegrity">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>KERBEROS(v5)</h1>
+
+  <p>The KERBEROS(V5) authentication method requires you to set the following parameters:</p>
+
+  <table width="100%" border="1" cellpadding="2" cellspacing="2" summary="This table lists fields with links and the pages that appear when you click the links">
+    <tr>
+      <td width="15%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>Element</b></p>
+      </td>
+
+      <td width="85%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>Description</b></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Service</td>
+
+      <td valign="top">
+        <p>Enter the name of the authentication service: KERBEROS.</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="15%" valign="top" scope="row">
+        <p style="text-align : left;" align="left">Credential Cache File</p>
+      </td>
+
+      <td width="85%" valign="top">The complete path to the Kerberos credential cache file: default is operating system dependent.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Configuration File</td>
+
+      <td width="85%" valign="top">
+        <p>The complete path to the Kerberos configuration file. This file contains the realm for the default key distribution center (KDC) and maps hosts to KDC hosts: the default is operating system dependent.&#160;</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Realm Translation File</td>
+
+      <td valign="top">The complete path to the Kerberos realm translation file. This file maps a host name, or a domain name, to a realm: default is operating system dependent.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Key Table</td>
+
+      <td valign="top">The complete path to the Kerberos principal/secret key mapping file. This path is used by the Oracle server to extract its key and decrypt the incoming authentication information from the client. The default is operating system dependent.</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">Clock Skew</td>
+
+      <td valign="top">The number of seconds after which the Kerberos credential is considered out of date. Default = 300 seconds</td>
+    </tr>
+  </table>
+
+  <h2>Related Topics</h2>
+
+  <p><a href="n8ahelpOracle_Advanced_Security_Other_P.htm">Oracle Advanced Security: Other Params</a></p>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services Overview</a></p>
+ <P CLASS="zz-legal-notice">Copyright &copy; 1996, 2009, Oracle and/or its affiliates. All rights reserved.<BR> Oracle is a registered trademark of Oracle Corporation and/or its affiliates. <BR>Other names may be trademarks of their respective owners.</p>
+</body>
+</html>

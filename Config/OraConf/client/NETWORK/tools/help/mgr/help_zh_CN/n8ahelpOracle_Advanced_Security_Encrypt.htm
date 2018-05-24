@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="zh_CN">
+<head>
+  <title>Oracle Advanced Security：加密</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="topic-id" content="profile_encryption">
+  <link rel="stylesheet" href="blafdoc.css" type="text/css">
+  
+</head>
+
+<body>
+
+  <h1>Oracle Advanced Security：加密</h1>
+
+  <p><span class="gui-object">加密</span>选项卡可使您为所选<a href="n8ahelpauthentication_method.htm">验证方法</a>配置<a href="n8ahelpencryption.htm">加密</a>参数。</p>
+
+  <p><strong>注：</strong>使用 <a href="n8ahelpOracle_Advanced_Security_SSL.htm">SSL</a> 选项卡可以配置安全套接字层 (SSL) 的密码套件。</p>
+
+  <p><span class="gui-object">加密</span></p>
+
+  <p>从此列表中选择当前正在配置的计算机：客户机或服务器。</p>
+
+  <p><span class="gui-object">加密</span><span class="gui-object">类型</span></p>
+
+  <p>当协商加密和完整性时，请选择一个值以指定客户机或服务器的行为。四种可能的加密类型是：</p>
+
+  <table width="100%" border="1" cellpadding="2" cellspacing="2" summary="此表列出具有链接的字段以及当您单击这些链接时将显示的页">
+    <tr>
+      <td width="15%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>元素</b></p>
+      </td>
+
+      <td width="85%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>说明</b></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row"><a href="n8ahelpAccepted.htm">被接受</a></td>
+
+      <td valign="top">
+        <p>如果连接的对方指定了&ldquo;必需的&rdquo;或&ldquo;请求的&rdquo;，并且对方存在可用的一致算法，则服务将是活动的；否则服务将是不活动的。</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="15%" valign="top" scope="row">
+        <p style="text-align : left;" align="left"><a href="n8ahelpRejected.htm">被拒绝</a></p>
+      </td>
+
+      <td width="85%" valign="top">服务必须不是活动的，如果另一方指定&ldquo;必需的&rdquo;，则连接将会失败。</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row"><a href="n8ahelpRequested.htm">请求的</a></td>
+
+      <td width="85%" valign="top">
+        <p>如果连接的对方指定了&ldquo;被接受&rdquo;、&ldquo;必需的&rdquo;或&ldquo;请求的&rdquo;，并且对方存在可用的一致算法，则服务将是活动的；否则服务将是不活动的。</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row"><a href="n8ahelpRequired.htm">必需的</a></td>
+
+      <td valign="top">服务必须是活动的，如果另一方指定&ldquo;拒绝&rdquo;或没有一致的算法，则连接将会失败。</td>
+    </tr>
+  </table>
+
+  <p><span class="gui-object">加密</span><span class="gui-object">种子</span></p>
+
+  <p>在<span class="gui-object">加密</span><span class="gui-object">种子</span>字段中输入加密种子：最多为 256 个字符的随机字符串。加密种子用于生成密钥。当启用加密或完整性时，需要此选项。</p>
+
+  <p><strong>注：</strong>如果选择使用逗号 [,] 或右括号 [)] 这样的特殊字符作为加密种子参数的一部分，Oracle 建议将值括在单引号内。</p>
+
+  <p><span class="gui-object">&ldquo;可用方法/所选方法&rdquo;列表</span></p>
+
+  <p>显示可用于选择的验证方法和选定的加密方法。列表中方法的顺序将确定协商的优先顺序。</p>
+
+  <p>使用左箭头按钮 (&lt;) 和右箭头按钮 (&gt;) 可以在列表间移动选定的加密算法。Oracle Advanced Security 支持下列加密算法：</p>
+
+  <table width="100%" border="1" cellpadding="2" cellspacing="2" summary="此表列出具有链接的字段以及当您单击这些链接时将显示的页">
+    <tr>
+      <td width="15%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>元素</b></p>
+      </td>
+
+      <td width="85%" valign="bottom" scope="col">
+        <p style="text-align : left; color: #000000;" align="left"><b>说明</b></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">AES256</td>
+
+      <td valign="top">
+        <p>AES 256 位密钥</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="15%" valign="top" scope="row">
+        <p style="text-align : left;" align="left">RC4_256</p>
+      </td>
+
+      <td width="85%" valign="top">RC4 256 位密钥</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">AES192</td>
+
+      <td width="85%" valign="top">
+        <p>AES 192 位密钥</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">3DES168</td>
+
+      <td valign="top">具有三密钥 (168 位) 选项的&ldquo;三重 DES&rdquo;</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">AES128</td>
+
+      <td valign="top">AES 128 位密钥</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">RC4_128</td>
+
+      <td valign="top">RC4 128 位密钥</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">3DES112</td>
+
+      <td valign="top">具有双密钥 (112 位) 选项的&ldquo;三重 DES&rdquo;</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">DES</td>
+
+      <td valign="top">DES 56 位密钥</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">RC4_40</td>
+
+      <td valign="top">RC4 40 位密钥</td>
+    </tr>
+
+    <tr>
+      <td valign="top" scope="row">DES40</td>
+
+      <td valign="top">DES 40 位密钥</td>
+    </tr>
+  </table>
+
+  <h2>相关主题</h2>
+
+  <p><a href="n8ahelpnet8_overview.htm">Oracle Net Services 概览</a> &nbsp;</p>
+ <p class="zz-legal-notice">版权所有 &copy; 1996，2009，Oracle 和/或其子公司。保留所有权利。<br>Oracle 是 Oracle Corporation 和/或其子公司的注册商标。<br>其他名称可能是其各自所有者的商标。</p>
+</body>
+</html>
