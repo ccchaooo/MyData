@@ -1,0 +1,39 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="D:/kitandtool/workspace/idea-jwxm/out/artifacts/plate/sgxk/sgxksb_zbba.jsp">
+      <version-cache last-modified="1509693698500" />
+      <npm-package value="D:/kitandtool/workspace/idea-jwxm/out/artifacts" />
+    </local-interpreter>
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="http://www.cdmcs.com:10240/svn/cdjw_jyblspxt_2010/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdjw_2017/ywxt/blspxt/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdjw_2017/baseapp/appsso/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdjw_2017/baseapp/plate/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdmcs_bjsy/document/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdmcs_bjsy/bjsy_wzgl/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdmcs_bjsy/bjsy_cms/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdmcs_bjsy/bjsy_glpt/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdmcs_bjsy/bjsy_jxyy/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdmcs_bjsy/bjsy_glsso/Trunk" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="http://www.cdmcs.com:10240/svn/cdjw_jyblspxt_2010/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdjw_2017/ywxt/blspxt/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdjw_2017/baseapp/appsso/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdjw_2017/baseapp/plate/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdmcs_bjsy/document/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdmcs_bjsy/bjsy_wzgl/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdmcs_bjsy/bjsy_cms/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdmcs_bjsy/bjsy_glpt/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdmcs_bjsy/bjsy_jxyy/Trunk" />
+        <option value="http://www.cdmcs.com/svn/cdmcs_bjsy/bjsy_glsso" />
+        <option value="http://www.cdmcs.com/svn/cdmcs_bjsy/bjsy_glsso/Trunk" />
+      </list>
+    </option>
+  </component>
+</application>

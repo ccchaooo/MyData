@@ -1,0 +1,12 @@
+AceJump
+AngularJS
+BrowseWordAtCaret
+NodeJS
+Shifter
+co.notime.intellijPlugin.backgroundImagePlus
+com.bruce.intellijpluin.stackoverflow
+com.intellij.plugins.html.instantEditing
+com.jiyuanime.ActivatePowerModeApplicationPlugin
+net.vektah.codeglance
+org.intellij.scala
+some.awesome
