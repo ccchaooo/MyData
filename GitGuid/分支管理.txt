@@ -11,4 +11,5 @@ Git鼓励大量使用分支：
 删除分支：git branch -d <name>
 
 2.解决冲突
-
+解决冲突之后,查看
+git log --graph --pretty=oneline --abbrev-commit
