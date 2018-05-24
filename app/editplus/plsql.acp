@@ -1,0 +1,942 @@
+#TITLE=PL/SQL
+#CASE=y
+; Auto-Completion file written by Bill Coulam of New Global Telecom, August 2000
+; Written for v 1.0 of EditPlus
+
+; SQL or PL/SQL Reserved Words and Built-In Functions and Objects
+#T=abort
+ABORT ^!
+#T=accept
+ACCEPT ^!
+#T=access
+ACCESS ^!
+#T=add
+ADD ^!
+#T=after
+AFTER ^!
+#T=all
+ALL ^!
+#T=alter
+ALTER ^!
+#T=analyze
+ANALYZE ^!
+#T=and
+AND ^!
+#T=any
+ANY ^!
+#T=array
+ARRAY ^!
+#T=arraylen
+ARRAYLEN ^!
+#T=as
+AS ^!
+#T=asc
+ASC ^!
+#T=assert
+ASSERT ^!
+#T=assign
+ASSIGN ^!
+#T=at
+AT ^!
+#T=audit
+AUDIT ^!
+#T=authid
+AUTHID ^!
+#T=authorization
+AUTHORIZATION ^!
+#T=autoextend
+AUTOEXTEND ^!
+#T=autonomous_transaction
+AUTONOMOUS_TRANSACTION ^!
+#T=avg
+AVG ^!
+#T=base_table
+BASE_TABLE ^!
+#T=before
+BEFORE ^!
+#T=begin
+BEGIN !
+#T=between
+BETWEEN ^!
+#T=bfile
+BFILE ^!
+#T=binary_integer
+BINARY_INTEGER ^!
+#T=blob
+BLOB ^!
+#T=body
+BODY ^!
+#T=boolean
+BOOLEAN ^!
+#T=bulk
+BULK ^!
+#T=by
+BY ^!
+#T=cache
+CACHE ^!
+#T=calling
+CALLING ^!
+#T=cascade
+CASCADE ^!
+#T=case
+CASE ^!
+#T=char
+CHAR ^!
+#T=char_base
+CHAR_BASE ^!
+#T=check
+CHECK ^!
+#T=clob
+CLOB ^!
+#T=close
+CLOSE ^!
+#T=cluster
+CLUSTER ^!
+#T=clusters
+CLUSTERS ^!
+#T=colauth
+COLAUTH ^!
+#T=collect
+COLLECT ^!
+#T=column
+COLUMN ^!
+#T=columns
+COLUMNS ^!
+#T=comment
+COMMENT ^!
+#T=commit
+COMMIT ^!
+#T=compress
+COMPRESS ^!
+#T=compute
+COMPUTE ^!
+#T=connect
+CONNECT ^!
+#T=connected
+CONNECTED ^!
+#T=constant
+CONSTANT ^!
+#T=constraint
+CONSTRAINT ^!
+#T=context
+CONTEXT ^!
+#T=crash
+CRASH ^!
+#T=create
+CREATE ^!
+#T=current
+CURRENT ^!
+#T=current_user
+CURRENT_USER ^!
+#T=currval
+CURRVAL ^!
+#T=cursor
+CURSOR ^!
+#T=dangling
+DANGLING ^!
+#T=data_base
+DATA_BASE ^!
+#T=database
+DATABASE ^!
+#T=datafile
+DATAFILE ^!
+#T=date
+DATE ^!
+#T=dba
+DBA ^!
+#T=debugoff
+DEBUGOFF ^!
+#T=debugon
+DEBUGON ^!
+#T=dec
+DEC ^!
+#T=decimal
+DECIMAL ^!
+#T=declare
+DECLARE ^!
+#T=default
+DEFAULT ^!
+#T=definition
+DEFINITION ^!
+#T=degree
+DEGREE ^!
+#T=delay
+DELAY ^!
+#T=delete
+DELETE ^!
+#T=delta
+DELTA ^!
+#T=desc
+DESC ^!
+#T=deterministic
+DETERMINISTIC ^!
+#T=digits
+DIGITS ^!
+#T=disable
+DISABLE ^!
+#T=dispose
+DISPOSE ^!
+#T=distinct
+DISTINCT ^!
+#T=do
+DO ^!
+#T=double
+DOUBLE ^!
+#T=drop
+DROP ^!
+#T=each
+EACH ^!
+#T=else
+ELSE ^!
+#T=elsif
+ELSIF ^!
+#T=enable
+ENABLE ^!
+#T=end
+END ^!
+#T=entry
+ENTRY ^!
+#T=exception
+EXCEPTION ^!
+#T=exception_init
+EXCEPTION_INIT ^!
+#T=exclusive
+EXCLUSIVE ^!
+#T=execute
+EXECUTE ^!
+#T=exists
+EXISTS ^!
+#T=exit
+EXIT ^!
+#T=explicit
+EXPLICIT ^!
+#T=external
+EXTERNAL ^!
+#T=false
+FALSE ^!
+#T=fetch
+FETCH ^!
+#T=file
+FILE ^!
+#T=float
+FLOAT ^!
+#T=for
+FOR ^!
+#T=forall
+FORALL ^!
+#T=foreign
+FOREIGN ^!
+#T=form
+FORM ^!
+#T=freelist
+FREELIST ^!
+#T=freelists
+FREELISTS ^!
+#T=from
+FROM ^!
+#T=function
+FUNCTION ^!
+#T=generic
+GENERIC ^!
+#T=goto
+GOTO ^!
+#T=grant
+GRANT ^!
+#T=group
+GROUP ^!
+#T=groups
+GROUPS ^!
+#T=having
+HAVING ^!
+#T=identified
+IDENTIFIED ^!
+#T=if
+IF ^!
+#T=immediate
+IMMEDIATE ^!
+#T=in
+IN ^!
+#T=including
+INCLUDING ^!
+#T=increment
+INCREMENT ^!
+#T=index
+INDEX ^!
+#T=indexes
+INDEXES ^!
+#T=indicator
+INDICATOR ^!
+#T=initial
+INITIAL ^!
+#T=initrans
+INITRANS ^!
+#T=insert
+INSERT ^!
+#T=instances
+INSTANCES ^!
+#T=int
+INT ^!
+#T=integer
+INTEGER ^!
+#T=interface
+INTERFACE ^!
+#T=intersect
+INTERSECT ^!
+#T=into
+INTO ^!
+#T=is
+IS ^!
+#T=isolation
+ISOLATION ^!
+#T=key
+KEY ^!
+#T=label
+LABEL ^!
+#T=language
+LANGUAGE ^!
+#T=less
+LESS ^!
+#T=level
+LEVEL ^!
+#T=library
+LIBRARY ^!
+#T=like
+LIKE ^!
+#T=limited
+LIMITED ^!
+#T=lob
+LOB ^!
+#T=lock
+LOCK ^!
+#T=log
+LOG ^!
+#T=long
+LONG ^!
+#T=loop
+LOOP ^!
+#T=map
+MAP ^!
+#T=maxextents
+MAXEXTENTS ^!
+#T=maxtrans
+MAXTRANS ^!
+#T=maxvalue
+MAXVALUE ^!
+#T=member
+MEMBER ^!
+#T=method
+METHOD ^!
+#T=minextents
+MINEXTENTS ^!
+#T=minus
+MINUS ^!
+#T=minvalue
+MINVALUE ^!
+#T=mlslabel
+MLSLABEL ^!
+#T=mod
+MOD ^!
+#T=mode
+MODE ^!
+#T=modify
+MODIFY ^!
+#T=name
+NAME ^!
+#T=natural
+NATURAL ^!
+#T=naturaln
+NATURALN ^!
+#T=nclob
+NCLOB ^!
+#T=nested
+NESTED ^!
+#T=new
+NEW ^!
+#T=next
+NEXT ^!
+#T=nextval
+NEXTVAL ^!
+#T=noaudit
+NOAUDIT ^!
+#T=nocache
+NOCACHE ^!
+#T=nocompress
+NOCOMPRESS ^!
+#T=nocopy
+NOCOPY ^!
+#T=nocycle
+NOCYCLE ^!
+#T=noorder
+NOORDER ^!
+#T=noparallel
+NOPARALLEL ^!
+#T=not
+NOT ^!
+#T=nowait
+NOWAIT ^!
+#T=null
+NULL ^!
+#T=number
+NUMBER ^!
+#T=number_base
+NUMBER_BASE ^!
+#T=numeric
+NUMERIC ^!
+#T=object
+OBJECT ^!
+#T=of
+OF ^!
+#T=offline
+OFFLINE ^!
+#T=old
+OLD ^!
+#T=on
+ON ^!
+#T=online
+ONLINE ^!
+#T=only
+ONLY ^!
+#T=open
+OPEN ^!
+#T=option
+OPTION ^!
+#T=or
+OR ^!
+#T=order
+ORDER ^!
+#T=organization
+ORGANIZATION ^!
+#T=out
+OUT ^!
+#T=overflow
+OVERFLOW ^!
+#T=package
+PACKAGE ^!
+#T=parallel
+PARALLEL ^!
+#T=parallel_enable
+PARALLEL_ENABLE ^!
+#T=parameters
+PARAMETERS ^!
+#T=partition
+PARTITION ^!
+#T=pctfree
+PCTFREE ^!
+#T=pctincrease
+PCTINCREASE ^!
+#T=pctthreshold
+PCTTHRESHOLD ^!
+#T=pctused
+PCTUSED ^!
+#T=pls_integer
+PLS_INTEGER ^!
+#T=positive
+POSITIVE ^!
+#T=positiven
+POSITIVEN ^!
+#T=pragma
+PRAGMA ^!
+#T=precision
+PRECISION ^!
+#T=primary
+PRIMARY ^!
+#T=prior
+PRIOR ^!
+#T=private
+PRIVATE ^!
+#T=privileges
+PRIVILEGES ^!
+#T=procedure
+PROCEDURE ^!
+#T=public
+PUBLIC ^!
+#T=quota
+QUOTA ^!
+#T=raise
+RAISE ^!
+#T=range
+RANGE ^!
+#T=raw
+RAW ^!
+#T=read
+READ ^!
+#T=real
+REAL ^!
+#T=record
+RECORD ^!
+#T=ref
+REF ^!
+#T=references
+REFERENCES ^!
+#T=referencing
+REFERENCING ^!
+#T=release
+RELEASE ^!
+#T=remr
+REMR ^!
+#T=rename
+RENAME ^!
+#T=replace
+REPLACE ^!
+#T=resource
+RESOURCE ^!
+#T=restrict_references
+RESTRICT_REFERENCES ^!
+#T=return
+RETURN ^!
+#T=returning
+RETURNING ^!
+#T=reverse
+REVERSE ^!
+#T=revoke
+REVOKE ^!
+#T=rollback
+ROLLBACK ^!
+#T=row
+ROW ^!
+#T=rowid
+ROWID ^!
+#T=rowlabel
+ROWLABEL ^!
+#T=rownum
+ROWNUM ^!
+#T=rows
+ROWS ^!
+#T=rowtype
+ROWTYPE ^!
+#T=run
+RUN ^!
+#T=savepoint
+SAVEPOINT ^!
+#T=schema
+SCHEMA ^!
+#T=segment
+SEGMENT ^!
+#T=select
+SELECT ^!
+#T=separate
+SEPARATE ^!
+#T=sequence
+SEQUENCE ^!
+#T=serializable
+SERIALIZABLE ^!
+#T=serially_reusable
+SERIALLY_REUSABLE ^!
+#T=sessions
+SESSIONS ^!
+#T=set
+SET ^!
+#T=share
+SHARE ^!
+#T=signtype
+SIGNTYPE ^!
+#T=size
+SIZE ^!
+#T=smallint
+SMALLINT ^!
+#T=snapshot
+SNAPSHOT ^!
+#T=space
+SPACE ^!
+#T=sql
+SQL ^!
+#T=standard
+STANDARD ^!
+#T=start
+START ^!
+#T=statement
+STATEMENT ^!
+#T=static
+STATIC ^!
+#T=statistics
+STATISTICS ^!
+#T=stddev
+STDDEV ^!
+#T=storage
+STORAGE ^!
+#T=store
+STORE ^!
+#T=subtype
+SUBTYPE ^!
+#T=successful
+SUCCESSFUL ^!
+#T=sum
+SUM ^!
+#T=synonym
+SYNONYM ^!
+#T=tabauth
+TABAUTH ^!
+#T=table
+TABLE ^!
+#T=tables
+TABLES ^!
+#T=tablespace
+TABLESPACE ^!
+#T=temporary
+TEMPORARY ^!
+#T=terminate
+TERMINATE ^!
+#T=than
+THAN ^!
+#T=then
+THEN ^!
+#T=to
+TO ^!
+#T=transaction
+TRANSACTION ^!
+#T=trigger
+TRIGGER ^!
+#T=true
+TRUE ^!
+#T=type
+TYPE ^!
+#T=union
+UNION ^!
+#T=unique
+UNIQUE ^!
+#T=unlimited
+UNLIMITED ^!
+#T=update
+UPDATE ^!
+#T=urowid
+UROWID ^!
+#T=use
+USE ^!
+#T=user
+USER ^!
+#T=using
+USING ^!
+#T=validate
+VALIDATE ^!
+#T=values
+VALUES ^!
+#T=varchar
+VARCHAR ^!
+#T=varchar2
+VARCHAR2 ^!
+#T=variance
+VARIANCE ^!
+#T=varray
+VARRAY ^!
+#T=view
+VIEW ^!
+#T=views
+VIEWS ^!
+#T=when
+WHEN ^!
+#T=whenever
+WHENEVER ^!
+#T=where
+WHERE ^!
+#T=while
+WHILE ^!
+#T=with
+WITH ^!
+#T=work
+WORK ^!
+#T=write
+WRITE ^!
+#T=xor
+XOR ^!
+#T=
+ ^!
+#T=%found
+%FOUND ^!
+#T=isopen
+ISOPEN ^!
+#T=notfound
+NOTFOUND ^!
+#T=rowcount
+ROWCOUNT ^!
+#T=%type
+%TYPE ^!
+#T=abs
+ABS ^!
+#T=access_into_null
+ACCESS_INTO_NULL ^!
+#T=acos
+ACOS ^!
+#T=add_month
+ADD_MONTH ^!
+#T=add_months
+ADD_MONTHS ^!
+#T=all_object_size
+ALL_OBJECT_SIZE ^!
+#T=all_objects
+ALL_OBJECTS ^!
+#T=all_source
+ALL_SOURCE ^!
+#T=all_triggers
+ALL_TRIGGERS ^!
+#T=any_cs
+ANY_CS ^!
+#T=ascii
+ASCII ^!
+#T=asin
+ASIN ^!
+#T=atan
+ATAN ^!
+#T=bfilename
+BFILENAME ^!
+#T=ceil
+CEIL ^!
+#T=char_cs
+CHAR_CS ^!
+#T=chartorowid
+CHARTOROWID ^!
+#T=chr
+CHR ^!
+#T=close_cursor
+CLOSE_CURSOR ^!
+#T=collection_is_null
+COLLECTION_IS_NULL ^!
+#T=column_value_long
+COLUMN_VALUE_LONG ^!
+#T=concat
+CONCAT ^!
+#T=convert
+CONVERT ^!
+#T=cos
+COS ^!
+#T=cosh
+COSH ^!
+#T=count
+COUNT ^!
+#T=cursor_already_open
+CURSOR_ALREADY_OPEN ^!
+#T=dbms_lob
+DBMS_LOB ^!
+#T=dbms_output
+DBMS_OUTPUT ^!
+#T=dbms_sql
+DBMS_SQL ^!
+#T=dbms_utility
+DBMS_UTILITY ^!
+#T=decode
+DECODE ^!
+#T=define_column_long
+DEFINE_COLUMN_LONG ^!
+#T=dump
+DUMP ^!
+#T=dup_val_on_index
+DUP_VAL_ON_INDEX ^!
+#T=empty
+EMPTY ^!
+#T=empty_blob
+EMPTY_BLOB ^!
+#T=empty_clob
+EMPTY_CLOB ^!
+#T=execute_and_fetch
+EXECUTE_AND_FETCH ^!
+#T=exp
+EXP ^!
+#T=file_readonly
+FILE_READONLY ^!
+#T=fileclose
+FILECLOSE ^!
+#T=filecloseall
+FILECLOSEALL ^!
+#T=fileexists
+FILEEXISTS ^!
+#T=filegetname
+FILEGETNAME ^!
+#T=fileisopen
+FILEISOPEN ^!
+#T=fileopen
+FILEOPEN ^!
+#T=first
+FIRST ^!
+#T=floor
+FLOOR ^!
+#T=getlength
+GETLENGTH ^!
+#T=greatest
+GREATEST ^!
+#T=greatest_lb
+GREATEST_LB ^!
+#T=hextoraw
+HEXTORAW ^!
+#T=initcap
+INITCAP ^!
+#T=instr
+INSTR ^!
+#T=instrb
+INSTRB ^!
+#T=invalid
+INVALID ^!
+#T=invalid_cursor
+INVALID_CURSOR ^!
+#T=last
+LAST ^!
+#T=last_day
+LAST_DAY ^!
+#T=least
+LEAST ^!
+#T=least_lb
+LEAST_LB ^!
+#T=length
+LENGTH ^!
+#T=lengthb
+LENGTHB ^!
+#T=ln
+LN ^!
+#T=loadfromfile
+LOADFROMFILE ^!
+#T=log
+LOG ^!
+#T=login_denied
+LOGIN_DENIED ^!
+#T=lower
+LOWER ^!
+#T=lpad
+LPAD ^!
+#T=ltrim
+LTRIM ^!
+#T=max
+MAX ^!
+#T=min
+MIN ^!
+#T=mod
+MOD ^!
+#T=month_between
+MONTH_BETWEEN ^!
+#T=months_between
+MONTHS_BETWEEN ^!
+#T=nchar_cs
+NCHAR_CS ^!
+#T=new_time
+NEW_TIME ^!
+#T=next_day
+NEXT_DAY ^!
+#T=nls_initcap
+NLS_INITCAP ^!
+#T=nls_lower
+NLS_LOWER ^!
+#T=nls_upper
+NLS_UPPER ^!
+#T=nlssort
+NLSSORT ^!
+#T=no_data_found
+NO_DATA_FOUND ^!
+#T=not_logged_on
+NOT_LOGGED_ON ^!
+#T=nvl
+NVL ^!
+#T=nvl
+NVL ^!
+#T=open_cursor
+OPEN_CURSOR ^!
+#T=others
+OTHERS ^!
+#T=parse
+PARSE ^!
+#T=power
+POWER ^!
+#T=program_error
+PROGRAM_ERROR ^!
+#T=put_line
+PUT_LINE ^!
+#T=raise_application_error
+RAISE_APPLICATION_ERROR ^!
+#T=rawtohex
+RAWTOHEX ^!
+#T=rnds
+RNDS ^!
+#T=rnps
+RNPS ^!
+#T=round
+ROUND ^!
+#T=round
+ROUND ^!
+#T=rowidtochar
+ROWIDTOCHAR ^!
+#T=rowtype_mismatch
+ROWTYPE_MISMATCH ^!
+#T=rpad
+RPAD ^!
+#T=rtrim
+RTRIM ^!
+#T=self_is_null
+SELF_IS_NULL ^!
+#T=set_client_info
+SET_CLIENT_INFO ^!
+#T=sign
+SIGN ^!
+#T=sin
+SIN ^!
+#T=sinh
+SINH ^!
+#T=soundex
+SOUNDEX ^!
+#T=sqlcode
+SQLCODE ^!
+#T=sqlerrm
+SQLERRM ^!
+#T=sqrt
+SQRT ^!
+#T=storage_error
+STORAGE_ERROR ^!
+#T=subscript_beyond_count
+SUBSCRIPT_BEYOND_COUNT ^!
+#T=subscript_outside_limit
+SUBSCRIPT_OUTSIDE_LIMIT ^!
+#T=substr
+SUBSTR ^!
+#T=substrb
+SUBSTRB ^!
+#T=sys_invalid_rowid
+SYS_INVALID_ROWID ^!
+#T=sysdate
+SYSDATE ^!
+#T=tan
+TAN ^!
+#T=tanh
+TANH ^!
+#T=timeout_on_resource
+TIMEOUT_ON_RESOURCE ^!
+#T=to_char
+TO_CHAR ^!
+#T=to_date
+TO_DATE ^!
+#T=to_label
+TO_LABEL ^!
+#T=to_multi_byte
+TO_MULTI_BYTE ^!
+#T=to_number
+TO_NUMBER ^!
+#T=to_single_byte
+TO_SINGLE_BYTE ^!
+#T=too_many_rows
+TOO_MANY_ROWS ^!
+#T=translate
+TRANSLATE ^!
+#T=trunc
+TRUNC ^!
+#T=trunc
+TRUNC ^!
+#T=uid
+UID ^!
+#T=upper
+UPPER ^!
+#T=user_object_size
+USER_OBJECT_SIZE ^!
+#T=user_objects
+USER_OBJECTS ^!
+#T=user_source
+USER_SOURCE ^!
+#T=user_triggers
+USER_TRIGGERS ^!
+#T=userenv
+USERENV ^!
+#T=utl_file
+UTL_FILE ^!
+#T=value_error
+VALUE_ERROR ^!
+#T=vsize
+VSIZE ^!
+#T=wnds
+WNDS ^!
+#T=wnps
+WNPS ^!
+#T=zero_divide
+ZERO_DIVIDE ^!
