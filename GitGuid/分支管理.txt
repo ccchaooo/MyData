@@ -21,3 +21,11 @@ git log --graph --pretty=oneline --abbrev-commit
 准备合并dev分支，请注意--no-ff参数，表示禁用Fast forward：
 $ git merge --no-ff -m "merge with no-ff" dev
 
+4.Bug分支
+Git还提供了一个stash功能，可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作：
+$ git stash
+Saved working directory and index state WIP on dev: f52c633 add merge
+用git stash list 查看工作现场,Git把stash内容存在某个地方了
+如果需要恢复一下，有两个办法：
+一是用git stash apply恢复，但是恢复后，stash内容并不删除，你需要用git stash drop来删除；
+另一种方式是用git stash pop，恢复的同时把stash内容也删了：
