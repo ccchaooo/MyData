@@ -29,3 +29,16 @@ Saved working directory and index state WIP on dev: f52c633 add merge
 如果需要恢复一下，有两个办法：
 一是用git stash apply恢复，但是恢复后，stash内容并不删除，你需要用git stash drop来删除；
 另一种方式是用git stash pop，恢复的同时把stash内容也删了：
+
+5.Feature分支
+feature分支和bug分支是类似的，合并，然后删除。
+
+但是如果直接删除而不合并的话,会出现一下结果
+$ git branch -d feature-vulcan
+error: The branch 'feature-vulcan' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D feature-vulcan'.
+销毁失败。Git友情提醒，feature-vulcan分支还没有被合并，如果删除，将丢失掉修改，如果要强行删除，需要使用大写的-D参数。。
+现在我们强行删除：
+$ git branch -D feature-vulcan
+Deleted branch feature-vulcan (was 287773e).
+终于删除成功！
