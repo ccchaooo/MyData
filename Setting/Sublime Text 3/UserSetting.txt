@@ -1,0 +1,58 @@
+{
+  "caret_style": "phase",
+  "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+  "ensure_newline_at_eof_on_save": true,
+  "file_exclude_patterns":
+  [
+    "*.pyc",
+    ".project",
+    ".classpath",
+    ".mymetadata",
+    "*.pyo",
+    "*.exe",
+    "*.dll",
+    "*.obj",
+    "*.o",
+    "*.a",
+    "*.l",
+    "*.iml"
+  ],
+  "folder_exclude_patterns":
+  [
+    "META-INF",
+    "cfg",
+    "nbproject",
+    "builder",
+    "test",
+    "Document",
+    "build",
+    "dist",
+    "extJar",
+    ".myeclipse",
+    ".settings",
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    "WebContent"
+  ],
+  "font_face": "DejaVu Sans Mono",
+  "font_size": 10,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "preview_on_click": false,
+  "tab_size": 2,
+  "theme": "Default.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": false,
+  "word_wrap": "false",
+  //Go的配置
+  "env": {
+        "GOPATH": "F:/mygo",
+        "GOROOT": "E:/Go"
+    }
+}
