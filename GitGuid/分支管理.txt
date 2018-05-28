@@ -69,4 +69,8 @@ Branch 'dev' set up to track remote branch 'dev' from 'origin'.
 7.Rebase
 查看记录
 git log --graph --pretty=oneline --abbrev-commit
+git rebase
+Git把我们本地的提交“挪动”了位置，放到了f005ed4 (origin/master) set exit=1之后，这样，整个提交历史就成了一条直线。
+rebase操作前后，最终的提交内容是一致的，但是，我们本地的commit修改内容已经变化了。
+rebase操作的特点：把分叉的提交历史“整理”成一条直线，看上去更直观。缺点是本地的分叉提交已经被修改过了。
 
