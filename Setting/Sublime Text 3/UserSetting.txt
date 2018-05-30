@@ -53,6 +53,6 @@
   //Go的配置
   "env": {
         "GOPATH": "F:/mygo",
-        "GOROOT": "E:/Go"
+        "GOROOT": "D:/kitandtool/Go"
     }
 }
