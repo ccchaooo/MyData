@@ -25,7 +25,7 @@ func main() {
 	//这里配置路由，可以添加自己的方法去处理对应的路由
 	mux["/"] = Index
 
-	log.Println("已为您启动了服务，您可以打开浏览器访问 127.0.0.1:8081 ，我会输入访问日志。")
+	log.Println("已为您启动了服务，您可以打开浏览器访问 127.0.0.1:80 ，我会输入访问日志。")
 
 	err := server.ListenAndServe()
 	if err != nil {
