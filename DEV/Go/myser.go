@@ -16,7 +16,7 @@ var mux map[string]func(http.ResponseWriter, *http.Request)
 func main() {
 
 	server := http.Server{
-		Addr:        ":8081",
+		Addr:        ":80",
 		Handler:     &myHandle{},
 		ReadTimeout: 5 * time.Second,
 	}
@@ -138,11 +138,11 @@ var indeTpl = `
 <html>
 <head>
     <meta charset="utf-8">
-    <title>It Work</title>
+    <title>邓超的私人空间</title>
 </head>
 <body>
-<h1>:)</h1>
-<h3>It Work</h3>
+<h1>嘻嘻!</h1>
+<h3>欢迎来的邓超的私人空间</h3>
 </body>
 </html>
 `
