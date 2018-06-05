@@ -52,3 +52,14 @@ create table table_name_new like table_name_old
 insert into table_name_new select * from table_name_old
 --如果两个表结构不一样：
 insert into table_name_new(column1,column2...) select column1,column2... from table_name_old
+
+--更新多条字段
+--对GSMC_GUID_VALUE_KEY与T_ZJSYS_ZJGC_ZTDWXX公司名称相同的记录进行操作,将B表的GUID更新至A表
+ UPDATE T_ZJSYS_ZJGC_ZTDWXX mbt
+ SET mbt.c_guid = (SELECT gs.c_guid 
+   FROM GSMC_GUID_VALUE_KEY gs
+   WHERE gs.c_gsmc = mbt.C_ZTDWMC)
+ WHERE mbt.C_GUID IS NULL
+   AND mbt.C_ZTDWMC IS NOT NULL
+   AND EXISTS
+ (SELECT 1 FROM GSMC_GUID_VALUE_KEY B WHERE mbt.C_ZTDWMC = B.C_GSMC);
