@@ -96,3 +96,63 @@ NULLIF (expr1, expr2)：相等返回NULL，不等返回expr1
 --直接将查询结果拼接成对象 
 '[{"VALUE":"'||A.C_XMGLDW_GUID||'","TEXT":"'||TRIM(A.C_XMGLDW_MC)||'","selected":"selected"}]'AS C_XMGLDW_JSON,
 javascript 里面,使用 jQuery的 var obj = $.parseJSON(str) 即可
+
+(SELECT '['||F_LINK('{"value":"'||A.C_DYQYID||'","text":"'||TRIM(A.C_DWMC)||'","C_ZTBZ":"'||A.C_ZTBZ||'","C_ZBDW_LB":"'||A.C_ZBDW_LB||'","C_ZHBR_ZZ":"'||A.C_ZHBR_ZZ||'","C_AQSCXKZH":"'||A.C_AQSCXKZH||'","C_ZCJZS_XM":"'||A.C_ZCJZS_XM||'","C_ZCJZS_ZZDJ":"'||A.C_ZCJZS_ZZDJ||'","C_ZCJZS_ZSH":"'||A.C_ZCJZS_ZSH||'","C_ZCJZS_YDDH":"'||A.C_ZCJZS_YDDH||'","C_ZCJZS_BGDH":"'||A.C_ZCJZS_BGDH||'","C_XMFZR_XM":"'||A.C_XMFZR_XM||'","C_XMFZR_YDDH":"'||A.C_XMFZR_YDDH||'","C_ZHBR_QYHTJ":"'||A.N_QYHTJ||'","C_ZBLXZB":"'||A.C_ZBLX||'","selected":true},')||']'
+ FROM T_BLSP_JCSJ_ZBRXX_DW A WHERE A.N_BDID=B.N_BDID) AS C_ZHBR_JSON,
+
+--动态游标（例如表名作为参数）以及动态SQL分析
+DECLARE  
+   v_table_name VARCHAR2(30) := 'CUX_MES_WIP_BARCODE_MAP';  
+   --l_rec        SYS_REFCURSOR;  
+   TYPE t_data IS TABLE OF VARCHAR2(30) INDEX BY BINARY_INTEGER;  
+   TYPE t_cur IS REF CURSOR;  
+   l_data       t_data;  
+   l_rec        t_cur;  
+   l_cur        VARCHAR2(4000);  
+   v_fm_barcode VARCHAR2(30) := 'cxy-p-001';  
+   v_to_barcode VARCHAR2(30) := 'cxy-p-002';  
+   v_barcode    VARCHAR2(30);  
+BEGIN  
+  
+   l_cur := 'select barcode from ' || v_table_name || ' where barcode >= ' ||  
+            ''''||v_fm_barcode||'''' || ' and barcode <= ' ||  
+            ''''||v_to_barcode || '''';  
+   dbms_output.put_line(l_cur);  
+   OPEN l_rec FOR l_cur;  
+   LOOP  
+      EXIT WHEN l_rec%NOTFOUND;  
+      FETCH l_rec BULK COLLECT  
+         INTO l_data;  
+      FOR i IN 1 .. l_data.count LOOP  
+        
+         dbms_output.put_line(l_data(i));  
+      END LOOP;  
+     
+   END LOOP;  
+END;  
+
+--for循环遍历数组
+FOR i IN 1..nLEN LOOP
+
+END LOOP;
+
+--删除之前先备份
+INSERT INTO T_JSXM_BDZXM_INFO_BAK 
+SELECT A.*,PN_USERID,SYSDATE FROM T_JSXM_BDZXM_INFO A
+WHERE A.N_BDID = vr_bdxx.N_BDID ;
+
+FOR ROWT IN (
+  SELECT * FROM T_JSXM_BDZXM_INFO
+   WHERE N_BDID = vr_bdxx.N_BDID 
+     AND INSTR('|' || vc_zxmid_str, '|' || N_ZXMID || '|') = 0
+) LOOP
+INSERT INTO T_JSXM_BDZXM_INFO_BAK VALUES ROWT;
+END LOOP;
+
+--捕获异常
+EXCEPTION
+WHEN OTHERS THEN
+PN_RET := -1;
+PC_MSG := 'errorCode=' || SQLCODE || ',errorMsg=' || SUBSTR(SQLERRM, 1, 200)||' '||DBMS_UTILITY.format_error_backtrace;
+ROLLBACK;
+RETURN;

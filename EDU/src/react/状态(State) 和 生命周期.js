@@ -53,17 +53,19 @@ import './index.css';
 class Clock extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {date: new Date()};
+    this.state = {
+      date: new Date()
+    };
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.timerID = setInterval(
       () => this.tick(),
       1000
-      );
+    );
   }
 
-  componentWillUnmount(){
+  componentWillUnmount() {
     clearInterval(this.timerID);
   }
 
@@ -110,7 +112,9 @@ this.state.comment = 'Hello';
 // 用 setState() 代替：
 
 // 正确
-this.setState({comment: 'Hello'});
+this.setState({
+  comment: 'Hello'
+});
 
 // 唯一可以分配 this.state 的地方是构造函数。
 

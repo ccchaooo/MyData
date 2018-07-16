@@ -1,0 +1,200 @@
+[
+
+	//d等号对齐
+	{ "keys": ["ctrl+shift+d"], "command": "alignment" },
+
+	//定位
+	{ "keys": ["ctrl+\\"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+
+	//大小写转换
+	{ "keys": ["ctrl+shit+u"], "command": "upper_case" },
+	{ "keys": ["ctrl+shit+l"], "command": "lower_case" },
+
+	// //自动补全
+	// //http自动补全
+	// { "keys": ["ctrl+shift+e"], "command": "slurp_find_string" },
+
+	//自动对齐等号
+	{ "keys": ["ctrl+shift+q"], "command": "alignment" },
+	//格式化代码
+
+	//定位行
+	{ "keys": ["ctrl+q"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+
+	//重做
+	{ "keys": ["ctrl+y"], "command": "redo" },
+	//编辑处跳转
+	{ "keys": ["ctrl+shift+r"], "command": "jump_forward" },
+	{ "keys": ["ctrl+r"], "command": "jump_back" },
+	//扩展选中
+	{ "keys": ["ctrl+e"], "command": "find_under_expand" },
+	//切换窗口
+	{ "keys": ["ctrl+d"], "command": "prev_view_in_stack" },
+	//向前查找
+	{ "keys": ["ctrl+enter"], "command": "find_prev", "context":
+		[{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
+	},
+	//粘贴板历史
+	{ "keys": ["ctrl+shift+v"], "command": "paste_from_history" },
+	//文档树形结构
+	{ "keys": ["ctrl+shift+w"], "command": "toggle_side_bar" },
+
+	//折叠
+	{ "keys": ["ctrl+-"], "command": "fold" },
+	{ "keys": ["ctrl+="], "command": "unfold" },
+
+	//左右翻页
+	{ "keys": ["ctrl+["], "command": "next_view" },
+	{ "keys": ["ctrl+]"], "command": "prev_view" },
+
+	//页眉页脚
+	{ "keys": ["ctrl+pageup"], "command": "move_to", "args": {"to": "bof", "extend": false} },
+	{ "keys": ["ctrl+pagedown"], "command": "move_to", "args": {"to": "eof", "extend": false} },
+
+	//首位
+	{ "keys": ["pageup"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+	{ "keys": ["pagedown"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+
+
+	//svn
+	{ "keys": ["alt+u"], "command": "svn_update" },
+	// { "keys": ["alt+t"], "command": "svn_commit" },
+	{ "keys": ["alt+r"], "command": "svn_revert" },
+	{ "keys": ["alt+g"], "command": "svn_log" },
+	{ "keys": ["alt+l"], "command": "svn_diff" },
+	//提交前先本地保存、更新、对比
+	{
+	  "keys": ["alt+t"],
+	  "command": "chain",
+	  "args": {
+	    "commands": [
+	    	["save"],
+	      ["svn_update"],
+	      ["svn_diff"],
+	      ["svn_commit"]
+	    ]
+	  }
+	},
+	{
+	  "keys": ["alt+enter"],
+	  "command": "chain",
+	  "args": {
+	    "commands": [
+	    	["save"],
+	      ["svn_update"],
+	      ["svn_commit"]
+	    ]
+	  }
+	},
+
+	//task
+  { "keys": ["shift+enter"], "command": "plain_tasks_complete","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+  //归档
+  { "keys": ["alt+u"], "command": "plain_tasks_archive","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+  //打开链接
+  { "keys": ["alt+o"], "command": "plain_tasks_open_link","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+
+	// //保存自动刷新。。地址是你的浏览器位置  ---失败
+	// {
+	//   "cmd" :["C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe","$file"],
+	//   "selector":["text.jsp"]
+	// },
+
+	// 插件 brower refresh 保存自动刷新。。地址是你的浏览器位置
+  // {
+  //     "keys": ["ctrl+shift+s"], "command": "browser_refresh", "args": {
+  //         "auto_save": true,
+  //         "delay": 0.0,
+  //         "activate": true,
+  //         "browsers" : ["chrome"]
+  //     }
+  // },
+	//goto
+	{ "keys": ["ctrl+shift+f"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+
+	//强化选定
+	{
+	  "keys": ["ctrl+d"],
+	  "command": "chain",
+	  "args": {
+	    "commands": [
+	      ["find_under_expand"],
+	      ["copy"]
+	    ]
+	  }
+	},
+
+		//强化粘贴
+	{
+	  "keys": ["ctrl+w"],
+	  "command": "chain",
+	  "args": {
+	    "commands": [
+	      ["find_under_expand"],
+	      ["paste"]
+	    ]
+	  }
+	},
+
+	//全选+复制
+	{
+	  "keys": ["ctrl+shift+c"],
+	  "command": "chain",
+	  "args": {
+	    "commands": [
+	    	["select_all"],
+	      ["copy"]
+	    ]
+	  }
+	},
+
+	//chainofcontroldemo
+	{
+	  "keys": ["ctrl+alt+shift+b+d+c"],
+	  "command": "chain",
+	  "args": {
+	    "commands": [
+	      ["expand_selection"],
+	      ["copy"],
+	      ["paste"]
+	    ]
+	  }
+	},
+
+	//JS代码格式化
+	{"keys":["ctrl+shift+j"],"command":"format_javascript"},
+
+	//JS自动补全
+	// {
+	//   "keys": [
+	//     "tab"
+	//   ],
+	//   "args": {
+	//     "action": "expand_abbreviation"
+	//   },
+	//   "command": "run_emmet_action",
+	//   "context": [{
+	//     "key": "emmet_action_enabled.expand_abbreviation"
+	//   }]
+	// },
+	{
+	  "keys": ["atl+/"],
+	  "command": "expand_abbreviation_by_tab",
+	  "context": [{
+	    "operand": "source.js",
+	    "operator": "equal",
+	    "match_all": true,
+	    "key": "selector"
+	  }, {
+	    "key": "preceding_text",
+	    "operator": "regex_contains",
+	    "operand": "(\\b(a\\b|div|span|p\\b|button)(\\.\\w*|>\\w*)?([^}]*?}$)?)",
+	    "match_all": true
+	  }, {
+	    "key": "selection_empty",
+	    "operator": "equal",
+	    "operand": true,
+	    "match_all": true
+	  }]
+	}
+]
