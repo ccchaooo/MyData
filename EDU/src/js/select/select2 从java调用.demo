@@ -1,0 +1,10 @@
+<select select2-cdmcs="selectInit.C_JSDW" class="form-control" name="C_USERNAME" ng-model="jsdwInfo.C_GUID"
+        style="width: 100%" ng-required="true"
+        data-ajax--url="cdjwztyypt/xmbj/queryDWXX.do" data-ajax--cache="true"
+        data-ajax--method="post" data-ajax--delay="500"
+        data-placeholder="输入单位名称关键字搜索" >
+</select>
+                              
+$("select[ng-model='bdInfo.C_ZBR_SELECT']").find("option:checked").each(function(){
+    scope.bdInfo.zbrGuidAndName.push({"value":$(this).val(),"text":$(this).text()});
+});      
