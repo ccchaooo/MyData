@@ -61,3 +61,9 @@ JW2017_ZTGL.PK_PWD_RESET
 
 
 
+--三价备案
+--工作流
+SELECT*FROM plate_ywcl_lc;
+SELECT * FROM plate_ywcl_lsb;
+
+

@@ -59,5 +59,9 @@ SELECT * FROM T_ZT_USER_INFO   a  WHERE A.c_Loginname = 'test'
 --重置密码过程
 JW2017_ZTGL.PK_PWD_RESET
 
+--三价备案
+--工作流
+SELECT*FROM plate_ywcl_lc;
+SELECT * FROM plate_ywcl_lsb;
 
 
