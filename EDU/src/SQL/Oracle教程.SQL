@@ -464,9 +464,13 @@ select * from (select rownum no,e.* from (select * from emp order by sal desc) e
 7.6、exists
 EXISTS的执行流程
 select * from t1 where exists (
-  select null from t2 where y = x ) 可以理解为: for x in (
-select * from t1 ) loop if ( exists (
-  select null from t2 where y = x.x ) then OUTPUT THE RECORD end if end loop 
+  select null from t2 where y = x ) 
+可以理解为: for x in (SELECT * from t1 ) 
+                loop 
+                  if ( exists (SELECT null from t2 where y = x.x ) 
+                  then OUTPUT THE RECORD 
+                  end if 
+                end loop 
 我们区分in和exists主要是造成了驱动顺序的改变（这是性能变化的关键）:
     如果是exists，那么以外层表为驱动表，先被访问;
     如果是IN，那么先执行子查询，所以我们会以驱动表的快速返回为目标，那么就会考虑到索引及结果集的关系了。
