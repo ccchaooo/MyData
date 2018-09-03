@@ -11,5 +11,7 @@
 		}
 		
 	],
-	"settings": {}
+	"settings": {
+		"svn.ignoreMissingSvnWarning": true
+	}
 }

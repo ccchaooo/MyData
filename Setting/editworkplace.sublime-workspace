@@ -520,11 +520,13 @@
 	"buffers":
 	[
 		{
+			"contents": "//设置参数\nvar setGridInvokeParam = function(pName) {\n  this.pName = pName;\n  this.params = {};\n  this.addParm = function(sq, val) {\n    this.params[sq + \"\"] = val + \"\";\n    return this;\n  };\n  this.toString = function() {\n    var para = angular.toJson(this.params);\n    return \"pName=\" + this.pName + \"&args=\" + encodeURI(encodeURI(para));\n  };\n  this.getParams = function() {\n    return this.params;\n  };\n};\n\nvar myGrid;\n\nvar app = angular.module(\"zyfblistApp\", [\"AjaxProxy2\"]);\n//控制器\napp.controller(\"zyfblistController\", [\n  \"$scope\",\n  \"postRaw\",\n  \"$window\",\n  function(scope, postRaw, $window) {\n    myGrid = new dhtmlXGridObject(\"grid\");\n    myGrid.setImagePath(\n      \"../../../controls/dhtmlx-5.0/skins/web/imgs/dhxgrid_web/\"\n    );\n    myGrid.setStyle(\"text-align:left;font-weight:bold;\", \"height:40px;\");\n    myGrid.enableAlterCss(\"GridRowColorEven\", \"GridRowColorUnEven\"); //设置行的交替样式\n    myGrid.enableSmartRendering(true, 20);\n    myGrid.enableAutoWidth(true);\n\n    //过滤条件\n    scope.filter = {\n      C_XMMC: \"\",\n      C_BDMC: \"\"\n    };\n\n    // 加载数据\n    scope.f_query = function() {\n      // 等待\n      var _index = layer.load(1, {\n        shade: [0.1, \"#FFFFFF\"]\n      });\n\n      // 配置信息 cfg/grids_cfg.jso\n      var params = new setGridInvokeParam(\"grid-zyfblist-grid\")\n        .addParm(\"C_XMMC\", scope.filter.C_XMMC)\n        .addParm(\"C_BDMC\", scope.filter.C_BDMC);\n\n      var url = \"../grid2/getXML?\" + params;\n\n      myGrid.clearAndLoad(url, function(resp) {\n        myGrid.xmlFileUrl = url;\n\n        // 关闭\n        layer.close(_index);\n\n        //设置样式\n        for (\n          var i = 0, idList = myGrid.getAllRowIds().split(\",\");\n          i < idList.length;\n          i++\n        ) {\n          var rowId = myGrid.getRowId(i);\n          var C_ZT = myGrid.getUserData(rowId, \"C_ZT\");\n          var C_LCZT = myGrid.getUserData(rowId, \"C_LCZT\");\n\n          if (C_ZT == \"0\" && C_LCZT == \"A4\") {\n            //退回\n            myGrid.setRowTextStyle(rowId, \"color:#FF8040\");\n          } else if (C_ZT == \"2\") {\n            myGrid.setRowTextStyle(rowId, \"color:#8080FF\");\n          }\n        }\n      });\n    };\n\n    // 加载信息\n    scope.f_query();\n\n    /**\n     * 打开页面\n     *\n     */\n    $window.f_op = function(rowId, flag) {\n      var userdata = angular.fromJson(\n        myGrid.getUserData(\"row-\" + rowId, \"row-data\")\n      );\n\n      //userdata的数据结构\n      var userdatademo = {};\n\n      // 根据“C_LC_YWLX” 查询对应跳转的页面\n      $.post(\n        \"../form/queryFrom\",\n        {\n          formKey: userdata[\"C_LC_YWLX\"]\n        },\n        function(resp) {\n          if (resp.flag != \"0\") {\n            layer.alert(\"页面跳转失败：\" + resp.msg, {\n              icon: 7\n            });\n            return;\n          }\n\n          var fromData = $.parseJSON(resp.msg);\n\n          var htmlPage = fromData[\"json_params\"][\"workflow_config\"][\"wwym\"];\n\n          if (htmlPage == null || htmlPage == \"\" || htmlPage == undefined) {\n            layer.alert(\"未找到要跳转的页面！\", {\n              icon: 7\n            });\n            return;\n          }\n          alert(userdata.N_BAJLBH);\n          return;\n          // 跳转\n          $.f_submit_post(htmlPage, {\n            N_BAJLBH: userdata.N_BAJLBH,\n            N_SGZBBH: \"\",\n            C_XQBZ: userdata.C_ZT == \"0\" ? \"0\" : \"1\",\n            C_ZYFB: \"\"\n          });\n        }\n      );\n    };\n\n    /**\n     * 新增\n     *\n     */\n    scope.f_add = function() {\n      // 跳转\n      $.f_submit_post(\"zyfb_zcbxz.jsp\");\n    };\n  }\n]);\n",
 			"file": "/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zyfbgl/script/zyfb_list.js",
+			"file_size": 3823,
+			"file_write_time": 131804216848332874,
 			"settings":
 			{
-				"buffer_size": 3716,
-				"encoding": "UTF-8",
+				"buffer_size": 3436,
 				"line_ending": "Windows"
 			}
 		},
@@ -1022,27 +1024,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3716,
+						"buffer_size": 3436,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2535,
-								2535
+								2224,
+								2224
 							]
 						],
 						"settings":
 						{
 							"SL.14.region_keys":
 							[
-								"SL.jshint.Highlights.|892d3ba025dcd6bdc90adf4cfe6f73f9aa8b135de58b5c89a1b6274f4fa8e4d6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|cdb96e40899afa746b42a448fef2e35f1b0e2b12f38e890451dbb1caf46bb430|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|c3fa09ae542fdc57e71312fcee982ce3550c2807bf1354761fe26464b2820ce6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|6a8a976424018449a91bca1c8b0bc424e0cf2b6727ad43e9494a89e98091f113|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|0b59c8396d4deb2c64592cf577728d66ed31d09142bfc5fbffb9ed76e4488a76|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|13993f24fa17a7f61adcc99602b7f2385b7c7cb035f14d8f0253f7f8a98c7c9e|region.yellowish markup.warning.sublime_linter|32",
 								"sublime_linter.protected_regions",
-								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"SL.jshint.Highlights.|12d7f45050f4f16435e4db79a9602392de49c1f1dd1515cf318ff42e7178e8e2|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|db0a40012d52735e1443d88f41b48350b158e8cfc3f4e3b122bb9704ae33de05|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|b2d22252ca7bbb39e339168c6f5c982870dc71ddadf19d836cc4539c3bb6f3d2|region.yellowish markup.warning.sublime_linter|32"
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
 							],
 							"SL.24.region_keys":
 							[
@@ -1061,8 +1064,8 @@
 								{
 									"1":
 									[
-										3559,
-										3560
+										3439,
+										3440
 									]
 								},
 								"icon":
@@ -1077,8 +1080,8 @@
 								{
 									"1":
 									[
-										3202,
-										3203
+										2314,
+										2315
 									]
 								},
 								"unmatched":
@@ -1087,61 +1090,61 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -1149,8 +1152,8 @@
 								{
 									"1":
 									[
-										2589,
-										2590
+										3300,
+										3301
 									]
 								},
 								"icon":
@@ -1165,8 +1168,8 @@
 								{
 									"1":
 									[
-										2534,
-										2535
+										2223,
+										2224
 									]
 								},
 								"unmatched":
@@ -1175,11 +1178,21 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1190,50 +1203,40 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
 							],
 							"bs_sintax": "javascript",
 							"buffer_scroll_name": "ccfe221b",
-							"is_init_dirty_state": false,
+							"is_init_dirty_state": true,
 							"origin_encoding": "UTF-8",
 							"spell_check": false,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
@@ -1975,10 +1978,10 @@
 						{
 							"SL.18.region_keys":
 							[
-								"SL.jshint.Highlights.|9df2ac06af6dbe5c0eb271756a37e68254e0822300dc80b2efaf5492db5727ee|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.jshint.Highlights.|395d231fdc300533ccd93f12a8752b2b761594c818cde52209fedb5420f37dc0|region.redish markup.error.sublime_linter|32",
 								"sublime_linter.protected_regions",
-								"SL.jshint.Highlights.|395d231fdc300533ccd93f12a8752b2b761594c818cde52209fedb5420f37dc0|region.redish markup.error.sublime_linter|32"
+								"SL.jshint.Highlights.|9df2ac06af6dbe5c0eb271756a37e68254e0822300dc80b2efaf5492db5727ee|region.redish markup.error.sublime_linter|32",
+								"SL.jshint.Gutter.|region.redish markup.error.sublime_linter|dot"
 							],
 							"SL.37.region_keys":
 							[
