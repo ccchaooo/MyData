@@ -1,0 +1,2771 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ng-c",
+				"ng-click\tAngularJS"
+			],
+			[
+				"check",
+				"checkbox"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"userd",
+				"userdate"
+			],
+			[
+				"al",
+				"align-self\tproperty"
+			],
+			[
+				"ng-",
+				"ng-click\tAngularJS"
+			],
+			[
+				"rt_",
+				"rt_zt_user_info"
+			],
+			[
+				"n",
+				"NULL"
+			],
+			[
+				"if",
+				"if\tif ... end"
+			],
+			[
+				"from_",
+				"from_object\tfunction"
+			],
+			[
+				"conn",
+				"connector"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"fo",
+				"font-style\tproperty"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"s",
+				"serve_forever\tfunction"
+			],
+			[
+				"app",
+				"application\tfunction"
+			],
+			[
+				"ng-b",
+				"ng-blur\tAngularJS"
+			],
+			[
+				"__",
+				"__guid"
+			],
+			[
+				"then",
+				"THEN"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"select",
+				"select"
+			],
+			[
+				"tz",
+				"timezone"
+			],
+			[
+				"td",
+				"timedelta\tclass"
+			],
+			[
+				"dt",
+				"datetime\tclass"
+			],
+			[
+				"tim",
+				"timestamp"
+			],
+			[
+				"is",
+				"isinstance\tfunction"
+			],
+			[
+				"ng-re",
+				"ng-readonly\tAngularJS"
+			],
+			[
+				"par",
+				"parent\t.parent()"
+			],
+			[
+				"power",
+				"power_def_arg\tfunction"
+			],
+			[
+				"C_",
+				"C_GUID"
+			],
+			[
+				"rea",
+				"ng-readonly\tAngularJS"
+			],
+			[
+				"ROW",
+				"ROWTYPE"
+			],
+			[
+				"get",
+				"get_string"
+			],
+			[
+				"sele",
+				"SELECT"
+			],
+			[
+				"varchar",
+				"VARCHAR2"
+			],
+			[
+				"PC",
+				"PC_MSG"
+			],
+			[
+				"font-",
+				"font-weight\tproperty"
+			],
+			[
+				"Log",
+				"LoginButton〔function〕"
+			],
+			[
+				"pro",
+				"props\tReact: this.props."
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"filter",
+				"filterText"
+			],
+			[
+				"Re",
+				"ReactDOM"
+			],
+			[
+				"N_",
+				"N_ZXMID"
+			],
+			[
+				"load",
+				"load_zbbd"
+			],
+			[
+				"sp",
+				"split"
+			],
+			[
+				"selec",
+				"select"
+			],
+			[
+				"wit",
+				"width"
+			],
+			[
+				"zxm",
+				"zxmInfo"
+			],
+			[
+				"value",
+				"valueList"
+			],
+			[
+				"WHE",
+				"WHEN"
+			],
+			[
+				"tex",
+				"text"
+			],
+			[
+				"ele",
+				"ele_lx"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"rowtype",
+				"ROWTYPE"
+			],
+			[
+				"reg",
+				"regInfo\t(sjgl_kcsj_detail.js)"
+			],
+			[
+				"zz",
+				"zz_pass"
+			],
+			[
+				"onmos",
+				"onmouseenter\tAttr"
+			],
+			[
+				"ad",
+				"addParm\t(sjgl_kcsj.js)"
+			],
+			[
+				"PC_",
+				"PC_YWLX"
+			],
+			[
+				"ng-s",
+				"ng-show\tAngularJS"
+			],
+			[
+				"console",
+				"console.log"
+			],
+			[
+				"$",
+				"$apply"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"form-",
+				"form-group"
+			],
+			[
+				"row",
+				"div.row"
+			],
+			[
+				"chec",
+				"checkVerifyCode\t(kcsjdj.js)"
+			],
+			[
+				"code",
+				"codeInput"
+			],
+			[
+				"cod",
+				"codeInput"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"ng-mo",
+				"ng-model\tAngularJS"
+			],
+			[
+				"btn-",
+				"btn-success"
+			],
+			[
+				"ng-ke",
+				"ng-keyup\tAngularJS"
+			],
+			[
+				"f_",
+				"f_commit\t(kcsjdj.js)"
+			],
+			[
+				"ng-req",
+				"ng-required=\"true"
+			],
+			[
+				"form",
+				"form-group\t(demo_jsp.jsp)"
+			],
+			[
+				"scpe",
+				"scope\t(kcsjdj.js)"
+			],
+			[
+				"cell",
+				"cellObj"
+			],
+			[
+				"PSG",
+				"PC_MSG"
+			],
+			[
+				"rt",
+				"rt_bdxx"
+			],
+			[
+				"null",
+				"NULL"
+			],
+			[
+				"not",
+				"NOT"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"ng-bli",
+				"ng-bind-template\tAngularJS"
+			],
+			[
+				"row_",
+				"row_count"
+			],
+			[
+				"conf",
+				"confirm\t(sjwjVerifying.js)"
+			],
+			[
+				"res_",
+				"res_xm"
+			],
+			[
+				"PN",
+				"PN_RET\t(施工许可申报（JW2017_SGXK）【包体】.SQL)"
+			],
+			[
+				"getPr",
+				"getParms\t(ajaxProxy_debug.js)"
+			],
+			[
+				"C_SB",
+				"C_SPBH\t(sjwjVerifying.js)"
+			],
+			[
+				"hi",
+				"hide\t(MdiWindow.js)"
+			],
+			[
+				"ge",
+				"getElementsByTagName〔function〕"
+			],
+			[
+				"selected",
+				"selectedZxmItem"
+			],
+			[
+				"flag",
+				"flag_operation"
+			],
+			[
+				"elemen",
+				"element"
+			],
+			[
+				"zx",
+				"zxminfo"
+			],
+			[
+				"temp_",
+				"temp_zxm"
+			],
+			[
+				"elem",
+				"element"
+			],
+			[
+				"zxm_",
+				"zxm_map"
+			],
+			[
+				"ssgt",
+				"flag_SSGT"
+			],
+			[
+				"roles",
+				"roles=\"tomcat,role1"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"j",
+				"JqueryStatic\tinterface"
+			],
+			[
+				"inter",
+				"interface\tkeyword"
+			],
+			[
+				"De",
+				"DETAILS\tTag"
+			],
+			[
+				"onm",
+				"onmouseenter\tAttr"
+			],
+			[
+				"on",
+				"onfocus\tAttr"
+			],
+			[
+				"du",
+				"dumpNum"
+			],
+			[
+				"zbd",
+				"zbdwlb_map"
+			],
+			[
+				"flag_",
+				"flag_gjtz"
+			],
+			[
+				"pu",
+				"put"
+			],
+			[
+				"tempZbr",
+				"tempzbrlist\t(招标备案临时js.js)"
+			],
+			[
+				"zbr_",
+				"zbr_model"
+			],
+			[
+				"min",
+				"minlength\tAttr"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"xm_",
+				"xm_list"
+			],
+			[
+				"C_GC",
+				"C_GCBH\t(jgys_ba.js)"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"xm_map",
+				"xm_map.put"
+			],
+			[
+				"varcha",
+				"VARCHAR2"
+			],
+			[
+				"gc",
+				"gcmcList"
+			],
+			[
+				"T",
+				"TRIM"
+			],
+			[
+				"ng-r",
+				"ng-repeat"
+			],
+			[
+				"mo",
+				"ng-mouseover\tAngularJS"
+			],
+			[
+				"C_B",
+				"C_BABH"
+			],
+			[
+				"integ",
+				"INTEGER"
+			],
+			[
+				"v_c",
+				"vn_cnt"
+			],
+			[
+				"pars",
+				"parseInt\t(sjwjVerifying.js)"
+			],
+			[
+				"ng-d",
+				"ng-disabled\tAngularJS"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zyfbgl/script/zyfb_list.js",
+			"settings":
+			{
+				"buffer_size": 3716,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zyfbgl/zyfb_list.jsp",
+			"settings":
+			{
+				"buffer_size": 4904,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/jlhtgl/script/jlht_list.js",
+			"settings":
+			{
+				"buffer_size": 4844,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/jlhtgl/jlht_list.jsp",
+			"settings":
+			{
+				"buffer_size": 4894,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/GitRepository/MyData/EDU/src/js/grid/gird link.js",
+			"settings":
+			{
+				"buffer_size": 365,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: isn",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"task",
+				"Tasks: Open Link"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"codein c",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"satisfy dependencies",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"view",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 409.0,
+		"history":
+		[
+			"python",
+			"name = input()",
+			"exit()",
+			"name = input()",
+			"print(\"100+200=\",100+200)",
+			"print(100+200)",
+			"print(\"hello world!\")",
+			"print(1+1)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/Administrator/Desktop/相关数据/总承包工程专业分包合同备查信息列表.sql",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbkzjgl/script/zbkzj_list.js",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbkzjgl/zbkzj_list.jsp",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/jlhtgl/jlht_fzftz.jsp",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/jlhtgl/script/jlht_fzftz.js",
+		"/C/GitRepository/MyData/EDU/src/js/grid/gird link.js",
+		"/C/GitRepository/MyData/EDU/src/angular/使$scope中的对象成为window对象.js",
+		"/C/GitRepository/MyData/EDU/src/SQL/function.SQL",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/java/com/cdmcs/cdjw/sjba/controller/FileController.java",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/java/com/cdmcs/cdjw/sjba/service/grid/GetJlhtListService.java",
+		"/C/Users/Administrator/Desktop/相关数据/操作判断.js",
+		"/C/Users/Administrator/Desktop/相关数据/监理合同备案列表查询.sql.dump",
+		"/C/Users/Administrator/Desktop/相关数据/监理合同备案列表查询.sql",
+		"/D/kitandtool/workspace/normal/plate/Database/存储过程(UTF-8)/工程项目报建（JW2017_XMBJ）【包体】.SQL",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/test/java/com/cdmcs/cdjw/sjba/grid/GetJlhtListServiceTest.java",
+		"/C/Users/Administrator/Desktop/相关数据/监理合同备案外网list.js",
+		"/C/GitRepository/MyData/编程之美/1.2中国象棋将帅问题.py",
+		"/C/GitRepository/编程之美/1.2中国象棋将帅问题.py",
+		"/C/GitRepository/MyData/py/5.AF_Iteration.py",
+		"/C/GitRepository/MyData/py/6.AF_ListComprehensions.py",
+		"/C/GitRepository/MyData/py/2.function.py",
+		"/C/GitRepository/MyData/py/4.AF_Slice.py",
+		"/C/GitRepository/MyData/py/3.functionArgs.py",
+		"/C/GitRepository/MyData/py/1.dataStructure.py",
+		"/C/GitRepository/编程之美/1.2中国象棋将帅问题",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbkzjgl/zbkzj_rqgc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbkzjgl/script/zbkzj_rqgc.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_rqgc.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_rqgc.jsp",
+		"/C/GitRepository/MyData/EDU/src/html/htmldemo.html",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_fjsc.jsp",
+		"/C/GitRepository/MyData/EDU/src/html/a标签的事件.html",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_fjsc.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/sghtba/sghtba_sc_detils.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/sghtba/script/sghtba_sc_detils.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/script/zbdl_jj_list.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/script/zbdl_sc_list.js",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbdlhtbc/zbdlhtbc_list.jsp",
+		"/C/GitRepository/MyData/doc/todo/todo.todo",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zbkzj_sc_list.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zbkzj_jj_list.js",
+		"/D/kitandtool/workspace/idea-blsp-nw/blspxt/src/main/webapp/function/sjgl/kcsjxxgl/sjgl_kcsj_detail.jsp",
+		"/C/Users/Administrator/Desktop/stack.text",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/script/detail.js",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbdlhtbc/script/zbdlhtbcsb.js",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbdlhtbc/zbdlhtbcsb.jsp",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbdlhtbc/script/zbdlhtbc_fjsc.js",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbdlhtbc/zbdlhtbc_fjsc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/detail.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/script/zbdl_fjsc.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/zbdl_fjsc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_ldgc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_qtgc.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zbkzj_ff.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/java/com/cdmcs/cdjw/sjba/service/grid/zbkzj/GetHtbaListService.java",
+		"/C/Users/Administrator/Desktop/相关数据/招标代理合同备案.sql",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbdlhtbc/script/zbdlhtbc_list.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/zbdl_jj_list.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/resources/grids_cfg.json",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/zbdl_sc_list.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/zbkzj_jj_list.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_psgc.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_psgc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbkzjgl/script/zbkzj_fjsc.js",
+		"/D/kitandtool/workspace/normal/sso/src/main/webapp/kcsj/kcsjdj.jsp",
+		"/D/kitandtool/workspace/normal/sso/src/main/webapp/kcsj/script/kcsjdj.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_dlgc.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_dlgc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/java/com/cdmcs/cdjw/sjba/controller/FileController.java",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/java/com/cdmcs/cdjw/sjba/service/common/FileService.java",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbkzjgl/zbkzj_fjsc.jsp",
+		"/D/我的资料库/Downloads/房屋建筑工程招标控制价备查1535107257647.docx",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_ldgc.js",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbkzjgl/zbkzj_dlgc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbkzjgl/script/zbkzj_dlgc.js",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbkzjgl/zbkzj_type.jsp",
+		"/C/GitRepository/MyData/EDU/src/js/jQuery/checkbox.js",
+		"/C/GitRepository/MyData/EDU/src/js/grid/griddemo.js",
+		"/C/GitRepository/MyData/EDU/src/js/grid/选中行记录事件.js",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbkzjgl/script/zbkzj_qtgc.js",
+		"/C/GitRepository/MyData/EDU/src/js/jQuery/焦点丢失事件.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_qtgc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/sghtba/script/sghtba_detils.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/sghtba/sghtba_detils.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/zbkzj_sc_list.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_ylgc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_qlgc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_fjgc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_ylgc (2).js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_ylgc.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_qlgc.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_qlgc (2).js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_psgc (2).js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_ldgc (2).js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_fjsc (2).js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_fjgc - 副本.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_dlgc - 副本.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_fjgc.js",
+		"/C/GitRepository/MyData/EDU/src/js/layer/layer.alert提示.js",
+		"/C/GitRepository/MyData/EDU/src/js/layer/layer.confirm.js",
+		"/C/GitRepository/MyData/EDU/src/js/checkbox/获取所有checkbox的值.js",
+		"/C/GitRepository/MyData/EDU/src/js/select/select2_demo.jsp",
+		"/C/GitRepository/MyData/EDU/src/js/select/select2.cdmcs.js",
+		"/C/GitRepository/MyData/EDU/src/js/拼接字符串/gridcell中拼接字符串.js",
+		"/C/GitRepository/MyData/EDU/src/js/ab.js",
+		"/C/Users/Administrator/Desktop/相关数据/工作流完成.sql",
+		"/D/kitandtool/workspace/normal/plate/src/main/webapp/sgxk/sgxksb_zbba.jsp",
+		"/D/kitandtool/workspace/normal/sso/src/main/webapp/ztxx/script/reg.js",
+		"/D/kitandtool/workspace/normal/sso/src/main/webapp/ztxx/reg.jsp",
+		"/C/GitRepository/MyData/EDU/src/angular/events/apply.js",
+		"/C/GitRepository/MyData/EDU/src/angular/radio.html",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_qlgc - 副本.js",
+		"/C/GitRepository/MyData/EDU/src/js/ajax/ajax.post + java 代码.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zbkzj_sc_detail.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/zbkzj_ff.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zbkzj_sc.js",
+		"/C/GitRepository/MyData/EDU/src/js/layer/window.close.js.tmp",
+		"/C/GitRepository/MyData/EDU/src/js/top.win/windemo.js",
+		"/D/kitandtool/workspace/idea-blsp-nw/blspxt/.idea/libraries/Maven__org_freemarker_freemarker_2_3_22.xml",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zgth.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/zgth.jsp",
+		"/C/GitRepository/MyData/EDU/src/js/select/select2 从java调用.demo",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/zbkzj_sc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zbkzj_jj.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/java/com/cdmcs/cdjw/sjba/service/grid/zbkzj/GetJjListService.java",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/zbkzj_jj.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/zbkzj_sc_detail.jsp",
+		"/C/Users/Administrator/Desktop/1111111111.sql.dump"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 427.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"zyfblistApp",
+			"bdlistApp",
+			"bdlistController",
+			"D_CJSJ",
+			"JL.",
+			"HTBA_JLHT_INFO",
+			"JL.",
+			"JL",
+			"HTBA_JLHT_INFO",
+			"XM",
+			"T_JSXM_XMXX_INFO",
+			"HTBA_JLHT_INFO",
+			"C_BDMC",
+			"C_ZYGCMC",
+			"N_SGZBBAJLBH",
+			"$scope",
+			"scope",
+			"C_BDMC",
+			"f_query",
+			"[\"",
+			":",
+			"C_XQBZ",
+			"N_YSBJLBH",
+			"\"\"",
+			"row",
+			"formKey",
+			"f_open",
+			"_index",
+			"onclick",
+			"_index",
+			"f_details",
+			"mygrid",
+			"myGrid",
+			"mygrid",
+			"mygrid ",
+			"f_update",
+			"C_YXBZ",
+			"dataList[i][\"C_ZT\"]",
+			"dataList[i][\"lczt\"]",
+			"C_LCZT",
+			" \"</",
+			"append",
+			"           .",
+			" .append",
+			"append",
+			"dataList",
+			"C_BLYJ",
+			"LSB",
+			"taList[i][\"C_LCZT",
+			"PK_QUERY_XMXX_LIST",
+			"PK_XMBJ_CODE_QUERY",
+			"grid",
+			"dhtml",
+			"XGrid",
+			"dhtmlXGrid",
+			"dhtmlXGridObject",
+			"gridbox",
+			"myGrid",
+			"filter",
+			"C_TITLE",
+			"C_BDMC",
+			"lsb",
+			"C_BDMC",
+			"params",
+			"ztLoginUserInfo",
+			"ZtLoginUserInfo",
+			"ztLoginUserInfo",
+			"LoginUserInfo",
+			"loginUserInfo",
+			"C_TITLE",
+			"C_BDMC",
+			"C_TITLE",
+			"C_BDMC",
+			"操作",
+			"lumn-la",
+			"操作",
+			",",
+			"left",
+			"umn-ali",
+			"center",
+			",",
+			"umn-wi",
+			"6",
+			",",
+			"\"\",",
+			"umn-width",
+			"6",
+			",",
+			"*",
+			"olumn-wid",
+			"6",
+			",",
+			"项目名称",
+			"column-label",
+			"操作",
+			",",
+			"操作",
+			",",
+			"column-label",
+			",",
+			"r,",
+			" +",
+			"+",
+			",",
+			"+",
+			",",
+			"____",
+			"___",
+			",",
+			"___",
+			"____",
+			"myGrid",
+			"_fromKay",
+			"jlbh",
+			"sbjlbh",
+			"_xmid",
+			"f_back",
+			",",
+			"=",
+			"htmlStr",
+			"htmlstr",
+			"zbdlhtbaInfo",
+			"rqgcApp",
+			"rqgcController",
+			"ckbz",
+			"bgsqbz",
+			"ysbjlbh",
+			"sbjlbh"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"{\"ztbh\"",
+			"},",
+			"userdata",
+			"\t\t//监控某个值\n$(\"#C_XZQH\").bind('change', function() {\n  $scope.f_query();\n});\n\n//监控某个值\n$(\"#C_XZQH\").bind('change', function() {\n  $scope.f_query();\n});\n",
+			"({\n",
+			"\"},",
+			"{gsmc:\"",
+			"\")------------end",
+			"------------end",
+			"\"},",
+			"{gsmc:\"",
+			"\"},",
+			"{gsmc:",
+			"insert",
+			"GSMC_GUID_VALUE_KEY (c_gsmc, c_guid)\nvalues ",
+			"');insert into",
+			"values ('",
+			"','",
+			"insert into GSMC_GUID_VALUE_KEY (C_GSMC, C_GUID) values (",
+			"C_GSMC",
+			"其中安装工程单方价格",
+			"zIndex",
+			"P_JCSJ_TO_NEW_SYSTEM",
+			"SGXKDY",
+			"G1",
+			"XZQH",
+			"AJXX",
+			"SGXK",
+			"BDXX",
+			"XMXX",
+			"MAIN",
+			"ajaxProxy",
+			"'",
+			"saveTarget",
+			"scope",
+			"",
+			"\n",
+			"        \n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zyfbgl/script/zyfb_list.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2535,
+								2535
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|12d7f45050f4f16435e4db79a9602392de49c1f1dd1515cf318ff42e7178e8e2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|892d3ba025dcd6bdc90adf4cfe6f73f9aa8b135de58b5c89a1b6274f4fa8e4d6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|db0a40012d52735e1443d88f41b48350b158e8cfc3f4e3b122bb9704ae33de05|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|b2d22252ca7bbb39e339168c6f5c982870dc71ddadf19d836cc4539c3bb6f3d2|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.24.region_keys":
+							[
+								"SL.jshint.Highlights.|db0a40012d52735e1443d88f41b48350b158e8cfc3f4e3b122bb9704ae33de05|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|892d3ba025dcd6bdc90adf4cfe6f73f9aa8b135de58b5c89a1b6274f4fa8e4d6|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|12d7f45050f4f16435e4db79a9602392de49c1f1dd1515cf318ff42e7178e8e2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.jshint.Highlights.|b2d22252ca7bbb39e339168c6f5c982870dc71ddadf19d836cc4539c3bb6f3d2|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3559,
+										3560
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										3202,
+										3203
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2589,
+										2590
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2534,
+										2535
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "ccfe221b",
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1125.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zyfbgl/zyfb_list.jsp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2140,
+								2140
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|8451806fa2774dfe3966e2c52b914abaca867845e5e3bd7ec4dee6ab1bfea993|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"SL.23.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|8451806fa2774dfe3966e2c52b914abaca867845e5e3bd7ec4dee6ab1bfea993|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 15,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bs_sintax": "java server pages (jsp)",
+							"buffer_scroll_name": "77552886",
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"spell_check": false,
+							"syntax": "Packages/Java/Java Server Pages (JSP).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 425.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/jlhtgl/script/jlht_list.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1244,
+								1389
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+								"SL.jshint.Highlights.|a9c882b018e4a82173af602c7ea2d1c5bfe15be49718c062156c0ba4c05014ce|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|551abcbf6d39c6ad2f6a9f7249d0651d9d73611c1faa3035e57767865147b0a7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|07e4d82405b66f6acf3fbb95a090afa407a4189e78588327f2b20ae7fef8581f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|8193ef790fd7090f2846e615c77d4a188a29450753c264cbff671ef716135c94|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.jshint.Highlights.|56505d30a86a0dab0f1fe7d2c00c4adc65813297de435a0a55ee1b93e7c29551|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.17.region_keys":
+							[
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|56505d30a86a0dab0f1fe7d2c00c4adc65813297de435a0a55ee1b93e7c29551|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|07e4d82405b66f6acf3fbb95a090afa407a4189e78588327f2b20ae7fef8581f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|a9c882b018e4a82173af602c7ea2d1c5bfe15be49718c062156c0ba4c05014ce|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|8193ef790fd7090f2846e615c77d4a188a29450753c264cbff671ef716135c94|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|551abcbf6d39c6ad2f6a9f7249d0651d9d73611c1faa3035e57767865147b0a7|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.19.region_keys":
+							[
+								"SL.jshint.Highlights.|3c10e5afd290a662c89175d01e7ee2eef6d0e5406eda8c40aed3ed814ca923ae|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|6199f5c9f24e53a905ef4bb01d8f5729245f5322e89fade6bda47b9f7a3663f9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|79d9849e5a493d6393ceb9f1f3c2de91ef69e4bb01957a282e7b604e265adcc3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|7f9c6892eb11066199edeff244e98a8717567670a213d1ddab1f14cab5b1d6f2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|d09435c1201d2b857f890196e5362f73d0f08f9d5407bef478216c853f20e96b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2198,
+										2199
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1108,
+										1109
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2198,
+										2199
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1108,
+										1109
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "37920ae1",
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/jlhtgl/jlht_list.jsp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								182,
+								182
+							],
+							[
+								1202,
+								1202
+							],
+							[
+								1286,
+								1286
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|8451806fa2774dfe3966e2c52b914abaca867845e5e3bd7ec4dee6ab1bfea993|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.18.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|8451806fa2774dfe3966e2c52b914abaca867845e5e3bd7ec4dee6ab1bfea993|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										4373,
+										4378
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2461,
+										2466
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										144,
+										148
+									],
+									"2":
+									[
+										1215,
+										1216
+									],
+									"3":
+									[
+										1302,
+										1303
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									],
+									"2":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									],
+									"3":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										144,
+										148
+									],
+									"2":
+									[
+										1183,
+										1184
+									],
+									"3":
+									[
+										1266,
+										1267
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bs_sintax": "java server pages (jsp)",
+							"buffer_scroll_name": "213a2217",
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"spell_check": false,
+							"syntax": "Packages/Java/Java Server Pages (JSP).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/GitRepository/MyData/EDU/src/js/grid/gird link.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"SL.37.region_keys":
+							[
+								"SL.jshint.Highlights.|395d231fdc300533ccd93f12a8752b2b761594c818cde52209fedb5420f37dc0|region.redish markup.error.sublime_linter|32",
+								"SL.jshint.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|9df2ac06af6dbe5c0eb271756a37e68254e0822300dc80b2efaf5492db5727ee|region.redish markup.error.sublime_linter|32"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "f94fca63",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 145.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.585651537335,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GoSublime-main-output":
+	{
+		"height": 114.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 364.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 108.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 108.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "/D/kitandtool/workspace/sublime/coconut.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"bkzjgl/zbkzj_list.js",
+				"ww\\src\\main\\webapp\\zbkzjgl\\script\\zbkzj_list.js"
+			],
+			[
+				"bkzjgl/zbkzj_list.jsp",
+				"ww\\src\\main\\webapp\\zbkzjgl\\zbkzj_list.jsp"
+			],
+			[
+				"zyfbgl/zyfb_list.js",
+				"ww\\src\\main\\webapp\\zyfbgl\\script\\zyfb_list.js"
+			],
+			[
+				"zyfbgl/zyfb_list.jsp",
+				"ww\\src\\main\\webapp\\zyfbgl\\zyfb_list.jsp"
+			],
+			[
+				"jlhtgl/jlht_fzftz.js",
+				"ww\\src\\main\\webapp\\jlhtgl\\script\\jlht_fzftz.js"
+			],
+			[
+				"jlhtgl/jlht_fzftz.jsp",
+				"ww\\src\\main\\webapp\\jlhtgl\\jlht_fzftz.jsp"
+			],
+			[
+				"JW2017_XMBJ",
+				"plate\\Database\\存储过程(UTF-8)\\工程项目报建（JW2017_XMBJ）【包体】.SQL"
+			],
+			[
+				"jlhtgl/jlht_list.js",
+				"ww\\src\\main\\webapp\\jlhtgl\\script\\jlht_list.js"
+			],
+			[
+				"jlhtgl/jlht_list.jsp",
+				"ww\\src\\main\\webapp\\jlhtgl\\jlht_list.jsp"
+			],
+			[
+				"zbkzjgl/zbkzj_list.js",
+				"ww\\src\\main\\webapp\\zbkzjgl\\script\\zbkzj_list.js"
+			],
+			[
+				"zbkzjgl/zbkzj_list.jsp",
+				"ww\\src\\main\\webapp\\zbkzjgl\\zbkzj_list.jsp"
+			],
+			[
+				"nction/detail/zbkzj_fjsc.js",
+				"nw\\src\\main\\webapp\\function\\detail\\script\\zbkzj_fjsc.js"
+			],
+			[
+				"function/sghtba/sghtba_sc_detils.js",
+				"nw\\src\\main\\webapp\\function\\sghtba\\script\\sghtba_sc_detils.js"
+			],
+			[
+				"function/sghtba/sghtba_sc_detils.jsp",
+				"nw\\src\\main\\webapp\\function\\sghtba\\sghtba_sc_detils.jsp"
+			],
+			[
+				"odo",
+				"doc\\todo\\todo.todo"
+			],
+			[
+				"bdlhtbc/zbdlhtbc_list.jsp",
+				"ww\\src\\main\\webapp\\zbdlhtbc\\zbdlhtbc_list.jsp"
+			],
+			[
+				"zbdlhtbc/zbdlhtbcsb.jsp",
+				"ww\\src\\main\\webapp\\zbdlhtbc\\zbdlhtbcsb.jsp"
+			],
+			[
+				"htbc/zbdlhtbcsb.js",
+				"ww\\src\\main\\webapp\\zbdlhtbc\\script\\zbdlhtbcsb.js"
+			],
+			[
+				"bdlhtbc/zbdlhtbc_list.js",
+				"ww\\src\\main\\webapp\\zbdlhtbc\\script\\zbdlhtbc_list.js"
+			],
+			[
+				"/kcsj/kcsjdj.jsp",
+				"sso\\src\\main\\webapp\\kcsj\\kcsjdj.jsp"
+			],
+			[
+				"unction/sghtba/sghtba_detils.js",
+				"nw\\src\\main\\webapp\\function\\sghtba\\script\\sghtba_detils.js"
+			],
+			[
+				"unction/sghtba/sghtba_detils.jsp",
+				"nw\\src\\main\\webapp\\function\\sghtba\\sghtba_detils.jsp"
+			],
+			[
+				"function/detail/zbkzj_ylgc.jsp",
+				"nw\\src\\main\\webapp\\function\\detail\\zbkzj_ylgc.jsp"
+			],
+			[
+				"gxk/sgxksb_zbba.jsp",
+				"plate\\src\\main\\webapp\\sgxk\\sgxksb_zbba.jsp"
+			],
+			[
+				"ztxx/reg.jsp",
+				"sso\\src\\main\\webapp\\ztxx\\reg.jsp"
+			],
+			[
+				"ztxx/reg.js",
+				"sso\\src\\main\\webapp\\ztxx\\script\\reg.js"
+			],
+			[
+				"bkzj_fjgc.js",
+				"nw\\src\\main\\webapp\\function\\detail\\script\\zbkzj_fjgc.js"
+			],
+			[
+				"xmbj",
+				"plate\\Database\\存储过程(UTF-8)\\工程项目报建（JW2017_XMBJ）【包体】.SQL"
+			],
+			[
+				"_ff",
+				"blspxt\\.idea\\libraries\\Maven__org_freemarker_freemarker_2_3_22.xml"
+			],
+			[
+				"detail/zbkzj_dlgc.js",
+				"nw\\src\\main\\webapp\\function\\detail\\script\\zbkzj_dlgc.js"
+			],
+			[
+				"detail/zbkzj_dlgc.jsp",
+				"nw\\src\\main\\webapp\\function\\detail\\zbkzj_dlgc.jsp"
+			],
+			[
+				"dlgc",
+				"nw\\src\\main\\webapp\\function\\detail\\zbkzj_dlgc.jsp"
+			],
+			[
+				"ction/zbkzj/zgth.jsp",
+				"nw\\src\\main\\webapp\\function\\zbkzj\\zgth.jsp"
+			],
+			[
+				"GetJjListService",
+				"nw\\src\\main\\java\\com\\cdmcs\\cdjw\\sjba\\service\\grid\\zbkzj\\GetJjListService.java"
+			],
+			[
+				"zbkzj_sc_detail.js",
+				"nw\\src\\main\\webapp\\function\\zbkzj\\script\\zbkzj_sc_detail.js"
+			],
+			[
+				"nction/zbkzj/zbkzj_sc.js",
+				"nw\\src\\main\\webapp\\function\\zbkzj\\script\\zbkzj_sc.js"
+			],
+			[
+				"nction/zbkzj/zbkzj_sc.jsp",
+				"nw\\src\\main\\webapp\\function\\zbkzj\\zbkzj_sc.jsp"
+			],
+			[
+				"_jj.js",
+				"nw\\src\\main\\webapp\\function\\zbkzj\\script\\zbkzj_jj.js"
+			],
+			[
+				"zj_rqgc.js",
+				"nw\\src\\main\\webapp\\function\\detail\\script\\zbkzj_rqgc.js"
+			],
+			[
+				"bkzjgl/zbkzj_rqgc.js",
+				"nw\\src\\main\\webapp\\function\\zbkzj\\zbkzjgl\\script\\zbkzj_rqgc.js"
+			],
+			[
+				"sc_zgth_detail.js",
+				"blspxt\\src\\main\\webapp\\function\\sgxksc\\script\\sgxksc_zgth_detail.js"
+			],
+			[
+				"verif",
+				"blspxt\\src\\main\\webapp\\function\\sjwjsc\\script\\sjwjVerifying.js"
+			],
+			[
+				"nction/sjwjsc/sjwjVerifying.js",
+				"blspxt\\src\\main\\webapp\\function\\sjwjsc\\script\\sjwjVerifying.js"
+			],
+			[
+				"unction/sjwjsc/sjwjsc_sc",
+				"blspxt\\src\\main\\webapp\\function\\sjwjsc\\script\\sjwjsc_sc.js"
+			],
+			[
+				"reg.jsp",
+				"sso\\src\\main\\webapp\\ztxx\\reg.jsp"
+			],
+			[
+				"reg",
+				"sso\\src\\main\\webapp\\ztxx\\script\\reg.js"
+			],
+			[
+				"grids_cfg.json",
+				"nw\\src\\main\\resources\\grids_cfg.json"
+			],
+			[
+				"tJjListService",
+				"nw\\src\\main\\java\\com\\cdmcs\\cdjw\\sjba\\service\\grid\\zbkzj\\GetJjListService.java"
+			],
+			[
+				"tatic/grid-preview.html",
+				"nw\\src\\main\\webapp\\static\\grid-preview.html"
+			],
+			[
+				"esources\\grids_cfg.json",
+				"nw\\src\\main\\resources\\grids_cfg.json"
+			],
+			[
+				"GetJjListService.java",
+				"nw\\src\\main\\java\\com\\cdmcs\\cdjw\\sjba\\service\\grid\\zbkzj\\GetJjListService.java"
+			],
+			[
+				"/function/sjwjsc/sjwjsc_sc.js",
+				"blspxt\\src\\main\\webapp\\function\\sjwjsc\\script\\sjwjsc_sc.js"
+			],
+			[
+				"function/sjwjsc/xm_list",
+				"blspxt\\src\\main\\webapp\\function\\sjwjsc\\script\\xm_list.js"
+			],
+			[
+				"unction/sgxksc/sgxksc_jj.js",
+				"blspxt\\src\\main\\webapp\\function\\sgxksc\\script\\sgxksc_jj.js"
+			],
+			[
+				"unction/sgxksc/sgxksc_jj.jsp",
+				"blspxt\\src\\main\\webapp\\function\\sgxksc\\sgxksc_jj.jsp"
+			],
+			[
+				"function/sjwjsc/sjwjsc_sc.js",
+				"blspxt\\src\\main\\webapp\\function\\sjwjsc\\script\\sjwjsc_sc.js"
+			],
+			[
+				"function/sjwjsc/sjwjsc_sc.jsp",
+				"blspxt\\src\\main\\webapp\\function\\sjwjsc\\sjwjsc_sc.jsp"
+			],
+			[
+				"static/pagerbar/pagerbar-min.js",
+				"nw\\src\\main\\webapp\\static\\pagerbar\\pagerbar-min.js"
+			],
+			[
+				"controls/pagerbar",
+				"blspxt\\src\\main\\webapp\\controls\\pagerbar\\pagerbar-min.js"
+			],
+			[
+				"ztgl",
+				"plate\\Database\\存储过程(UTF-8)\\主体管理（JW2017_ZTGL）【包体】.SQL"
+			],
+			[
+				"zhgl/main.js",
+				"plate\\src\\main\\webapp\\zhgl\\script\\main.js"
+			],
+			[
+				"zhgl/main.jsp",
+				"plate\\src\\main\\webapp\\zhgl\\main.jsp"
+			],
+			[
+				"function/cxtj/zhcx/main.jsp",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\zhcx\\main.jsp"
+			],
+			[
+				"function/ywgn/htba/htjj/main.html",
+				"nw\\src\\main\\webapp\\function\\ywgn\\htba\\htjj\\main.html"
+			],
+			[
+				"zhgl.js",
+				"plate\\src\\main\\webapp\\zhgl\\script\\main.js"
+			],
+			[
+				"blsp",
+				"idea-zljd-nw\\document\\存储过程\\并联审批信息管理\\并联审批信息管理【ZJSYS_BLSPXX】（包头） .sql"
+			],
+			[
+				"sgxk",
+				"plate\\Database\\存储过程(UTF-8)\\施工许可申报（JW2017_SGXK）【包体】.SQL"
+			],
+			[
+				"zhgl",
+				"plate\\src\\main\\webapp\\zhgl\\script\\main.js"
+			],
+			[
+				"ztgl ",
+				"plate\\Database\\存储过程(UTF-8)\\主体管理（JW2017_ZTGL）【包体】.SQL"
+			],
+			[
+				"ztgl sql",
+				"plate\\Database\\存储过程(UTF-8)\\主体管理（JW2017_ZTGL）【包体】.SQL"
+			],
+			[
+				"reg.js",
+				"sso\\src\\main\\webapp\\ztxx\\script\\reg.js"
+			],
+			[
+				"replace",
+				"my-app\\node_modules\\lodash\\replace.js"
+			],
+			[
+				"sgxk ",
+				"plate\\Database\\存储过程(UTF-8)\\施工许可申报（JW2017_SGXK）【包体】.SQL"
+			],
+			[
+				"sgkx SQL",
+				"plate\\Database\\存储过程(UTF-8)\\外网施工许可信息录入（JW2017_SGXK_XXLR）【包体】.SQL"
+			],
+			[
+				"xmbj/xmbj_xmxx.js",
+				"plate\\src\\main\\webapp\\xmbj\\script\\xmbj_xmxx.js"
+			],
+			[
+				"JW2017_ZTGL",
+				"plate\\Database\\存储过程(UTF-8)\\主体管理（JW2017_ZTGL）【包体】.SQL"
+			],
+			[
+				"regSaveProcess.jsp",
+				"sso\\src\\main\\webapp\\ztxx\\regSaveProcess.jsp"
+			],
+			[
+				"regSaveProcess",
+				"sso\\src\\main\\webapp\\ztxx\\regSaveProcess.jsp"
+			],
+			[
+				"regSubmitCode.jsp",
+				"sso\\src\\main\\webapp\\ztxx\\regSubmitCode.jsp"
+			],
+			[
+				"xmbj.",
+				"plate\\src\\main\\webapp\\xmbj\\script\\xmbj_xmxx.js"
+			],
+			[
+				"pwdRest.jsp",
+				"sso\\src\\main\\webapp\\ztxx\\pwdRest.jsp"
+			],
+			[
+				"ztxx/pwd.js",
+				"sso\\src\\main\\webapp\\ztxx\\script\\pwd.js"
+			],
+			[
+				"/xmbj/xmbj_xmxx.js",
+				"plate\\src\\main\\webapp\\xmbj\\script\\xmbj_xmxx.js"
+			],
+			[
+				"mbj/xmbj_xmxx.jsp",
+				"plate\\src\\main\\webapp\\xmbj\\xmbj_xmxx.jsp"
+			],
+			[
+				"xmbj SQL",
+				"plate\\Database\\存储过程(UTF-8)\\工程项目报建（JW2017_XMBJ）【包体】.SQL"
+			],
+			[
+				"",
+				"doc\\todo\\todo.todo"
+			],
+			[
+				"/xmbj/xmbj_xmxx.jsp",
+				"plate\\src\\main\\webapp\\xmbj\\xmbj_xmxx.jsp"
+			],
+			[
+				"regSaveProcess.js",
+				"sso\\src\\main\\webapp\\ztxx\\regSaveProcess.jsp"
+			],
+			[
+				"zbba",
+				"plate\\src\\main\\webapp\\sgxk\\sgxksb_zbba.jsp"
+			],
+			[
+				"regSendCode",
+				"sso\\src\\main\\webapp\\ztxx\\regSendCode.jsp"
+			],
+			[
+				"ztxx\\reg.js",
+				"sso\\src\\main\\webapp\\ztxx\\script\\reg.js"
+			],
+			[
+				"ztxx\\reg.jsp",
+				"sso\\src\\main\\webapp\\ztxx\\reg.jsp"
+			],
+			[
+				"ZJSYS_ZHCX",
+				"idea-zljd-nw\\document\\存储过程\\综合查询\\综合查询【ZJSYS_ZHCX】（包体） .sql"
+			],
+			[
+				"function/gcjdgl/jdjhgl/bzjh.",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\gcjdgl\\jdjhgl\\bzjh.html"
+			],
+			[
+				"cxtj/zhcx/baxx_detail.js",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\zhcx\\script\\baxx_detail.js"
+			],
+			[
+				"function/gcjdgl/jdjhgl/bzjh",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\gcjdgl\\jdjhgl\\script\\bzjh.js"
+			],
+			[
+				"cxtj/zhcx/jdjh_detail.js",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\zhcx\\jdjh_detail.jsp"
+			],
+			[
+				"nction/cxtj/zhcx/main",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\zhcx\\script\\main.js"
+			],
+			[
+				"kcsj/kcsjdj.js",
+				"sso\\src\\main\\webapp\\kcsj\\script\\kcsjdj.js"
+			],
+			[
+				"kcsj/kcsjdj.jsp",
+				"sso\\src\\main\\webapp\\kcsj\\kcsjdj.jsp"
+			],
+			[
+				"xmbj/xmbj_xmxx",
+				"plate\\src\\main\\webapp\\xmbj\\xmbj_xmxx.jsp"
+			],
+			[
+				"tion/cxtj/zhcx/main",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\zhcx\\main.jsp"
+			],
+			[
+				"sgxk SQL",
+				"plate\\Database\\存储过程(UTF-8)\\施工许可申报（JW2017_SGXK）【包体】.SQL"
+			],
+			[
+				"JW2017_SGXK",
+				"plate\\Database\\存储过程(UTF-8)\\施工许可申报（JW2017_SGXK）【包体】.SQL"
+			],
+			[
+				"ction/cxtj/jdqkcx/main.htm",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\jdqkcx\\main.html"
+			],
+			[
+				"ZJSYS_SJXCJDGL",
+				"idea-zljd-nw\\document\\存储过程\\手机端现场管理\\手机端现场监督管理【ZJSYS_SJXCJDGL】（包体） .sql"
+			],
+			[
+				"ZJSYS_XCJDCX",
+				"idea-zljd-nw\\document\\存储过程\\现场监督查询\\现场监督查询【ZJSYS_XCJDCX】（包头）.sql"
+			],
+			[
+				"nction/cxtj/jdqkcx/main",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\jdqkcx\\main.html"
+			],
+			[
+				"ZJSYS_JDJHBZ",
+				"idea-zljd-nw\\document\\存储过程\\监督计划编制\\监督计划编制【ZJSYS_JDJHBZ】（包体）.sql"
+			],
+			[
+				"ZJSYS_JDJHSH",
+				"idea-zljd-nw\\document\\存储过程\\监督计划编制\\监督计划审核【ZJSYS_JDJHSH】（包头）.sql"
+			],
+			[
+				"JW2017_ZTG",
+				"plate\\Database\\存储过程(UTF-8)\\主体管理（JW2017_ZTGL）【包体】.SQL"
+			],
+			[
+				"n/gcjdgl/jdjhgl/shjh",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\gcjdgl\\jdjhgl\\script\\shjh.js"
+			],
+			[
+				"function/gcjdgl/jdjhgl/shMain",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\gcjdgl\\jdjhgl\\script\\shMain.js"
+			],
+			[
+				"function/cxtj/zhcx/main",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\zhcx\\script\\main.js"
+			],
+			[
+				"function/gcjdgl/jdjhgl/shjh",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\gcjdgl\\jdjhgl\\shjh.html"
+			],
+			[
+				"nction/gcjdgl/jdjhgl/shMai",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\gcjdgl\\jdjhgl\\shMain.html"
+			],
+			[
+				"function/gcjdgl/jdjhgl/main",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\gcjdgl\\jdjhgl\\main.html"
+			],
+			[
+				"ZJSYS_ZGQKGL",
+				"idea-zljd-nw\\document\\存储过程\\整改情况管理\\整改情况管理【ZJSYS_ZGQKGL】（包头） .sql"
+			],
+			[
+				"function/gcjdgl/zgqkgl/zgqkcx_main",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\gcjdgl\\zgqkgl\\script\\zgqkcx_main.js"
+			],
+			[
+				"function/gcjdgl/zgqkgl/zgqkcx_main.html",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\gcjdgl\\zgqkgl\\zgqkcx_main.html"
+			],
+			[
+				"ZJSYS_JCAPGL",
+				"idea-zljd-nw\\document\\存储过程\\现场检查安排\\现场检查安排管理【ZJSYS_JCAPGL】（包体） .sql"
+			],
+			[
+				"function/cxtj/zhcx/xcjd_detail",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\zhcx\\xcjd_detail.jsp"
+			],
+			[
+				"function/gcjdgl/xcjcap/main.",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\gcjdgl\\xcjcap\\script\\main.js"
+			],
+			[
+				"function/gcjdgl/xcjcap/main.html",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\gcjdgl\\xcjcap\\main.html"
+			],
+			[
+				"function/cxtj/zhcx/jdjh_detail.js",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\zhcx\\jdjh_detail.jsp"
+			],
+			[
+				"unction/cxtj/zhcx/tree.",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\zhcx\\tree.html"
+			],
+			[
+				"d.py",
+				"py\\d.py"
+			],
+			[
+				"Public SQ",
+				"plate\\Database\\存储过程(UTF-8)\\业务公用（JW2017_PUBLIC）【包体】.SQL"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 356.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
