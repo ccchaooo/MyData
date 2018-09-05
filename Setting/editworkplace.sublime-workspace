@@ -519,15 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/D/kitandtool/workspace/idea-3jba/ww/Database/存储过程/根据业务信息取申报状态和办理意见/根据业务信息取申报状态和办理意见【SJBASYS_GETINFO】（包体）.sql",
-			"settings":
-			{
-				"buffer_size": 4506,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -649,6 +640,9 @@
 	],
 	"file_history":
 	[
+		"/D/kitandtool/workspace/normal/plate/Database/存储过程(UTF-8)/工程项目报建信息删除（JW2017_BJXXSC）【包体】.SQL",
+		"/D/kitandtool/workspace/idea-3jba/ww/Database/存储过程/根据业务信息取申报状态和办理意见/根据业务信息取申报状态和办理意见【SJBASYS_GETINFO】（包体）.sql",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_ldgc.jsp",
 		"/C/Users/Administrator/Desktop/gist.txt",
 		"/C/Users/Administrator/Desktop/新建文本文档.txt",
 		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/jlhtgl/script/jlht_list.js",
@@ -706,7 +700,6 @@
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/detail.jsp",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/script/zbdl_fjsc.js",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/zbdl_fjsc.jsp",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_ldgc.jsp",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_qtgc.js",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zbkzj_ff.js",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/java/com/cdmcs/cdjw/sjba/service/grid/zbkzj/GetHtbaListService.java",
@@ -774,9 +767,7 @@
 		"/C/GitRepository/MyData/EDU/src/js/layer/window.close.js.tmp",
 		"/C/GitRepository/MyData/EDU/src/js/top.win/windemo.js",
 		"/D/kitandtool/workspace/idea-blsp-nw/blspxt/.idea/libraries/Maven__org_freemarker_freemarker_2_3_22.xml",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zgth.js",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/zgth.jsp",
-		"/C/GitRepository/MyData/EDU/src/js/select/select2 从java调用.demo"
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zgth.js"
 	],
 	"find":
 	{
@@ -794,6 +785,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<div class=\"col-xs-5\">",
+			"<div class=\"col-xs-5\" >",
+			"<div class=\"col-xs-5 col-xs-offset-1\">",
 			"zyfblistApp",
 			"bdlistApp",
 			"bdlistController",
@@ -918,10 +912,7 @@
 			"zbdlhtbaInfo",
 			"rqgcApp",
 			"rqgcController",
-			"ckbz",
-			"bgsqbz",
-			"ysbjlbh",
-			"sbjlbh"
+			"ckbz"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -977,119 +968,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/D/kitandtool/workspace/idea-3jba/ww/Database/存储过程/根据业务信息取申报状态和办理意见/根据业务信息取申报状态和办理意见【SJBASYS_GETINFO】（包体）.sql",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4506,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3411,
-								3411
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"bs_sintax": "pl sql (oracle)",
-							"buffer_scroll_name": "2c6dc8e9",
-							"is_init_dirty_state": false,
-							"origin_encoding": "UTF-8",
-							"spell_check": false,
-							"syntax": "Packages/Oracle PL SQL/Syntaxes/PL SQL (Oracle).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1087.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1165,6 +1045,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"bjxxsc",
+				"plate\\Database\\存储过程(UTF-8)\\工程项目报建信息删除（JW2017_BJXXSC）【包体】.SQL"
+			],
 			[
 				"SJBASYS_GETINFO",
 				"ww\\Database\\存储过程\\根据业务信息取申报状态和办理意见\\根据业务信息取申报状态和办理意见【SJBASYS_GETINFO】（包体）.sql"
@@ -1672,10 +1556,6 @@
 			[
 				"unction/cxtj/zhcx/tree.",
 				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\zhcx\\tree.html"
-			],
-			[
-				"d.py",
-				"py\\d.py"
 			]
 		],
 		"width": 0.0
