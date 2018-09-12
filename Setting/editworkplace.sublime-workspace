@@ -519,6 +519,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/D/kitandtool/workspace/idea-blsp-nw/blspxt/src/main/webapp/function/sjwjsc/ck_details.html",
+			"settings":
+			{
+				"buffer_size": 22248,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -640,6 +649,8 @@
 	],
 	"file_history":
 	[
+		"/C/GitRepository/MyData/doc/todo/todo.todo",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_dlgc.jsp",
 		"/D/kitandtool/workspace/normal/plate/Database/存储过程(UTF-8)/工程项目报建（JW2017_XMBJ）【包体】.SQL",
 		"/D/kitandtool/workspace/normal/plate/Database/存储过程(UTF-8)/工程项目报建信息删除（JW2017_BJXXSC）【包体】.SQL",
 		"/D/kitandtool/workspace/idea-3jba/ww/Database/存储过程/根据业务信息取申报状态和办理意见/根据业务信息取申报状态和办理意见【SJBASYS_GETINFO】（包体）.sql",
@@ -687,7 +698,6 @@
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/script/zbdl_jj_list.js",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/script/zbdl_sc_list.js",
 		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbdlhtbc/zbdlhtbc_list.jsp",
-		"/C/GitRepository/MyData/doc/todo/todo.todo",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zbkzj_sc_list.js",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zbkzj_jj_list.js",
 		"/D/kitandtool/workspace/idea-blsp-nw/blspxt/src/main/webapp/function/sjgl/kcsjxxgl/sjgl_kcsj_detail.jsp",
@@ -715,7 +725,6 @@
 		"/D/kitandtool/workspace/normal/sso/src/main/webapp/kcsj/kcsjdj.jsp",
 		"/D/kitandtool/workspace/normal/sso/src/main/webapp/kcsj/script/kcsjdj.js",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_dlgc.js",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_dlgc.jsp",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/java/com/cdmcs/cdjw/sjba/controller/FileController.java",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/java/com/cdmcs/cdjw/sjba/service/common/FileService.java",
 		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbkzjgl/zbkzj_fjsc.jsp",
@@ -785,6 +794,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gzs_table",
+			"xmxx_lm",
+			"gzs_table",
+			"                                           <select select2-cdmcs=\"gclbList\"  data-theme=\"bootstrap\" class=\"form-control\"  name=\"gclbList\"\n                                                    ng-model=\"dlgcInfo.C_GCLBDM\"  ng-required=\"true\"  style=\"width: 100%;\"\n                                                    data-ajax--url=\"/cdjwztyypt/code/jcdm.do?dmfl=2019&defaultDM=&ext1=2\"\n                                                    data-ajax--cache=\"true\"\n                                                    data-ajax--method=\"post\" data-ajax--delay=\"500\"\n                                                    data-placeholder=\"\">\n                                                </select>",
+			"xmxx_nr",
+			"C_DLGC_QT",
+			"其他",
+			"C_DLGC_GJGC",
+			"钢筋工程",
+			"C_DLGC_DLMC",
+			"道路面层",
+			"C_BZRXM",
+			"编制人姓名",
+			"C_SFSYSPHNT",
+			"是否使用商品混凝土",
+			"N_DLCD",
+			"道路长度",
+			"C_ZBKZJ_ZGJ",
+			"gclbList",
+			"计价方式",
 			"PK_SAVE_XMXX",
 			"P_RESULT_JSXM_XMXX_JSDW",
 			"<div class=\"col-xs-5\">",
@@ -892,27 +921,7 @@
 			",",
 			"r,",
 			" +",
-			"+",
-			",",
-			"+",
-			",",
-			"____",
-			"___",
-			",",
-			"___",
-			"____",
-			"myGrid",
-			"_fromKay",
-			"jlbh",
-			"sbjlbh",
-			"_xmid",
-			"f_back",
-			",",
-			"=",
-			"htmlStr",
-			"htmlstr",
-			"zbdlhtbaInfo",
-			"rqgcApp"
+			"+"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -968,8 +977,145 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/D/kitandtool/workspace/idea-blsp-nw/blspxt/src/main/webapp/function/sjwjsc/ck_details.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2357,
+								2357
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+								"SL.csslint.Highlights.|9d660aa1de2d6abb0b302e1377e2f75d4e1c3585b0b7360688072e60d2e9eb48|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|cab3e8d1c77d68937eb4b1efe95e71710e7b12243b219e8d77feab0d9b6366cf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|68b4f34ffd87b4ded887d1ab773cfd6f59747dedb56f1b4a3d7aff2faceaa780|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|593e8e10bc2ca40fc3ae3be3b7cef025ff0328676712342f8f1bfb5b6e1753e4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8fd967789a3688c1f94b4102380614c40705ddfc33875e6817c9e21991766f8f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fdeb374bfa8a2009c6db19612faae9cfd30227e1b731047d609d70bb980c0b7a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5984687950492bd82399b68c4ae147dfc38befe1fbcacd7e74caf7de5887bda9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ff7fb1825f70ce5ebce8dcbf0406e779fdd388450a78315fa5af823f7df7193b|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2423,
+										2424
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2293,
+										2294
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "7fea00f5",
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 427.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1046,6 +1192,10 @@
 		"selected_items":
 		[
 			[
+				"odo",
+				"doc\\todo\\todo.todo"
+			],
+			[
 				"xmbj",
 				"plate\\Database\\存储过程(UTF-8)\\工程项目报建（JW2017_XMBJ）【包体】.SQL"
 			],
@@ -1112,10 +1262,6 @@
 			[
 				"function/sghtba/sghtba_sc_detils.jsp",
 				"nw\\src\\main\\webapp\\function\\sghtba\\sghtba_sc_detils.jsp"
-			],
-			[
-				"odo",
-				"doc\\todo\\todo.todo"
 			],
 			[
 				"bdlhtbc/zbdlhtbc_list.jsp",
