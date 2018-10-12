@@ -1,0 +1,6 @@
+我们在.gitignore文件中增加需要忽略的文件并更新后，有时会出现相关文件并未被忽略的情况，即更新后的.gitignore并未生效。
+原因是.gitignore只能忽略未被track的文件，而git有本地缓存。如果增加的ignore文件原来被track过，则需要清除缓存后update。具体做法如下：
+
+git rm -r --cached 
+git add .gitignore
+git commit -m 'update .gitignore'
