@@ -527,6 +527,15 @@
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"contents": "The count-and-say sequence is the sequence of integers with the first five terms as following:\n\n1.     1\n2.     11\n3.     21\n4.     1211\n5.     111221\n1 is read off as \"one 1\" or 11.\n11 is read off as \"two 1s\" or 21.\n21 is read off as \"one 2, then one 1\" or 1211.\n\nGiven an integer n where 1 ≤ n ≤ 30, generate the nth term of the count-and-say sequence.\n\nNote: Each term of the sequence of integers will be represented as a string.",
+			"settings":
+			{
+				"buffer_size": 432,
+				"line_ending": "Windows",
+				"name": "The count-and-say sequence is the sequence of inte"
+			}
 		}
 	],
 	"build_system": "",
@@ -977,7 +986,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -993,12 +1002,23 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1115,
+								1115
 							]
 						],
 						"settings":
 						{
+							"SL.13.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.jshint.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.jshint.Highlights.|da90fdcf567059fccc3b568a7271db5816cb74f90b97ee80ddfb0762e34a3c34|region.redish markup.error.sublime_linter|32",
+								"SL.jshint.Highlights.|2496437197a847ca8e125d5cdbb8c4c031eaf228dffa7da0eedb18986d97f752|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.jshint.Highlights.|a0cba9d2a808c96f01c44886b78943ae428d2be8e14843ed7713c318651a21ed|region.redish markup.error.sublime_linter|32",
+								"SL.jshint.Highlights.|43a4dd0963c628e8f23674c72e5a7585075d21cbc9217da22bab8a1d8fa78c3f|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Highlights.|6456eea2dd1f61862ce8b7726e754773ed9bda58583ac5b259d38b49b3ef3ebd|region.yellowish markup.warning.sublime_linter|32"
+							],
 							"SL.15.region_keys":
 							[
 								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
@@ -1029,65 +1049,188 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bs_sintax": "java server pages (jsp)",
+							"buffer_scroll_name": "e393b487",
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"spell_check": false,
+							"syntax": "Packages/Java/Java Server Pages (JSP).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								432
+							]
+						],
+						"settings":
+						{
+							"auto_name": "The count-and-say sequence is the sequence of inte",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_angle_content"
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
-							"bs_sintax": "java server pages (jsp)",
-							"buffer_scroll_name": "e393b487",
-							"syntax": "Packages/Java/Java Server Pages (JSP).sublime-syntax"
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bs_sintax": "plain text",
+							"default_dir": "D:\\kitandtool\\workspace\\idea-blsp-nw\\blspxt\\src\\main\\webapp\\function\\sjgl\\xmxxgl",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
