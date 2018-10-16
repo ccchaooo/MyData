@@ -520,10 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "/D/kitandtool/workspace/idea-blsp-nw/blspxt/src/main/webapp/function/sjwjsc/ck_details.html",
+			"file": "/D/kitandtool/workspace/idea-blsp-nw/blspxt/src/main/webapp/function/sjgl/xmxxgl/sjgl_xmxx.jsp",
 			"settings":
 			{
-				"buffer_size": 22248,
+				"buffer_size": 4249,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -649,9 +649,44 @@
 	],
 	"file_history":
 	[
+		"/C/GitRepository/auto/autosvn/logFile.txt",
+		"/C/GitRepository/Spider/spider_qb/文本.txt",
+		"/C/Users/Administrator/Desktop/相关数据/造价咨询转递.sql",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/sgzcbgl/script/sgzcb_list.js",
+		"/D/kitandtool/workspace/normal/plate/Database/存储过程(UTF-8)/工程项目报建（JW2017_XMBJ）【包体】.SQL",
+		"/D/kitandtool/workspace/normal/plate/Database/存储过程(UTF-8)/施工许可申报（JW2017_SGXK）【包体】.SQL",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/sgzcbgl/sgzcb_list.jsp",
+		"/D/kitandtool/workspace/normal/plate/src/main/webapp/zhgl/main.jsp",
+		"/D/kitandtool/workspace/normal/sso/src/main/webapp/ztxx/script/reg.js",
+		"/D/kitandtool/workspace/normal/sso/src/main/webapp/ztxx/reg.jsp",
+		"/D/kitandtool/workspace/normal/plate/src/main/webapp/zhgl/script/main.js",
+		"/D/kitandtool/workspace/idea-zljd-nw/src/main/webapp/function/cxtj/zhcx/baxx_detail.jsp",
+		"/D/我的资料库/Documents/Tencent Files/645111208/FileRecv/devcloud用户指南/Git与代码托管使用指南.docx",
+		"/D/kitandtool/workspace/idea-zljd-nw/src/main/webapp/function/bagl/fjgc/baxx_detail.html",
+		"/D/kitandtool/workspace/idea-zljd-nw/src/main/webapp/function/bagl/fjgc/script/baxx_detail.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/script/zbdl_fjsc.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/zbdl_fjsc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jlhtba/jlhtba_sc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jlhtba/script/jlhtba_fjck.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jgjs/script/jgjsj_fjsc - 副本.js",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/jgjsjgl/script/jgjsj_fjsc.js",
+		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/jgjsjgl/jgjsj_fjsc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jgjs/script/detail.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jgjs/script/detail_bdhz.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jgjs/detail.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jgjs/script/jgjs_jj_detail.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jgjs/script/detail_dwgc.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jgjs/detail_bdhz.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jgjs/detail_fjsc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jgjs/detail_dwgc.jsp",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jgjs/script/jgjs_sc_list.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jgjs/script/jgjs_jj_list.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jgjs/script/detail_fjsc.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_fjgc.js",
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/jgjs/jgjs_sc_detail.jsp",
+		"/D/kitandtool/workspace/idea-blsp-nw/blspxt/src/main/webapp/function/sjwjsc/ck_details.html",
 		"/C/GitRepository/MyData/doc/todo/todo.todo",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_dlgc.jsp",
-		"/D/kitandtool/workspace/normal/plate/Database/存储过程(UTF-8)/工程项目报建（JW2017_XMBJ）【包体】.SQL",
 		"/D/kitandtool/workspace/normal/plate/Database/存储过程(UTF-8)/工程项目报建信息删除（JW2017_BJXXSC）【包体】.SQL",
 		"/D/kitandtool/workspace/idea-3jba/ww/Database/存储过程/根据业务信息取申报状态和办理意见/根据业务信息取申报状态和办理意见【SJBASYS_GETINFO】（包体）.sql",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_ldgc.jsp",
@@ -708,8 +743,6 @@
 		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbdlhtbc/script/zbdlhtbc_fjsc.js",
 		"/D/kitandtool/workspace/idea-3jba/ww/src/main/webapp/zbdlhtbc/zbdlhtbc_fjsc.jsp",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/detail.jsp",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/script/zbdl_fjsc.js",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbdl/zbdl_fjsc.jsp",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_qtgc.js",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zbkzj_ff.js",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/java/com/cdmcs/cdjw/sjba/service/grid/zbkzj/GetHtbaListService.java",
@@ -743,44 +776,11 @@
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/sghtba/sghtba_detils.jsp",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/zbkzj_sc_list.jsp",
 		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_ylgc.jsp",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_qlgc.jsp",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_fjgc.jsp",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_ylgc (2).js",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_ylgc.js",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_qlgc.js",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_qlgc (2).js",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_psgc (2).js",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_ldgc (2).js",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_fjsc (2).js",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_fjgc - 副本.js",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_dlgc - 副本.js",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_fjgc.js",
-		"/C/GitRepository/MyData/EDU/src/js/layer/layer.alert提示.js",
-		"/C/GitRepository/MyData/EDU/src/js/layer/layer.confirm.js",
-		"/C/GitRepository/MyData/EDU/src/js/checkbox/获取所有checkbox的值.js",
-		"/C/GitRepository/MyData/EDU/src/js/select/select2_demo.jsp",
-		"/C/GitRepository/MyData/EDU/src/js/select/select2.cdmcs.js",
-		"/C/GitRepository/MyData/EDU/src/js/拼接字符串/gridcell中拼接字符串.js",
-		"/C/GitRepository/MyData/EDU/src/js/ab.js",
-		"/C/Users/Administrator/Desktop/相关数据/工作流完成.sql",
-		"/D/kitandtool/workspace/normal/plate/src/main/webapp/sgxk/sgxksb_zbba.jsp",
-		"/D/kitandtool/workspace/normal/sso/src/main/webapp/ztxx/script/reg.js",
-		"/D/kitandtool/workspace/normal/sso/src/main/webapp/ztxx/reg.jsp",
-		"/C/GitRepository/MyData/EDU/src/angular/events/apply.js",
-		"/C/GitRepository/MyData/EDU/src/angular/radio.html",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/script/zbkzj_qlgc - 副本.js",
-		"/C/GitRepository/MyData/EDU/src/js/ajax/ajax.post + java 代码.js",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zbkzj_sc_detail.js",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/zbkzj_ff.jsp",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zbkzj_sc.js",
-		"/C/GitRepository/MyData/EDU/src/js/layer/window.close.js.tmp",
-		"/C/GitRepository/MyData/EDU/src/js/top.win/windemo.js",
-		"/D/kitandtool/workspace/idea-blsp-nw/blspxt/.idea/libraries/Maven__org_freemarker_freemarker_2_3_22.xml",
-		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/zbkzj/script/zgth.js"
+		"/D/kitandtool/workspace/idea-3jba/nw/src/main/webapp/function/detail/zbkzj_qlgc.jsp"
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -794,6 +794,69 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<img",
+			" <img",
+			"img",
+			"src",
+			"C_JGBM",
+			"f_deal",
+			"PK_CU_ZBBA",
+			"zbba",
+			"C_XMGLDW",
+			"P_RESULT_JSXM_XMXX_JSDW",
+			"getFileStr",
+			"element",
+			"index",
+			"scope.bdxx[index]",
+			"treeArray",
+			"treeArray.push",
+			"treeArray ",
+			"treeData",
+			"treeData ",
+			"dwgcList",
+			"treeData",
+			"dwgcList",
+			"N_BDID",
+			"N_CS",
+			"xmxx_nr",
+			"C_SQR_DWMC",
+			"____",
+			"申请人单位名称",
+			"----",
+			"N_CS",
+			"N_GD",
+			"xmxx_nr",
+			"N_GZZFJSJ",
+			"----",
+			"工资支付结算金额",
+			"高度（米）",
+			"xmxx_lm",
+			"C_CBRMC",
+			"N_JZGM",
+			"N_ZBZJE",
+			"建筑规模（平方米）",
+			"中标总金额（万元）",
+			"N_HTJE",
+			"C_XZQHMC",
+			"pageInfo",
+			"C_CBRMC",
+			"colspan",
+			"FLayout",
+			"queryZxm",
+			"disabled",
+			"placeholder",
+			"_xmid",
+			"_XMID",
+			"_xmid",
+			"_XMID",
+			"_xmid",
+			"rqgcApp",
+			"dwgcxxApp",
+			"../static",
+			"%@ include",
+			"<%@ include ",
+			"<%@ include file=\"../header.jsp\" %>",
+			"<%@ include",
 			"gzs_table",
 			"xmxx_lm",
 			"gzs_table",
@@ -858,70 +921,7 @@
 			"C_YXBZ",
 			"dataList[i][\"C_ZT\"]",
 			"dataList[i][\"lczt\"]",
-			"C_LCZT",
-			" \"</",
-			"append",
-			"           .",
-			" .append",
-			"append",
-			"dataList",
-			"C_BLYJ",
-			"LSB",
-			"taList[i][\"C_LCZT",
-			"PK_QUERY_XMXX_LIST",
-			"PK_XMBJ_CODE_QUERY",
-			"grid",
-			"dhtml",
-			"XGrid",
-			"dhtmlXGrid",
-			"dhtmlXGridObject",
-			"gridbox",
-			"myGrid",
-			"filter",
-			"C_TITLE",
-			"C_BDMC",
-			"lsb",
-			"C_BDMC",
-			"params",
-			"ztLoginUserInfo",
-			"ZtLoginUserInfo",
-			"ztLoginUserInfo",
-			"LoginUserInfo",
-			"loginUserInfo",
-			"C_TITLE",
-			"C_BDMC",
-			"C_TITLE",
-			"C_BDMC",
-			"操作",
-			"lumn-la",
-			"操作",
-			",",
-			"left",
-			"umn-ali",
-			"center",
-			",",
-			"umn-wi",
-			"6",
-			",",
-			"\"\",",
-			"umn-width",
-			"6",
-			",",
-			"*",
-			"olumn-wid",
-			"6",
-			",",
-			"项目名称",
-			"column-label",
-			"操作",
-			",",
-			"操作",
-			",",
-			"column-label",
-			",",
-			"r,",
-			" +",
-			"+"
+			"C_LCZT"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -982,35 +982,33 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/D/kitandtool/workspace/idea-blsp-nw/blspxt/src/main/webapp/function/sjwjsc/ck_details.html",
+					"file": "/D/kitandtool/workspace/idea-blsp-nw/blspxt/src/main/webapp/function/sjgl/xmxxgl/sjgl_xmxx.jsp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22248,
+						"buffer_size": 4249,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2357,
-								2357
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"SL.14.region_keys":
+							"SL.15.region_keys":
 							[
-								"SL.csslint.Highlights.|9d660aa1de2d6abb0b302e1377e2f75d4e1c3585b0b7360688072e60d2e9eb48|region.yellowish markup.warning.sublime_linter|32",
 								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"SL.csslint.Highlights.|cab3e8d1c77d68937eb4b1efe95e71710e7b12243b219e8d77feab0d9b6366cf|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|68b4f34ffd87b4ded887d1ab773cfd6f59747dedb56f1b4a3d7aff2faceaa780|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|da90fdcf567059fccc3b568a7271db5816cb74f90b97ee80ddfb0762e34a3c34|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Highlights.|6456eea2dd1f61862ce8b7726e754773ed9bda58583ac5b259d38b49b3ef3ebd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|43a4dd0963c628e8f23674c72e5a7585075d21cbc9217da22bab8a1d8fa78c3f|region.redish markup.error.sublime_linter|32",
+								"SL.jshint.Highlights.|a0cba9d2a808c96f01c44886b78943ae428d2be8e14843ed7713c318651a21ed|region.redish markup.error.sublime_linter|32",
+								"SL.jshint.Gutter.|region.redish markup.error.sublime_linter|dot",
 								"sublime_linter.protected_regions",
-								"SL.csslint.Highlights.|593e8e10bc2ca40fc3ae3be3b7cef025ff0328676712342f8f1bfb5b6e1753e4|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|8fd967789a3688c1f94b4102380614c40705ddfc33875e6817c9e21991766f8f|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|fdeb374bfa8a2009c6db19612faae9cfd30227e1b731047d609d70bb980c0b7a|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|5984687950492bd82399b68c4ae147dfc38befe1fbcacd7e74caf7de5887bda9|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|ff7fb1825f70ce5ebce8dcbf0406e779fdd388450a78315fa5af823f7df7193b|region.yellowish markup.warning.sublime_linter|32"
+								"SL.jshint.Highlights.|2496437197a847ca8e125d5cdbb8c4c031eaf228dffa7da0eedb18986d97f752|region.redish markup.error.sublime_linter|32"
 							],
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
@@ -1018,27 +1016,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										2423,
-										2424
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										2293,
-										2294
-									]
 								},
 								"unmatched":
 								{
@@ -1046,71 +1029,68 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
-							"bs_sintax": "html",
-							"buffer_scroll_name": "7fea00f5",
-							"is_init_dirty_state": false,
-							"origin_encoding": "UTF-8",
-							"spell_check": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"bs_sintax": "java server pages (jsp)",
+							"buffer_scroll_name": "e393b487",
+							"syntax": "Packages/Java/Java Server Pages (JSP).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 427.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1121,7 +1101,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -1182,7 +1162,7 @@
 	"project": "/D/kitandtool/workspace/sublime/coconut.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1192,15 +1172,47 @@
 		"selected_items":
 		[
 			[
+				"function/sjgl/xmxxgl/sjgl_xmxx.jsp",
+				"blspxt\\src\\main\\webapp\\function\\sjgl\\xmxxgl\\sjgl_xmxx.jsp"
+			],
+			[
+				"baxx_detail.js",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\zhcx\\baxx_detail.jsp"
+			],
+			[
+				"ztxx/reg.jsp",
+				"sso\\src\\main\\webapp\\ztxx\\reg.jsp"
+			],
+			[
+				"zhgl",
+				"plate\\src\\main\\webapp\\zhgl\\script\\main.js"
+			],
+			[
+				"sgzcbgl/sgzcb_list.jsp",
+				"ww\\src\\main\\webapp\\sgzcbgl\\sgzcb_list.jsp"
+			],
+			[
+				"sgxk",
+				"plate\\Database\\存储过程(UTF-8)\\施工许可申报（JW2017_SGXK）【包体】.SQL"
+			],
+			[
+				"bagl/fjgc/baxx_detail.html",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\bagl\\fjgc\\baxx_detail.html"
+			],
+			[
+				"unction/bagl/fjgc/baxx_detail.html",
+				"idea-zljd-nw\\src\\main\\webapp\\function\\bagl\\fjgc\\baxx_detail.html"
+			],
+			[
+				"JW2017_XMBJ",
+				"plate\\Database\\存储过程(UTF-8)\\工程项目报建（JW2017_XMBJ）【包体】.SQL"
+			],
+			[
 				"odo",
 				"doc\\todo\\todo.todo"
 			],
 			[
 				"xmbj",
-				"plate\\Database\\存储过程(UTF-8)\\工程项目报建（JW2017_XMBJ）【包体】.SQL"
-			],
-			[
-				"JW2017_XMBJ",
 				"plate\\Database\\存储过程(UTF-8)\\工程项目报建（JW2017_XMBJ）【包体】.SQL"
 			],
 			[
@@ -1298,10 +1310,6 @@
 			[
 				"gxk/sgxksb_zbba.jsp",
 				"plate\\src\\main\\webapp\\sgxk\\sgxksb_zbba.jsp"
-			],
-			[
-				"ztxx/reg.jsp",
-				"sso\\src\\main\\webapp\\ztxx\\reg.jsp"
 			],
 			[
 				"ztxx/reg.js",
@@ -1462,14 +1470,6 @@
 			[
 				"blsp",
 				"idea-zljd-nw\\document\\存储过程\\并联审批信息管理\\并联审批信息管理【ZJSYS_BLSPXX】（包头） .sql"
-			],
-			[
-				"sgxk",
-				"plate\\Database\\存储过程(UTF-8)\\施工许可申报（JW2017_SGXK）【包体】.SQL"
-			],
-			[
-				"zhgl",
-				"plate\\src\\main\\webapp\\zhgl\\script\\main.js"
 			],
 			[
 				"ztgl ",
@@ -1682,26 +1682,6 @@
 			[
 				"ZJSYS_JCAPGL",
 				"idea-zljd-nw\\document\\存储过程\\现场检查安排\\现场检查安排管理【ZJSYS_JCAPGL】（包体） .sql"
-			],
-			[
-				"function/cxtj/zhcx/xcjd_detail",
-				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\zhcx\\xcjd_detail.jsp"
-			],
-			[
-				"function/gcjdgl/xcjcap/main.",
-				"idea-zljd-nw\\src\\main\\webapp\\function\\gcjdgl\\xcjcap\\script\\main.js"
-			],
-			[
-				"function/gcjdgl/xcjcap/main.html",
-				"idea-zljd-nw\\src\\main\\webapp\\function\\gcjdgl\\xcjcap\\main.html"
-			],
-			[
-				"function/cxtj/zhcx/jdjh_detail.js",
-				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\zhcx\\jdjh_detail.jsp"
-			],
-			[
-				"unction/cxtj/zhcx/tree.",
-				"idea-zljd-nw\\src\\main\\webapp\\function\\cxtj\\zhcx\\tree.html"
 			]
 		],
 		"width": 0.0
