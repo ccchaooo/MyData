@@ -100,6 +100,50 @@
   <!--                       response sent to clients when directory        -->
   <!--                       listings is enabled? [true]                    -->
 
+    <filter>
+        <filter-name>normalFileFilter</filter-name>
+        <filter-class>org.apache.catalina.filters.ExpiresFilter</filter-class>
+        <init-param>
+            <param-name>ExpiresByType image</param-name>
+            <param-value>access plus 12345 seconds</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ExpiresByType text/css</param-name>
+            <param-value>access plus 12345 seconds</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ExpiresByType application/javascript</param-name>
+            <param-value>access plus 12345 seconds</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>normalFileFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>FunctionFileFilter</filter-name>
+        <filter-class>org.apache.catalina.filters.ExpiresFilter</filter-class>
+        <init-param>
+            <param-name>ExpiresByType image</param-name>
+            <param-value>access plus 1 seconds</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ExpiresByType text/css</param-name>
+            <param-value>access plus 1 seconds</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ExpiresByType application/javascript</param-name>
+            <param-value>access plus 1 seconds</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>FunctionFileFilter</filter-name>
+        <url-pattern>/function/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+    </filter-mapping>
+
     <servlet>
         <servlet-name>default</servlet-name>
         <servlet-class>org.apache.catalina.servlets.DefaultServlet</servlet-class>
@@ -4671,6 +4715,8 @@
   <!-- deployment descriptor, that list *replaces* the list configured      -->
   <!-- here, so be sure to include any of the default values that you wish  -->
   <!-- to use within your application.                                       -->
+
+
 
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>

@@ -9,8 +9,8 @@
 <html>
   <head>
     <title>http test</title>
-    <script type="text/javascript" src="scripts/index.js"></script>
-    <script type="text/css" src="scripts/css.css"></script>
+    <script type="text/javascript" src="scripts/inner.js"></script>
+    <script type="text/css" src="scripts/inner.css"></script>
   </head>
   <body>
      <div>
