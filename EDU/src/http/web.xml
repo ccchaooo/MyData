@@ -1,0 +1,46 @@
+<!-- 配置缓存时间限制 对于JavaScript文件,每次都要从服务器上获取最新的文档 -->
+<!-- 从上直下过滤 -->
+    <filter>
+        <filter-name>normalFileFilter</filter-name>
+        <filter-class>org.apache.catalina.filters.ExpiresFilter</filter-class>
+        <init-param>
+            <param-name>ExpiresByType image</param-name>
+            <param-value>access plus 12345 seconds</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ExpiresByType text/css</param-name>
+            <param-value>access plus 12345 seconds</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ExpiresByType application/javascript</param-name>
+            <param-value>access plus 12345 seconds</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>normalFileFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>FunctionFileFilter</filter-name>
+        <filter-class>org.apache.catalina.filters.ExpiresFilter</filter-class>
+        <init-param>
+            <param-name>ExpiresByType image</param-name>
+            <param-value>access plus 1 seconds</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ExpiresByType text/css</param-name>
+            <param-value>access plus 1 seconds</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ExpiresByType application/javascript</param-name>
+            <param-value>access plus 1 seconds</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>FunctionFileFilter</filter-name>
+        <url-pattern>/function/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+    </filter-mapping>
+
