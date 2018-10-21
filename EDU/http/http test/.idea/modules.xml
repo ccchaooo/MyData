@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/http test.iml" filepath="$PROJECT_DIR$/http test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../httptestforhmoe/httptestforhmoe.iml" filepath="$PROJECT_DIR$/../httptestforhmoe/httptestforhmoe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../app/msDEV/msDEV1.iml" filepath="$PROJECT_DIR$/../../../app/msDEV/msDEV1.iml" />
     </modules>
   </component>
 </project>
