@@ -2,11 +2,12 @@ REM 添加字段
 alter table T_JSXM_BDXX_INFO add (C_XMDLYZDW  varchar2(2000)  );
 REM 添加字段注释：
 comment on column t1.id is 'id';
-REM 添加表注释：
-COMMENT ON table t1 IS '个人信息';
+REM 修改字段
+alter table ZBKZJ_FJGCBC_INFO modify (N_JZCS_DS INTEGER default 0);
 REM 删除字段
 alter table T_BJSY_CODE_FLDM drop column  C_SM;
-
+REM 添加表注释：
+COMMENT ON table t1 IS '个人信息';
 
 --只读结果的查询可以使用decode 
 b.C_ZYGC,b.C_ZBFBLX,decode(b.C_ZBFBLX,'1','总承包','2','总承包分包专业工程','3','招标人直接发包工程') C_ZBFBLXMC,
