@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="05aff410-51a8-44e5-990c-815537eb9a40" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,49 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="template.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/template/scripts/template.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="39" column="77" lean-forward="true" selection-start-line="39" selection-start-column="77" selection-end-line="39" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/template/template.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/function/home/scripts/home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/function/home/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,6 +38,7 @@
       <find>ootstrap.min.css</find>
       <find>bootstrap</find>
       <find>angular</find>
+      <find>City</find>
     </findStrings>
     <replaceStrings>
       <replace>./</replace>
@@ -97,6 +57,15 @@
         <option value="$PROJECT_DIR$/web/template/template.jsp" />
         <option value="$PROJECT_DIR$/web/function/home/home.jsp" />
         <option value="$PROJECT_DIR$/web/function/home/scripts/home.js" />
+        <option value="$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/service/msService.java" />
+        <option value="$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/domain/Ms.java" />
+        <option value="$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/service/MsService.java" />
+        <option value="$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/dao/MsDao.java" />
+        <option value="$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/resources/mapper/MsMapper.xml" />
+        <option value="$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/controller/CityRestController.java" />
+        <option value="$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/controller/MsRestController.java" />
+        <option value="$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/service/impl/MsServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -121,7 +90,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1369" />
+    <option name="width" value="1370" />
     <option name="height" value="730" />
   </component>
   <component name="ProjectView">
@@ -129,8 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -144,90 +111,44 @@
               <item name="MSDEV" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MSDEV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSDEV" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MSDEV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSDEV" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MSDEV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSDEV" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controls" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MSDEV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSDEV" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MSDEV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSDEV" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MSDEV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSDEV" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MSDEV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSDEV" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MSDEV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSDEV" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MSDEV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MSDEV" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="CityRestController&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Application/WorkPlace/jwxm/文档" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/kitandtool/node/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40804598" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\GitRepository\MyData\DEV\MSDEV\web\function\home\scripts" />
-      <recent name="C:\GitRepository\MyData\DEV\MSDEV\web\function" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitRepository\springboot-learning-example\springboot-mybatis\src\main\resources\mapper" />
       <recent name="C:\GitRepository\MyData\DEV\MSDEV\web\template" />
       <recent name="C:\GitRepository\MyData\DEV\MSDEV\web\function\home" />
       <recent name="C:\GitRepository\MyData\DEV\MSDEV\web\controls" />
       <recent name="C:\GitRepository\MyData\DEV\MSDEV\web\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.spring.springboot.domain" />
+      <recent name="org.spring.springboot.dao" />
+      <recent name="org.spring.springboot.service.impl" />
+      <recent name="org.spring.springboot.service" />
+      <recent name="org.spring.springboot.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitRepository\MyData\DEV\MSDEV\web\function\home\scripts" />
+      <recent name="C:\GitRepository\MyData\DEV\MSDEV\web\function" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,7 +163,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.spring.springboot.Application" />
+      <module name="springboot-mybatis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.spring.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -357,6 +289,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.汤姆猫-民宿" />
+      <item itemvalue="Application.Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration useDefault="false">C:\Users\64511\AppData\Roaming\Subversion</configuration>
@@ -370,46 +311,55 @@
       <option name="presentableId" value="Default" />
       <updated>1540115936174</updated>
       <workItem from="1540115938115" duration="225000" />
-      <workItem from="1540116199185" duration="8024000" />
+      <workItem from="1540116199185" duration="8707000" />
+      <workItem from="1540220714795" duration="1194000" />
+      <workItem from="1540573515399" duration="2245000" />
+      <workItem from="1540619398389" duration="3248000" />
+      <workItem from="1540912852737" duration="3109000" />
+      <workItem from="1541086828660" duration="892000" />
+      <workItem from="1542121312709" duration="661000" />
+      <workItem from="1542201663241" duration="1837000" />
+      <workItem from="1542210923414" duration="31000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8249000" />
+    <option name="totallyTimeSpent" value="22149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32905984" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32905984" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="14" weight="0.66951567" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985755" visible="true" weight="0.28150135" />
+      <window_info id="Web" order="2" sideWeight="0.5014245" side_tool="true" weight="0.2533512" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985755" visible="true" weight="0.2533512" />
-      <window_info id="Web" order="2" sideWeight="0.5014245" side_tool="true" weight="0.2533512" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3988604" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32905984" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
@@ -420,25 +370,144 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="msDao.findMsByRid(rid)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>msDao.findMsByRid(rid)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CityRestController</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/resources/mapper/MsMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/service/impl/CityServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/controller/MsRestController.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/service/impl/MsServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/resources/mapper/CityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/resources/mapper/MsMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/controller/CityRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/service/impl/MsServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/controller/MsRestController.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/service/CityService.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/service/MsService.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/dao/MsDao.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/domain/Ms.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/controller/CityRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/template/scripts/template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="77" selection-start-line="39" selection-start-column="77" selection-end-line="39" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/template/template.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/function/home/home.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/function/home/scripts/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/template/scripts/template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="77" selection-start-line="39" selection-start-column="77" selection-end-line="39" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/template/template.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/function/home/home.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/function/home/scripts/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/example/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/controls/bootstrap-3.3.7/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/controls/bootstrap-3.3.7/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4080" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controls/bootstrap-3.3.7/js/npm.js" />
+    <entry file="file://$PROJECT_DIR$/web/controls/bootstrap-3.3.7/css/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/web/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -453,46 +522,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/function/home/home.jsp">
+    <entry file="file://$PROJECT_DIR$/web/function/home/scripts/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="536">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/function/home/home.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/template/template.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/template/scripts/template.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="39" column="77" selection-start-line="39" selection-start-column="77" selection-end-line="39" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/domain/City.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/dao/CityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="39" column="77" lean-forward="true" selection-start-line="39" selection-start-column="77" selection-end-line="39" selection-end-column="77" />
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/template/template.jsp">
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/domain/Ms.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        <state relative-caret-position="17">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/function/home/scripts/home.js">
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/service/MsService.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        <state relative-caret-position="204">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/controller/CityRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" selection-start-line="40" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/service/CityService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.6.RELEASE/spring-web-4.3.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/service/impl/CityServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/resources/mapper/MsMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/resources/mapper/CityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/service/impl/MsServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/dao/MsDao.java" />
+    <entry file="file://$PROJECT_DIR$/../../../springboot-learning-example/springboot-mybatis/src/main/java/org/spring/springboot/controller/MsRestController.java" />
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>MSDEV:war exploded</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -541,12 +657,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MSDEV</last-edited>
+          <last-edited>springboot-mybatis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.40804598" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -566,7 +681,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
