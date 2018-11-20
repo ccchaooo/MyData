@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../DEV/MSDEV/MSDEV.iml" filepath="$PROJECT_DIR$/../../../DEV/MSDEV/MSDEV.iml" />
       <module fileurl="file://$PROJECT_DIR$/http test.iml" filepath="$PROJECT_DIR$/http test.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../app/msDEV/msDEV1.iml" filepath="$PROJECT_DIR$/../../../app/msDEV/msDEV1.iml" />
     </modules>
