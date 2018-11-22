@@ -4,6 +4,6 @@
 <mapper namespace="org.spring.springboot.dao.RecordDao">
 <!-- 返回值为List，resultType为List中元素的全类名 -->
 <select id="findAllRecord" resultType="org.spring.springboot.domain.Record">
-	select * from realrecord
+	select c_rid,d_checkdin,d_checkout,platename,n_total,fee,platename,comments from realrecord
 </select>
 </mapper>

@@ -32,16 +32,17 @@ $(function () {
     myGrid = myLayout.cells("b").attachGrid();
     myGrid.setImagePath("../../controls/dhtmlx-5.0/skins/web/imgs/dhxgrid_web/");
     myGrid.setStyle("text-align:center;background-color:#f4f4f4;color:#000;font-weight:bold;border-bottom:4px solid #1E90FF;", "height:40px;");
-    myGrid.setHeader("列名,列名,列名,列名,列名,列名,列名,列名,列名");
-    myGrid.setInitWidthsP("4,7,12,25,28,12,12,12,12");//设置列宽（按百分比）
-    myGrid.setColAlign("center,left,left,center,left,center,center,center,center");//设置各列的对齐方式
-    // myGrid.setColTypes("ro,ro,ro,ro,ro,ro,ro,ro,ro");//设置各列的数据类型
+    myGrid.setHeader("序号,房间号,入住时间,退房时间,平台名称,金额,税费,交易方式,备注");
+    myGrid.setInitWidthsP("4,7,12,12,10,12,12,12,*");//设置列宽（按百分比）
+    myGrid.setColAlign("center,center,center,center,center,center,center,center,center");//设置各列的对齐方式
+    myGrid.setColTypes("ro,ro,ro,ro,ro,ro,ro,ro,ro");//设置各列的数据类型
     myGrid.enableResizing("false,true,true,true,true,false,false,false,false");
     myGrid.enableAlterCss("GridRowColorEven", "GridRowColorUnEven");//设置行的交替样式
-    myGrid.setColumnIds("'',C_STBH,C_SPBH,C_JGMC,C_SBMC,D_SPYWCSJ,D_SYYWCBJSJ,C_DQZT,D_JJSJ");
+    myGrid.setColumnIds("'',c_rid,d_checkdin,d_checkout,platename,n_total,D_SYYWCBJSJ,platename,comments");
     myGrid.init();
 
     myGrid.setAwaitedRowHeight(40);
+
     myGrid.enableSmartRendering(true, 20);
 
     myGrid.attachEvent("onXLS", function () {
@@ -62,14 +63,24 @@ $(function () {
         $.post("../query",
             function (data, status) {
                 // alert("Data: " + data + "\nStatus: " + status);
-                //根据结果集设置报警标志
-                var ids = myGrid.getAllRowIds(".").split("."); //获取所有rowid;
 
-                for (var j = 0; j < data.length; j++) {
-                        for (var i = 0; i < ids.length; i++) {
-                        myGrid.cells(ids[i], j).setValue(item[i]);
-                    }
+                var jsonData = {
+                    rows:[
+                        // { id:3, data: ["The Rainmaker", "John Grisham", "-200"]}
+                    ]
+                };
+
+                var keyarr = ("c_rid,d_checkdin,d_checkout,platename,n_total,D_SYYWCBJSJ,platename,comments").split(",");
+
+                for(var i = 0;i<data.length-1;i++){
+                    var temp = [];
+                    temp[0] = i+1;
+                    keyarr.forEach(function (key) {
+                        temp.push(data[i][key]);
+                    });
+                    jsonData.rows.push({id:i+1,data:temp})
                 }
+                myGrid.parse(jsonData,"json");
             });
     }]);
 
