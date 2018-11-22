@@ -1,0 +1,10 @@
+topic 1 : sun 起源 
+topic 2 : sun 与 ms 之争
+topic 3 : Oracle 与 sun
+topic 4 : Oracle 与 Java
+topic 5 : Oracle 与 Google    --java
+topic 6 : Oracle 与 Alibaba   --mysql 与 oceanbase
+topic 7 : Oracle 与 Amazon    --Oracle DataBase
+topic 8 : Amazon 与 Alibaba   --AWS 与 阿里云
+topic 9 : Amazon 与 ms        --AWS 与 Azure
+topic 10 : Microsoft 量子计算          

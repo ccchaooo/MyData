@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/jaxws-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/jaxws-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/policy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/management-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/woodstox-core-asl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/jaxws-tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/jaxb-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/jaxb-xjc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/mimepull.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/FastInoset.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/gmbal-api-only.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/streambuffer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/ha-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/jsr181-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/saaj-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/stax-ex.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/stax2-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/saaj-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/jaxb-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../DEV/MSDEV/lib/mail.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
