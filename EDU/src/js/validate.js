@@ -1,2 +1,6 @@
 //不可输入 直接失去焦点
-onfocus="this.blur()";
+onfocus = "this.blur()";
+
+
+ng-pattern="/^(0|[1-9][0-9]{0,6})?(.[0-9]{1,6})?$/"
+
