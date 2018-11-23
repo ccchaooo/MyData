@@ -19,5 +19,15 @@ public class CommonController {
     public String first(){
         return "template";
     }
+
+
+    /**
+     * @date 22/11/2018
+     * @return optrow.jsp 操作行记录
+     */
+    @RequestMapping("/optrow")
+    public String optrow(){
+        return "optrow";
+    }
 }
 
