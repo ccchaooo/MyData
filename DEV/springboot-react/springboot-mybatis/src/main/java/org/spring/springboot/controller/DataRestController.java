@@ -18,7 +18,7 @@ import java.util.List;
  * @date 15/11/2018
  */
 @RestController
-public class MyRestController {
+public class DataRestController {
 
     @Autowired
     private CityService cityService;

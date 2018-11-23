@@ -37,7 +37,7 @@
       <script type="text/javascript" src="../../controls/dhtmlx-5.0/codebase/dhtmlx.js"></script>
       <script type="text/javascript" src="../../script/dhtmlx/codebase/dhtmlx.js"></script>
       <script type="text/javascript" src="../../script/angular/ie8/dist/angular.min.js"></script>
-      <script type="text/javascript" src="scripts/template.js"></script>
+      <script type="text/javascript" src="/scripts/template.js"></script>
       <style>
           html, body {
               width: 100%;

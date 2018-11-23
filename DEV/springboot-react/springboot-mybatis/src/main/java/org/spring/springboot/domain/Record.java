@@ -4,6 +4,8 @@ package org.spring.springboot.domain;
  * @author dengchao
  */
 public class Record {
+
+    private String roomname;
     private String c_rid;
     private Integer n_index;
     private Double n_price;
@@ -76,6 +78,13 @@ public class Record {
 
     }
 
+    public String getRoomname() {
+        return roomname;
+    }
+
+    public void setRoomname(String roomname) {
+        this.roomname = roomname;
+    }
     public Double getN_price() {
         return n_price;
     }

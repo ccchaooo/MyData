@@ -2,8 +2,13 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 
 <mapper namespace="org.spring.springboot.dao.RecordDao">
-<!-- 返回值为List，resultType为List中元素的全类名 -->
-<select id="findAllRecord" resultType="org.spring.springboot.domain.Record">
-	select * from realrecord
-</select>
+    <!-- 返回值为List，resultType为List中元素的全类名 -->
+    <select id="findAllRecord" resultType="org.spring.springboot.domain.Record">
+        SELECT CASE rd.c_rid WHEN 'a1' then '小房间'
+               WHEN 'a2' then '二房间'
+               WHEN 'a4' then '空调独卫房'
+               WHEN 'a5' then '五号房'
+               END roomname,
+            rd.* FROM realrecord rd ORDER BY rd.d_checkdin ASC
+    </select>
 </mapper>

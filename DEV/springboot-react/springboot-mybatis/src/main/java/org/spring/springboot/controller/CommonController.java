@@ -11,12 +11,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @date 22/11/2018
  */
 @Controller
-@RequestMapping("test")
-public class HtmlController {
+@RequestMapping("com")
+public class CommonController {
 
 
-    @RequestMapping("/template")
+    @RequestMapping("/test")
     public String first(){
         return "template";
     }
 }
+
