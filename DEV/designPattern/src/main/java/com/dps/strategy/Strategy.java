@@ -9,5 +9,5 @@ public interface Strategy {
     /**
      * 策略接口方法,需要在实现类中重写
      */
-    void strategyInterface();
+    String strategyInterface();
 }

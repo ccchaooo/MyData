@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class StrategyImplC implements Strategy {
     @Override
-    public void strategyInterface() {
-        System.out.println(this.getClass().getName());
+    public String strategyInterface() {
+        return this.getClass().getName();
     }
 }
