@@ -14,12 +14,13 @@ public class Decorator implements Component {
 
     @Autowired
     public Decorator(Component component) {
+
         this.component = component;
     }
 
     @Override
     public Map<String,String> show() {
-        //为派给构建
+        //委派给构建
         return component.show();
     }
 }
