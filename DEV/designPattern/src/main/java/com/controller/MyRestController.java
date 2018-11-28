@@ -1,5 +1,7 @@
 package com.controller;
 import com.clients.Client;
+import com.clients.DecoratorClient;
+import com.clients.StrategyClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -14,16 +16,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyRestController{
     @Autowired
-    Client strategyClient;
+    StrategyClient strategyClient;
     @RequestMapping(value = "/Strategy",method = RequestMethod.GET)
     public String strategy(@RequestParam(value = "num", required = false,defaultValue = "0") String prama) {
         return strategyClient.clientInterface(Integer.parseInt(prama));
     }
 
     @Autowired
-    Client decoratorClient ;
+    DecoratorClient decoratorClient ;
     @RequestMapping(value = "/Decorator",method = RequestMethod.GET)
-    public String decorator(@RequestParam(value = "name", required = false,defaultValue = "0") String prama) {
-        return decoratorClient.clientInterface(Integer.parseInt(prama));
+    public String decorator() {
+        return decoratorClient.clientInterface();
     }
 }
