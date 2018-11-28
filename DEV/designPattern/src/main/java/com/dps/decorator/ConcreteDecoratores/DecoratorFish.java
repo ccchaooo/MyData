@@ -1,4 +1,4 @@
-package com.dps.decorator.ConcreteDecoratores;
+package com.dps.decorator.concretedecoratores;
 
 import com.dps.decorator.Component;
 import com.dps.decorator.Decorator;
@@ -13,8 +13,10 @@ import java.util.Map;
 public class DecoratorFish extends Decorator{
 
     public DecoratorFish(Component component) {
+
         super(component);
     }
+
     @Override
     public Map<String,String> show(){
 

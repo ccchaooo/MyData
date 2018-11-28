@@ -1,9 +1,9 @@
 package com.clients;
 
 import com.dps.decorator.Component;
-import com.dps.decorator.ConcreteDecoratores.DecoratorBird;
-import com.dps.decorator.ConcreteDecoratores.DecoratorDog;
-import com.dps.decorator.ConcreteDecoratores.DecoratorFish;
+import com.dps.decorator.concretedecoratores.DecoratorBird;
+import com.dps.decorator.concretedecoratores.DecoratorDog;
+import com.dps.decorator.concretedecoratores.DecoratorFish;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
