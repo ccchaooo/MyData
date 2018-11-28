@@ -12,8 +12,9 @@ import org.springframework.stereotype.Service;
 public class StrategyClient implements Client{
     @Autowired
     Context context;
-    @Override
+
     public String clientInterface(int pram) {
+
         return context.contextInterface(pram);
     }
 }

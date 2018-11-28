@@ -25,8 +25,7 @@ public class DecoratorClient implements Client {
     }
 
 
-    @Override
-    public String clientInterface(int pram) {
+    public String clientInterface() {
         monkey.show();
         return "";
     }
