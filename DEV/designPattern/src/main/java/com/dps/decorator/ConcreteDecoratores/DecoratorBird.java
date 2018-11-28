@@ -22,7 +22,7 @@ public class DecoratorBird extends Decorator{
 
         super.show();
 
-        System.out.println(this.getClass().getName());
+        System.out.println(this.getClass().getName()+":=> Bird");
 
     }
 }

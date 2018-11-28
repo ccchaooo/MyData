@@ -19,7 +19,7 @@ public class DecoratorFish extends Decorator{
 
         super.show();
 
-        System.out.println(this.getClass().getName());
+        System.out.println(this.getClass().getName()+":=> Fish");
 
     }
 }

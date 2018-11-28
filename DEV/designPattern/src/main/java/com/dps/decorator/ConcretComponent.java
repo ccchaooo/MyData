@@ -12,6 +12,7 @@ public class ConcretComponent implements Component {
 
     @Override
     public void show() {
+
         System.out.println("本体: "+this.getClass().getName());
     }
 }

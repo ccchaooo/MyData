@@ -22,7 +22,7 @@ public class DecoratorDog extends Decorator{
 
         super.show();
 
-        System.out.println(this.getClass().getName());
+        System.out.println(this.getClass().getName()+":=> Dog");
 
     }
 }
