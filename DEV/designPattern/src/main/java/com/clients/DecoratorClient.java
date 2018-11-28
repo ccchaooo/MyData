@@ -4,7 +4,6 @@ import com.dps.decorator.Component;
 import com.dps.decorator.concretedecoratores.DecoratorBird;
 import com.dps.decorator.concretedecoratores.DecoratorDog;
 import com.dps.decorator.concretedecoratores.DecoratorFish;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -19,14 +18,18 @@ public class DecoratorClient implements Client {
      */
     private Component monkey;
 
-    @Autowired
-    public DecoratorClient(Component monkey) {
+
+    /**
+     * (如果有需要,可多种装饰后的产品)
+     * @param monkey
+     */
+    private void setMonkey(Component monkey) {
         this.monkey = new DecoratorDog(new DecoratorBird(new DecoratorFish(monkey)));
     }
 
 
-    public String clientInterface() {
+    public void clientInterface(Component component) {
+        setMonkey(component);
         monkey.show();
-        return "";
     }
 }

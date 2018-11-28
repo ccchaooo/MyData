@@ -11,5 +11,5 @@ public interface Component {
     /**
      * @return 返回被装饰内容
      */
-    Map<String,String> show();
+    void show();
 }

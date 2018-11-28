@@ -2,6 +2,7 @@ package com.controller;
 import com.clients.Client;
 import com.clients.DecoratorClient;
 import com.clients.StrategyClient;
+import com.dps.decorator.ConcretComponent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -24,8 +25,10 @@ public class MyRestController{
 
     @Autowired
     DecoratorClient decoratorClient ;
+    @Autowired
+    ConcretComponent concretComponent;
     @RequestMapping(value = "/Decorator",method = RequestMethod.GET)
-    public String decorator() {
-        return decoratorClient.clientInterface();
+    public void decorator() {
+        decoratorClient.clientInterface(concretComponent);
     }
 }

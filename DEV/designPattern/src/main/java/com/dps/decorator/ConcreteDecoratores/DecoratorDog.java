@@ -18,12 +18,11 @@ public class DecoratorDog extends Decorator{
     }
 
     @Override
-    public Map<String,String> show(){
+    public void show(){
 
         super.show();
 
         System.out.println(this.getClass().getName());
 
-        return new HashMap<String, String>(10);
     }
 }

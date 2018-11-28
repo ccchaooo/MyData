@@ -19,8 +19,8 @@ public class Decorator implements Component {
     }
 
     @Override
-    public Map<String,String> show() {
+    public void show() {
         //委派给构建
-        return component.show();
+        component.show();
     }
 }
