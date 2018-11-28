@@ -2,8 +2,6 @@ package com.dps.decorator;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.Map;
-
 /**
  * 装饰类
  * @author dengchao
@@ -16,6 +14,7 @@ public class Decorator implements Component {
     public Decorator(Component component) {
 
         this.component = component;
+        
     }
 
     @Override
