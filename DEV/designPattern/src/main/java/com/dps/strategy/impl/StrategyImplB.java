@@ -11,6 +11,6 @@ import org.springframework.stereotype.Service;
 public class StrategyImplB implements Strategy {
     @Override
     public String strategyInterface() {
-        return this.getClass().getName();
+        return "当前访问类: " + this.getClass().getName();
     }
 }

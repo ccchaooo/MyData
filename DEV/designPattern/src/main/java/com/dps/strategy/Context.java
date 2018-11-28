@@ -61,8 +61,10 @@ public class Context {
                 setStrategy(strategyImplC);
                 break;
             default:
-                System.out.println("not matched");
-                break;
+                return "not matched ! " +
+                        "<div>?num=1 => strategyImplA</div> " +
+                        "<div>?num=2 => strategyImplB</div> " +
+                        "<div>?num=3 => strategyImplC</div> ";
         }
         //调用当前持有的策略实现类的策略方法
         return strategy.strategyInterface();

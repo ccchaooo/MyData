@@ -19,4 +19,11 @@ public class MyRestController{
     public String strategy(@RequestParam(value = "num", required = false,defaultValue = "0") String prama) {
         return strategyClient.clientInterface(Integer.parseInt(prama));
     }
+
+    @Autowired
+    Client decoratorClient ;
+    @RequestMapping(value = "/Decorator",method = RequestMethod.GET)
+    public String decorator(@RequestParam(value = "name", required = false,defaultValue = "0") String prama) {
+        return decoratorClient.clientInterface(Integer.parseInt(prama));
+    }
 }
