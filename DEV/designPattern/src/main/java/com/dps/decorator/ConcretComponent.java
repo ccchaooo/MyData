@@ -13,6 +13,6 @@ public class ConcretComponent implements Component {
     @Override
     public void show() {
 
-        System.out.println("本体: "+this.getClass().getName());
+        System.out.println("被装饰的对象: "+this.getClass().getName());
     }
 }

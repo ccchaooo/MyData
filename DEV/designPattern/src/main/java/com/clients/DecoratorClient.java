@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 public class DecoratorClient implements Client {
 
     /**
-     * 最终对象
+     * 被装饰的对象
      */
     private Component monkey;
 
@@ -24,12 +24,13 @@ public class DecoratorClient implements Client {
      * @param monkey
      */
     private void setMonkey(Component monkey) {
-        this.monkey = new DecoratorDog(new DecoratorBird(new DecoratorFish(monkey)));
+        this.monkey = new DecoratorFish(new DecoratorDog(new DecoratorBird(monkey)));
     }
 
 
     public void clientInterface(Component component) {
         setMonkey(component);
+        System.out.println("调用初始接口 => ");
         monkey.show();
     }
 }

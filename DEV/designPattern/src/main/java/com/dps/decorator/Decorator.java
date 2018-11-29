@@ -14,7 +14,7 @@ public class Decorator implements Component {
     public Decorator(Component component) {
 
         this.component = component;
-        
+
     }
 
     @Override
