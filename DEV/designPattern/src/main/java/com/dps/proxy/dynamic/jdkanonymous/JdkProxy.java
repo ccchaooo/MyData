@@ -7,7 +7,11 @@ import java.lang.reflect.Proxy;
 /**
  * @author dengchao
  * @date 2018/11/29 14:10
- * 匿名内部类实现jdk动态代理 即使 统一接口 Subject 未被实现,也可以提前完成此类
+ * 匿名内部类实现jdk动态代理 即使 统一接口 Subject 未被实现,也可以提前完成此类。
+ *
+ * JDK动态代理局限性:
+ * 通过反射类Proxy和InvocationHandler回调接口实现的jdk动态代理，要求委托类必须实现一个接口。
+ * 但事实上并不是所有类都有接口，对于没有实现接口的类，便无法使用该方方式实现动态代理。
  */
 @Service
 public class JdkProxy {

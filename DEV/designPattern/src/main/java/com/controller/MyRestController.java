@@ -47,9 +47,10 @@ public class MyRestController{
     }
 
     @Autowired
-    ProxyJdkAnonymousClient proxyJdkAnonymousClient;
-    @RequestMapping(value = "/JdkAnonymous",method = RequestMethod.GET)
+    ProxyCglibClient proxyCglibClient;
+    @RequestMapping(value = "/Cglib",method = RequestMethod.GET)
     public void JdkAnonymous() {
-        proxyJdkAnonymousClient.clientInterface();
+        proxyCglibClient.clientInterface();
     }
+
 }
