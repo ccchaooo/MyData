@@ -1,9 +1,7 @@
 package com.clients;
 
-import com.dps.proxy.dynamic.cglib.ProxyFactory;
-import com.dps.proxy.dynamic.cglib.Target;
-import com.dps.proxy.dynamic.jdkanonymous.JdkProxy;
-import com.dps.proxy.dynamic.jdkanonymous.Subject;
+import com.dps.proxy.cglib.ProxyFactory;
+import com.dps.proxy.cglib.Target;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

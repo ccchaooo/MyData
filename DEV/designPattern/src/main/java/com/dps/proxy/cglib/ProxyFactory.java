@@ -1,9 +1,8 @@
-package com.dps.proxy.dynamic.cglib;
+package com.dps.proxy.cglib;
 
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
-import org.springframework.stereotype.Service;
 
 import java.lang.reflect.Method;
 

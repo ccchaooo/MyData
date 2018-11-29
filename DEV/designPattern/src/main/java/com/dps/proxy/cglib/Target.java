@@ -1,4 +1,4 @@
-package com.dps.proxy.dynamic.cglib;
+package com.dps.proxy.cglib;
 
 import org.springframework.stereotype.Service;
 
