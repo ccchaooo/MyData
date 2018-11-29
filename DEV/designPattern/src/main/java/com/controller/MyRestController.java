@@ -35,21 +35,28 @@ public class MyRestController{
     @Autowired
     ProxyStaticClient proxyStaticClient;
     @RequestMapping(value = "/StaticProxy",method = RequestMethod.GET)
-    public void StaticProxy() {
+    public void staticProxy() {
         proxyStaticClient.clientInterface();
     }
 
     @Autowired
     ProxyJdkClient proxyJdkClient;
     @RequestMapping(value = "/JdkProxy",method = RequestMethod.GET)
-    public void JdkProxy() {
+    public void jdkProxy() {
         proxyJdkClient.clientInterface();
+    }
+
+    @Autowired
+    ProxyJdkAnonymousClient proxyJdkAnonymousClient;
+    @RequestMapping(value = "/JdkAnonymous",method = RequestMethod.GET)
+    public void jdkAnonymous() {
+        proxyJdkAnonymousClient.clientInterface();
     }
 
     @Autowired
     ProxyCglibClient proxyCglibClient;
     @RequestMapping(value = "/Cglib",method = RequestMethod.GET)
-    public void JdkAnonymous() {
+    public void cglib() {
         proxyCglibClient.clientInterface();
     }
 
