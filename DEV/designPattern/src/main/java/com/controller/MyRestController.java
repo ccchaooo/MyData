@@ -1,7 +1,5 @@
 package com.controller;
-import com.clients.Client;
-import com.clients.DecoratorClient;
-import com.clients.StrategyClient;
+import com.clients.*;
 import com.dps.decorator.ConcretComponent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,12 +21,35 @@ public class MyRestController{
         return strategyClient.clientInterface(Integer.parseInt(prama));
     }
 
+
     @Autowired
-    DecoratorClient decoratorClient ;
+    DecoratorClient decoratorClient;
     @Autowired
     ConcretComponent concretComponent;
     @RequestMapping(value = "/Decorator",method = RequestMethod.GET)
     public void decorator() {
         decoratorClient.clientInterface(concretComponent);
+    }
+
+
+    @Autowired
+    ProxyStaticClient proxyStaticClient;
+    @RequestMapping(value = "/StaticProxy",method = RequestMethod.GET)
+    public void StaticProxy() {
+        proxyStaticClient.clientInterface();
+    }
+
+    @Autowired
+    ProxyJdkClient proxyJdkClient;
+    @RequestMapping(value = "/JdkProxy",method = RequestMethod.GET)
+    public void JdkProxy() {
+        proxyJdkClient.clientInterface();
+    }
+
+    @Autowired
+    ProxyJdkAnonymousClient proxyJdkAnonymousClient;
+    @RequestMapping(value = "/JdkAnonymous",method = RequestMethod.GET)
+    public void JdkAnonymous() {
+        proxyJdkAnonymousClient.clientInterface();
     }
 }
