@@ -9,6 +9,6 @@ import com.dps.factory.factorymethod.ExportFile;
 public class ExportFilePdf implements ExportFile {
     @Override
     public String export() {
-        return this.getClass().getName();
+        return"当前类型: "+this.getClass().getName()+"! 可使用类型:type=Pdf,Text,Excel";
     }
 }

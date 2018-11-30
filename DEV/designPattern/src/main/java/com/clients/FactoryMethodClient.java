@@ -17,18 +17,17 @@ public class FactoryMethodClient implements Client {
      */
     private ExportFactory getFactory(String type) {
         try {
-//            return (ExportFactory)Class.forName("java.com.dps.factory.factorymethod.exportfactoryimpl.ExportFactory"+type).newInstance();
-            return (ExportFactory)Class.forName("java.com.dps.factory.factorymethod.exportfactoryimpl.ExportFactoryPdf").newInstance();
+            return (ExportFactory)Class.forName("com.dps.factory.factorymethod.exportfactoryimpl.ExportFactory"+type).newInstance();
         } catch (InstantiationException e) {
             e.printStackTrace();
+            return new ExportFactoryWrongType();
         } catch (IllegalAccessException e) {
             e.printStackTrace();
+            return new ExportFactoryWrongType();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
             return new ExportFactoryWrongType();
         }
-        //默认输出
-        return new ExportFactoryWrongType();
     }
 
     public String clientInterface(String type) {
