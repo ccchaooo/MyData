@@ -1,6 +1,6 @@
-package com.dps.proxy.dynamic.jdk.impl;
+package com.dps.proxy.dynamic.jdk.jdkserviceimpl;
 
-import com.dps.proxy.dynamic.jdk.ProxyJdkService;
+import com.dps.proxy.dynamic.jdk.JdkService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
  * @date 2018/11/29 11:37
  */
 @Service
-public class UserProxyServiceImpl implements ProxyJdkService {
+public class UserServiceImpl implements JdkService {
     @Override
     public void add() {
         System.out.println("This is add service");

@@ -1,7 +1,7 @@
 package com.clients;
 
 import com.dps.proxy.dynamic.jdk.MyInvocatioHandler;
-import com.dps.proxy.dynamic.jdk.ProxyJdkService;
+import com.dps.proxy.dynamic.jdk.JdkService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,18 +12,18 @@ import org.springframework.stereotype.Service;
 @Service
 public class ProxyJdkClient implements Client {
     @Autowired
-    ProxyJdkService myProxyJdkService;
+    JdkService myJdkService;
 
     /**
-     * @param proxyJdkService 委托类
+     * @param jdkService 委托类
      * 根据委托类生成代理类
      */
-    public ProxyJdkService getProxy(ProxyJdkService proxyJdkService) {
-        MyInvocatioHandler handler = new MyInvocatioHandler(proxyJdkService);
-        return (ProxyJdkService)handler.getProxy();
+    public JdkService getProxy(JdkService jdkService) {
+        MyInvocatioHandler handler = new MyInvocatioHandler(jdkService);
+        return (JdkService)handler.getProxy();
     }
 
     public void clientInterface() {
-        getProxy(myProxyJdkService).add();
+        getProxy(myJdkService).add();
     }
 }

@@ -1,4 +1,4 @@
-package com.dps.proxy.dynamic.jdkanonymous.impl;
+package com.dps.proxy.dynamic.jdkanonymous.subjectimpl;
 
 import com.dps.proxy.dynamic.jdkanonymous.Subject;
 import org.springframework.stereotype.Service;

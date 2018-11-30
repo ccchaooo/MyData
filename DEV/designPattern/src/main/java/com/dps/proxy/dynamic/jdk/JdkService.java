@@ -7,7 +7,7 @@ package com.dps.proxy.dynamic.jdk;
  * 通过反射类Proxy和InvocationHandler回调接口实现的jdk动态代理，要求委托类必须实现一个接口。
  * 但事实上并不是所有类都有接口，对于没有实现接口的类，便无法使用该方方式实现动态代理。
  */
-public interface ProxyJdkService {
+public interface JdkService {
     //目标方法
     void add();
 }
