@@ -60,4 +60,12 @@ public class MyRestController{
         proxyCglibClient.clientInterface();
     }
 
+
+    @Autowired
+    FactoryMethodClient factoryMethodClient;
+    @RequestMapping(value = "/factoryMethod",method = RequestMethod.GET)
+    public String factoryMethod(@RequestParam(value = "type", required = false,defaultValue = "text") String type) {
+        return factoryMethodClient.clientInterface(type);
+    }
+
 }
