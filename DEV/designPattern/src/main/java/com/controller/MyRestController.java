@@ -68,4 +68,10 @@ public class MyRestController{
         return factoryMethodClient.clientInterface(type);
     }
 
+    @Autowired
+    TemplateClient templateClient;
+    @RequestMapping(value = "/template",method = RequestMethod.GET)
+    public String templateClient() {
+        return templateClient.clientInterface();
+    }
 }
