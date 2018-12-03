@@ -8,6 +8,7 @@ package com.dps.template;
 public abstract class Account {
     /**
      * 模板方法，计算利息数额
+     * 仅能被外部调用,不能被重写
      * @return    返回利息数额
      */
     public final double calculateInterest(){
@@ -32,6 +33,7 @@ public abstract class Account {
     protected abstract double doCalculateInterestRate();
     /**
      * 基本方法，已经实现
+     * 内部逻辑
      */
     private double calculateAmount(String accountType){
         /**
