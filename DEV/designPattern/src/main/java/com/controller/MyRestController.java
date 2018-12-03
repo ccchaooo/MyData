@@ -83,4 +83,11 @@ public class MyRestController{
     public void faced() {
         facedClient.clientInterface();
     }
+
+    @Autowired
+    BuilderClient builderClient;
+    @RequestMapping(value = "/builder",method = RequestMethod.GET)
+    public String builder() {
+        return builderClient.clientInterface();
+    }
 }
