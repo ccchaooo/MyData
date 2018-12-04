@@ -1,4 +1,4 @@
-package com.dps.observer;
+package com.dps.observer.push;
 
 import org.springframework.stereotype.Service;
 

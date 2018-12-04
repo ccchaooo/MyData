@@ -1,7 +1,7 @@
 package com.clients;
 
-import com.dps.observer.ConcreteSubject;
-import com.dps.observer.Observer;
+import com.dps.observer.push.ConcreteSubject;
+import com.dps.observer.push.Observer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
