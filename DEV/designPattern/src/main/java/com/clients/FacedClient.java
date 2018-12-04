@@ -1,6 +1,6 @@
 package com.clients;
 
-import com.dps.facad.Facade;
+import com.dps.facade.Facade;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

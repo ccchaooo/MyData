@@ -1,4 +1,4 @@
-package com.dps.facad;
+package com.dps.facade;
 
 /**
  * @author dengchao
