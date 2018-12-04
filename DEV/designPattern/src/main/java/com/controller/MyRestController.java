@@ -90,4 +90,11 @@ public class MyRestController{
     public String builder() {
         return builderClient.clientInterface();
     }
+
+    @Autowired
+    ObserverClient observerClient;
+    @RequestMapping(value = "/observer",method = RequestMethod.GET)
+    public void observer() {
+        observerClient.clientInterface();
+    }
 }
