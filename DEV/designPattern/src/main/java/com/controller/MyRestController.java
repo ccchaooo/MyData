@@ -68,6 +68,12 @@ public class MyRestController{
         return factoryMethodClient.clientInterface(type);
     }
 
+    @Autowired
+    FactoryAbClient factoryAbClient;
+    @RequestMapping(value = "/factoryAbClient",method = RequestMethod.GET)
+    public String factoryAbClient(@RequestParam(value = "type", required = false,defaultValue = "DELL") String type)  {
+        return factoryAbClient.clientInterface(type);
+    }
 
     @Autowired
     TemplateClient templateClient;
@@ -111,4 +117,5 @@ public class MyRestController{
     public void observerJavautil() {
         observerJavautilClient.clientInterface();
     }
+
 }
