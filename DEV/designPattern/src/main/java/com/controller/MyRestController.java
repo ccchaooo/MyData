@@ -118,4 +118,11 @@ public class MyRestController{
         observerJavautilClient.clientInterface();
     }
 
+    @Autowired
+    StateSimpleClient stateSimpleClient;
+    @RequestMapping(value = "/stateSimple",method = RequestMethod.GET)
+    public void stateSimple() {
+        stateSimpleClient.clientInterface();
+    }
+
 }
