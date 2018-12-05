@@ -1,7 +1,5 @@
 package com.dps.observer.pull;
 
-import com.dps.observer.push.Observer;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,9 +32,11 @@ public abstract class Subject {
     /**
      * 通知所有注册的观察者对象
      */
-    public void nodifyObservers(){
+    public void notifyObservers(){
 
         for(Observer observer : list){
+            //将自身引用传递给观察者,观察者如有需要可以获取更多信息
+            
             observer.update(this);
         }
     }

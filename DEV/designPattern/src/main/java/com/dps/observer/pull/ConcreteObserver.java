@@ -1,7 +1,5 @@
 package com.dps.observer.pull;
 
-import com.dps.observer.push.ConcreteSubject;
-
 /**
  * @author dengchao
  * @date 2018/12/4 23:23
