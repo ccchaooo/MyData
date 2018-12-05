@@ -90,12 +90,14 @@ public class MyRestController{
         facedClient.clientInterface();
     }
 
+
     @Autowired
     BuilderClient builderClient;
     @RequestMapping(value = "/builder",method = RequestMethod.GET)
     public String builder() {
         return builderClient.clientInterface();
     }
+
 
     @Autowired
     ObserverPushClient observerPushClient;
@@ -111,12 +113,14 @@ public class MyRestController{
         observerPullClient.clientInterface();
     }
 
+
     @Autowired
     ObserverJavautilClient observerJavautilClient;
     @RequestMapping(value = "/observerJavautil",method = RequestMethod.GET)
     public void observerJavautil() {
         observerJavautilClient.clientInterface();
     }
+
 
     @Autowired
     StateSimpleClient stateSimpleClient;
@@ -125,4 +129,11 @@ public class MyRestController{
         stateSimpleClient.clientInterface();
     }
 
+
+    @Autowired
+    StateVoteClient stateVoteClient;
+    @RequestMapping(value = "/stateVote",method = RequestMethod.GET)
+    public void stateVote() {
+        stateVoteClient.clientInterface();
+    }
 }
