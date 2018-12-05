@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
  * @date 2018/12/4 10:36
  */
 @Service
-public class ObserverClient implements Client {
+public class ObserverPushClient implements Client {
     @Autowired
     Observer concreteObserver;
     @Autowired

@@ -92,9 +92,23 @@ public class MyRestController{
     }
 
     @Autowired
-    ObserverClient observerClient;
-    @RequestMapping(value = "/observer",method = RequestMethod.GET)
+    ObserverPushClient observerPushClient;
+    @RequestMapping(value = "/observerpush",method = RequestMethod.GET)
     public void observer() {
-        observerClient.clientInterface();
+        observerPushClient.clientInterface();
+    }
+
+    @Autowired
+    ObserverPullClient observerPullClient;
+    @RequestMapping(value = "/observerpull",method = RequestMethod.GET)
+    public void observerpull() {
+        observerPullClient.clientInterface();
+    }
+
+    @Autowired
+    ObserverJavautilClient observerJavautilClient;
+    @RequestMapping(value = "/observerJavautil",method = RequestMethod.GET)
+    public void observerJavautil() {
+        observerJavautilClient.clientInterface();
     }
 }

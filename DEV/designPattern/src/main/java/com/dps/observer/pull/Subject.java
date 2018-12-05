@@ -36,7 +36,7 @@ public abstract class Subject {
 
         for(Observer observer : list){
             //将自身引用传递给观察者,观察者如有需要可以获取更多信息
-            
+
             observer.update(this);
         }
     }

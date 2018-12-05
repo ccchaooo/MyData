@@ -1,9 +1,12 @@
 package com.dps.observer.pull;
 
+import org.springframework.stereotype.Service;
+
 /**
  * @author dengchao
  * @date 2018/12/4 23:23
  */
+@Service("pullObserver")
 public class ConcreteObserver implements Observer {
     //观察者的状态
     private String observerState;
