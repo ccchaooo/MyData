@@ -5,5 +5,5 @@ package com.dps.factory.abfactory;
  * @date 2018/12/5 14:30
  */
 public interface Mouse {
-    public String sayHi();
+    String sayHi();
 }
