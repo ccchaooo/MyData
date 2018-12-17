@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class ComponentTransparentClient implements Client {
 
-    public void clientInterface(String type) {
+    public void clientInterface() {
         Component root = new Composite("服装");
         Component c1 = new Composite("男装");
         Component c2 = new Composite("女装");

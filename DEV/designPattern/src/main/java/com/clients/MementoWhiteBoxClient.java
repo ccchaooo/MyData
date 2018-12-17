@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class MementoWhiteBoxClient implements Client {
 
-    public void clientInterface(String type) {
+    public void clientInterface() {
         Originator o = new Originator();
         Caretaker c = new Caretaker();
         //改变负责人对象的状态

@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class ComponentSafeClient implements Client {
 
-    public void clientInterface(String type) {
+    public void clientInterface() {
         Composite root = new Composite("服装");
         Composite c1 = new Composite("男装");
         Composite c2 = new Composite("女装");

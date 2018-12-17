@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class IteratorClient implements Client {
 
-    public void clientInterface(String type) {
+    public void clientInterface() {
         List list=new ConcreteAggregate();
         list.add("a");
         list.add("b");

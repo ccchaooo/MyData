@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class MementoMcpClient implements Client {
 
-    public void clientInterface(String type) {
+    public void clientInterface() {
         Originator o = new Originator();
         Caretaker c = new Caretaker(o);
         //改变状态

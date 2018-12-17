@@ -138,4 +138,48 @@ public class MyRestController{
     }
 
 
+    @Autowired
+    MementoWhiteBoxClient mementoWhiteBoxClient;
+    @RequestMapping(value = "/mementoWhiteBox",method = RequestMethod.GET)
+    public void mementoWhiteBox() {
+        mementoWhiteBoxClient.clientInterface();
+    }
+
+    @Autowired
+    MementoMcpClient mementoMcpClient;
+    @RequestMapping(value = "/mementoblackBox",method = RequestMethod.GET)
+    public void mementoMcp() {
+        mementoMcpClient.clientInterface();
+    }
+
+    @Autowired
+    MementoSelfClient mementoSelfClient;
+    @RequestMapping(value = "/mementoSelf",method = RequestMethod.GET)
+    public void mementoSelf() {
+        mementoSelfClient.clientInterface();
+    }
+
+
+    @Autowired
+    ComponentSafeClient componentSafeClient;
+    @RequestMapping(value = "/componentSafe",method = RequestMethod.GET)
+    public void componentSafe() {
+        componentSafeClient.clientInterface();
+    }
+
+
+    @Autowired
+    ComponentTransparentClient componentTransparentClient;
+    @RequestMapping(value = "/componentTransparent",method = RequestMethod.GET)
+    public void componentTransparent() {
+        componentTransparentClient.clientInterface();
+    }
+
+
+    @Autowired
+    IteratorClient iteratorClient;
+    @RequestMapping(value = "/iterator",method = RequestMethod.GET)
+    public void iterator() {
+        iteratorClient.clientInterface();
+    }
 }

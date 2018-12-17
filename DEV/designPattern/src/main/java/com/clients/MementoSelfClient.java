@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class MementoSelfClient implements Client {
 
-    public void clientInterface(String type) {
+    public void clientInterface() {
         Originator o = new Originator();
         //修改状态
         o.changeState("state 0");
