@@ -182,4 +182,12 @@ public class MyRestController{
     public void iterator() {
         iteratorClient.clientInterface();
     }
+
+
+    @Autowired
+    BridgeClient bridgeClient;
+    @RequestMapping(value = "/bridge",method = RequestMethod.GET)
+    public void bridge() {
+        bridgeClient.clientInterface();
+    }
 }
