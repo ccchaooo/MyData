@@ -190,4 +190,12 @@ public class MyRestController{
     public void bridge() {
         bridgeClient.clientInterface();
     }
+
+
+    @Autowired
+    CommandClient commandClient;
+    @RequestMapping(value = "/command",method = RequestMethod.GET)
+    public void command() {
+        commandClient.clientInterface();
+    }
 }
