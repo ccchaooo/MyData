@@ -198,4 +198,12 @@ public class MyRestController{
     public void command() {
         commandClient.clientInterface();
     }
+
+
+    @Autowired
+    ChainosClient chainosClient;
+    @RequestMapping(value = "/chain",method = RequestMethod.GET)
+    public void chain() {
+        chainosClient.clientInterface();
+    }
 }
