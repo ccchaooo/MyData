@@ -205,4 +205,11 @@ public class MyRestController{
     public void chain() {
         mediatorClient.clientInterface();
     }
+
+    @Autowired
+    FlyweigthClient flyweigthClient;
+    @RequestMapping(value = "/flyweigth",method = RequestMethod.GET)
+    public void flyweigth() {
+        flyweigthClient.clientInterface();
+    }
 }
