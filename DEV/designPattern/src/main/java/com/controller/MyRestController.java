@@ -212,4 +212,11 @@ public class MyRestController{
     public void flyweigth() {
         flyweigthClient.clientInterface();
     }
+
+    @Autowired
+    VisiterMoziClient visiterMoziClient;
+    @RequestMapping(value = "/visiterMozi",method = RequestMethod.GET)
+    public void visiterMozi() {
+        visiterMoziClient.clientInterface();
+    }
 }
