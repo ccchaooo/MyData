@@ -1,8 +1,6 @@
 package com.clients;
 
 import com.dps.bridge.messagedemo.*;
-import com.dps.snapshot.mcp.Caretaker;
-import com.dps.snapshot.mcp.Originator;
 import org.springframework.stereotype.Service;
 
 /**

@@ -199,11 +199,10 @@ public class MyRestController{
         commandClient.clientInterface();
     }
 
-
     @Autowired
-    ChainosClient chainosClient;
-    @RequestMapping(value = "/chain",method = RequestMethod.GET)
+    MediatorClient mediatorClient;
+    @RequestMapping(value = "/mediator",method = RequestMethod.GET)
     public void chain() {
-        chainosClient.clientInterface();
+        mediatorClient.clientInterface();
     }
 }
